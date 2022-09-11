@@ -18,7 +18,7 @@ Saldus, karamelinis sausainių pagrindas ir švelnus, nepersaldus viršutinis sl
 
 ### Pagrindui:
 
-* 3 pakuočių "Du gaideliai" sausainių.
+* 3 pakuočių "Du gaideliai" sausainių
 * 50 g veganiško sviesto
 * 210 g veganiško kondensuoto "pieno"
 
@@ -35,14 +35,14 @@ Saldus, karamelinis sausainių pagrindas ir švelnus, nepersaldus viršutinis sl
 ## Paruošimo eiga
 
 ### Ruošiame pagrindą:
-1) Sulaužome sausainius į nedidelius gabalėlius.
-2) Priekaistuvyje ar nedideliame puode ištirpiname sviestą, įdedame kondensuotą "pieną", šildome maišydami ant nedidelės kaitros, kol susimaišo tarpusavyje.
-3) Paruoštą masę pilame ant sausainių ir viską gerai išmaišome.
-4) Sausainius dedame į atsegamą kepimo formą ir gerai suslegiame. Dedame į šaldytuvą sustingti (aš laikiau apie 1 val).
+1. Sulaužome sausainius į nedidelius gabalėlius.
+2. Priekaistuvyje ar nedideliame puode ištirpiname sviestą, įdedame kondensuotą "pieną", šildome maišydami ant nedidelės kaitros, kol susimaišo tarpusavyje.
+3. Paruoštą masę pilame ant sausainių ir viską gerai išmaišome.
+4. Sausainius dedame į atsegamą kepimo formą ir gerai suslegiame. Dedame į šaldytuvą sustingti (aš laikiau apie 1 val).
 
 ### Torto paruošimas:
-1) Su virtuviniu mikseriu suplakame tofu, sirupą, kokosų grietinėlę, krakmolą ir vanilę iki vientiso kremo.
-2) Šviežias avietes išplauname ir leidžiame nubėgti vandeniui, kad kuo mažiau papildomų skysčių pakliūtų į mūsų tortą.
-3) Avietes pabarstome ant torto pagrindo ir tolygiai užpilame paruoštu kremu.
-4) Kepame tortą iki 200°C temperatūros įkaitintoje orkaitėje. Kepimas užtruks apie 60-75 min.
-5) Iškeptą tortuką paliekame atvėsti ir rekomenduojama valgyti kitą dieną, jei tik užteks kantrybės palaukti 😉. (Įprastai veganiški "sūrio" tortukai valgomi kitą dieną pasižymi geresne tekstūra ir tvirtesniu formos išlaikymu).
+1. Su virtuviniu mikseriu suplakame tofu, sirupą, kokosų grietinėlę, krakmolą ir vanilę iki vientiso kremo.
+2. Šviežias avietes išplauname ir leidžiame nubėgti vandeniui, kad kuo mažiau papildomų skysčių pakliūtų į mūsų tortą.
+3. Avietes pabarstome ant torto pagrindo ir tolygiai užpilame paruoštu kremu.
+4. Kepame tortą iki 200°C temperatūros įkaitintoje orkaitėje. Kepimas užtruks apie 60-75 min.
+5. Iškeptą tortuką paliekame atvėsti ir rekomenduojama valgyti kitą dieną, jei tik užteks kantrybės palaukti 😉. (Įprastai veganiški "sūrio" tortukai valgomi kitą dieną pasižymi geresne tekstūra ir tvirtesniu formos išlaikymu).
