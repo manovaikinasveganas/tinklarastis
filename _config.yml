@@ -31,7 +31,7 @@ url: "http://manovaikinasveganas.lt" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 repository: "manovaikinasveganas/tinklarastis"
-#logo: "/assets/images/88x88.png"
+logo: "/pav/icon.jpg"
 breadcrumbs: true  # disabled by default
 
 # Build settings
