@@ -83,17 +83,20 @@ atom_feed:
   hide: true
 
 author:
-  name     : "Your Name"
-  avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
-  location : "Somewhere, USA"
+  name     : "Arina"
+  avatar   : "/pav/icon.jpg"
+  bio      : "Tinklaraštininkė ir augalinių receptų kūrėja."
+  location : "Vilnius, LT"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/ManoVaikinasVeganas"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.instagram.com/mano_vaikinas_veganas/"
+    - label: "Pakuotė po pakuotės"
+      icon: "fas fa-fw fa-link"
+      url: "https://popakuotės.lt"
 
 timezone: Europe/Vilnius
 
