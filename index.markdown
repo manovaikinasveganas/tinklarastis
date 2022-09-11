@@ -1,5 +1,6 @@
 ---
-title: "Splash Page"
+title: "Veganiška virtuvė"
+excerpt: "Pastangos gyventi su mažiau atliekų, mažiau daiktų ir daugiau šunų 🐕‍🦺🐩"
 layout: splash
 header:
   overlay_color: "#000"
