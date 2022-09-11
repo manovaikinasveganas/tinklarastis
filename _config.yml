@@ -106,7 +106,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mano_vaikinas_veganas/"
     - label: "Atrask tvarius produktus"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://popakuotės.lt"
 
 search: true
