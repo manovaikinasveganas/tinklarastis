@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Your awesome title
+subtitle: 
+name: # Author name
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,17 +30,70 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://manovaikinasveganas.lt" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+repository: "manovaikinasveganas/tinklarastis"
+#logo: "/assets/images/88x88.png"
+breadcrumbs: true  # disabled by default
 
 # Build settings
 # theme: minima
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
+
+locale: "lt-LT"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
+date_format: "%Y-%m-%d"
+
+atom_feed:
+  hide: true
+
+author:
+  name     : "Your Name"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Somewhere, USA"
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+timezone: Europe/Vilnius
+
+search: true
+lunr:
+  search_within_pages: true
+facebook:
+  #app_id:  # A Facebook app ID
+  publisher: "https://www.facebook.com/ManoVaikinasVeganas"  # A Facebook page URL or ID of the publishing entity
+
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://www.facebook.com/ManoVaikinasVeganas"
+    - "https://www.instagram.com/mano_vaikinas_veganas/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
