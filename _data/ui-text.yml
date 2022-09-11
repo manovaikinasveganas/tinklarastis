@@ -6,7 +6,7 @@ lt-LT:
   page                       : "Page"
   pagination_previous        : "Previous"
   pagination_next            : "Next"
-  breadcrumb_home_label      : "Home"
+  breadcrumb_home_label      : "Pagrindinis"
   breadcrumb_separator       : "/"
   menu_label                 : "Toggle menu"
   search_label               : "Toggle search"
