@@ -38,7 +38,7 @@ breadcrumbs: true  # disabled by default
 # theme: minima
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-paginate
