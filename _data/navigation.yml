@@ -1,3 +1,7 @@
 main:
+  - title: "Pagrindinis"
+    url: /
+  - title: "Tinklaraštis"
+    url: /blog/
   - title: "Receptai"
     url: /receptai/
