@@ -1,6 +1,11 @@
 ---
-title: "Veganiška virtuvė"
-excerpt: "Pastangos gyventi su mažiau atliekų, mažiau daiktų ir daugiau šunų 🐕‍🦺🐩"
+title: "Veganiška virtuvė ir..."
+excerpt: >-
+    pastangos gyventi su mažiau atliekų, mažiau daiktų ir daugiau šunų 🐕‍🦺🐩
+
+
+
+    
 layout: splash
 header:
   overlay_color: "#000"
