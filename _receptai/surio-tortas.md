@@ -1,5 +1,5 @@
 ---
-title: "Veganiškas "sūrio" tortas su avietėmis"
+title: "Veganiškas \"sūrio\" tortas su avietėmis"
 excerpt:
 categories:
  - Desertas
