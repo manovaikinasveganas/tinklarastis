@@ -10,6 +10,12 @@ header:
 tags:
  - Desertas
  - Tortas
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+# image: 
+#   path: /pav/surio-tortas-1.jpg
+#   thumbnail: /pav/surio-tortas-1.jpg
 ---
 
 Saldus, karamelinis sausainių pagrindas ir švelnus, nepersaldus viršutinis sluoksnis su avietėmis, kurios tortui suteikia malonios rūgštelės ir žaismingą, spalvingą margumą.

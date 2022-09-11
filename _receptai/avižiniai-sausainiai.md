@@ -1,5 +1,11 @@
 ---
 title: "Oatmeal Cookies"
+header:
+  teaser: /pav/surio-tortas-1.jpg
+  image: /pav/surio-tortas-1.jpg
+# image: 
+#   path: /pav/surio-tortas-1.jpg
+#   thumbnail: /pav/surio-tortas-1.jpg
 ---
 
 Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts.
