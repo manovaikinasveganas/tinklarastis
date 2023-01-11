@@ -37,7 +37,6 @@ Saldus, karamelinis sausainių pagrindas ir švelnus, nepersaldus viršutinis sl
 * 1 a.š. vanilės ekstrakto arba vanilinio cukraus
 * ~150 g šviežių aviečių
 
-
 ## Paruošimo eiga
 
 ### Ruošiame pagrindą:
