@@ -1,13 +1,13 @@
 ---
 title: >-
-  Bolivinės balandos salotos su veganiška "feta"
+Bolivinės balandos salotos su veganiška "feta"
 excerpt:
 categories:
  - Salotos
 
 header:
-  teaser: /pav/bolivine-salotos-2.jpg
-  image: /pav/bolivine-salotos-2.jpg
+  teaser: /pav/surio-tortas-1.jpg
+  image: /pav/surio-tortas-1.jpg
 tags:
  - Salotos
  - Mišrainė
