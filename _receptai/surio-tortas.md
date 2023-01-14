@@ -6,7 +6,7 @@ categories:
  - Desertas
  - Tortas
 header:
-  teaser: /pav/surio-tortas-1.jpg
+  teaser: /pav/surio-tortas-teaser.jpg
   image: /pav/surio-tortas-1.jpg
 tags:
  - Desertas
