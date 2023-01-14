@@ -6,8 +6,8 @@ categories:
  - Salotos
 
 header:
-  teaser: /pav/surio-tortas-1.jpg
-  image: /pav/surio-tortas-1.jpg
+  teaser: /pav/bolivine-salotos-2.jpg
+  image: /pav/bolivine-salotos-2.jpg
 tags:
  - Salotos
  - Mišrainė
