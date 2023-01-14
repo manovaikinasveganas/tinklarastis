@@ -49,7 +49,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  // text-decoration: none;
+  text-decoration: none;
 
   a[rel="permalink"]::before {
     content: '';
@@ -58,7 +58,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    // text-decoration: none;
+    text-decoration: none;
   }
 
   a + a {
@@ -172,7 +172,7 @@
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
-    width: span(3 of 12); /* 4 custom */
+    width: span(4 of 12); /* 4 custom */
 
     &:nth-child(2n + 1) {
       clear: none;
@@ -214,12 +214,12 @@
   .archive__item-title {
     margin-top: 0.5em;
     font-size: $type-size-5;
-    // a {
-    //   text-decoration: none !important;
-    //   font-family: $header-font-family;
-    //   font-style: italic;
-    //   letter-spacing: -1px;
-    // }
+    a {
+      text-decoration: none !important;
+      font-family: $header-font-family;
+      font-style: italic;
+      letter-spacing: -1px;
+    }
   }
 
   .archive__item-excerpt {
@@ -237,8 +237,8 @@
     }
 
     @include breakpoint($medium) {
-      // max-height: 220px;
-      max-height: 120px;
+      max-height: 220px;
+      // max-height: 120px;
     }
   }
 }
@@ -265,7 +265,7 @@
   @include breakpoint($small) {
     float: left;
     margin-bottom: 0;
-    // width: span(3.5 of 12);
+    width: span(3.5 of 12);
     width: span(4 of 12);
 
     &:nth-child(3n + 1) {

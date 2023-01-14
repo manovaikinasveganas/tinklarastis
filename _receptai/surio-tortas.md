@@ -1,6 +1,6 @@
 ---
 title: >-
-Veganiškas "sūrio" tortas su avietėmis
+  Veganiškas "sūrio" tortas su avietėmis
 excerpt:
 categories:
  - Desertas

@@ -1,6 +1,6 @@
 ---
 title: >-
-Bolivinės balandos salotos su veganiška "feta"
+  Bolivinės balandos salotos su veganiška "feta"
 excerpt:
 categories:
  - Salotos
