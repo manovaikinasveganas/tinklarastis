@@ -5,8 +5,8 @@ categories:
  - Salotos
 
 header:
-  teaser: /pav/bolivine_salotos_2.jpg
-  image: /pav/bolivine_salotos.jpg
+  teaser: /pav/bolivine-salotos-2.jpg
+  image: /pav/bolivine-salotos-2.jpg
 tags:
  - Salotos
  - Mišrainė
@@ -14,8 +14,8 @@ toc: true
 toc_label: "Turinys"
 toc_icon: "list"
 # image: 
-#   path: /pav/surio-tortas-1.jpg
-#   thumbnail: /pav/surio-tortas-1.jpg
+#   path: /pav/bolivine-salotos.jpg
+#   thumbnail: /pav/bolivine-salotos.jpg
 ---
 
 Gaivios ir lengvos, bet tuo pačiu sočios ir maistingos, bolivinės balandos salotos su veganiška "feta".
