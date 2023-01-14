@@ -6,7 +6,7 @@ categories:
  - Salotos
 
 header:
-  teaser: /pav/bolivine-salotos-2.jpg
+  teaser: /pav/bolivines-balandos-teaser.jpg
   image: /pav/bolivine-salotos-2.jpg
 tags:
  - Salotos
