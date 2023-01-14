@@ -1,5 +1,5 @@
 ---
-title: "Bolivinės balandos salotos su veganiška "feta""
+title: "Bolivinės balandos salotos su veganiška \"feta\""
 excerpt:
 categories:
  - Salotos
