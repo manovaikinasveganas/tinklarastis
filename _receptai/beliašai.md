@@ -5,7 +5,7 @@ excerpt:
 category: pagrindiniai-patiekalai
 header:
   teaser: /pav/beliasas-teaser.jpg
-  image: /pav/beliasas.jpg
+  image: /pav/beliasas-2.jpg
 tags:
  - 
 
