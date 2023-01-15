@@ -1,7 +1,7 @@
 ---
 title: Kokteiliai ir gėrimai
 layout: category-pages
-permalink: /receptai/gėrimai
+permalink: /receptai/gėrimai/
 collection: receptai
 category: gėrimai
 entries_layout: grid

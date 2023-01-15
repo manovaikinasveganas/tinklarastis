@@ -1,7 +1,7 @@
 ---
 title: Sriubos
 layout: category-pages
-permalink: /receptai/sriubos
+permalink: /receptai/sriubos/
 collection: receptai
 category: sriubos
 entries_layout: grid

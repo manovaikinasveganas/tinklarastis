@@ -1,7 +1,7 @@
 ---
 title: Užkandžiai
 layout: category-pages
-permalink: /receptai/užkandžiai
+permalink: /receptai/užkandžiai/
 collection: receptai
 category: užkandžiai
 entries_layout: grid

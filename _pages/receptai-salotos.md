@@ -1,7 +1,7 @@
 ---
 title: Salotos
 layout: category-pages
-permalink: /receptai/salotos
+permalink: /receptai/salotos/
 collection: receptai
 category: salotos
 entries_layout: grid

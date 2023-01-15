@@ -1,7 +1,7 @@
 ---
 title: Blynai
 layout: category-pages
-permalink: /receptai/blynai
+permalink: /receptai/blynai/
 collection: receptai
 category: blynai
 entries_layout: grid
