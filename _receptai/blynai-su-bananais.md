@@ -19,7 +19,7 @@ toc_icon: "list"
 #   thumbnail: /pav/bolivine-salotos.jpg
 ---
 
-Įspūdingai purūs, saldūs pusryčių blyneliai su bananais. Mano manymu, tai geriausias veganiškų blynų receptas. :)
+Įspūdingai purūs, saldūs blyneliai augaliniams pusryčiams. Mano manymu, tai geriausias veganiškų blynų receptas. :)
 
 ## Jums reikės
 
