@@ -11,13 +11,13 @@ recipe-groups:
   - title: Receptų kategorijos
     children:
       - title: Desertai
-        url: /receptai/desertai/
+        url: /receptai/desertai
       - title: Salotos
-        url: /receptai/salotos/
+        url: /receptai/salotos
       - title: Pagrindiniai patiekalai
-        url: /receptai/pagrindiniai-patiekalai/
+        url: /receptai/pagrindiniai-patiekalai
       - title: Sriubos
-        url: /receptai/sriubos/
+        url: /receptai/sriubos
       - title: Užkandžiai
         url: /receptai/užkandžiai
       - title: Kokteiliai ir gėrimai
