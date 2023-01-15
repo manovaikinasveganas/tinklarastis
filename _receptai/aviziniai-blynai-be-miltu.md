@@ -2,8 +2,7 @@
 title: >-
   Avižiniai blyneliai be miltų
 excerpt:
-categories:
- - Blynai
+category: blynai
 
 header:
   teaser: /pav/aviziniai-blyneliai-teaser.jpg
