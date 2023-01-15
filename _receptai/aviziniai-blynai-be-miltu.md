@@ -36,7 +36,11 @@ Minkšti, purūs ir saldūs avižiniai blyneliai, kvepiantys vanile ir cinamonu.
 ## Paruošimo eiga
 
 1. Visus ingredientus sudedame į indą ir maišome virtuviniu mikseriu iki vientisos tešlos.
-2. Į įkaitintą keptuvę su aliejumi dedame po šaukštą tešlos formuojant blynelius. Apkepame iš abiejų pusių (blyneliai labai minkšti, todėl reikia nepaskubėti apverčiant. Aš verčiu blynelius, kai dar nekeptoje blyno pusėje pradeda formuotis skylutės, o blynelio šonai švelniai paruduoja).
+2. Į įkaitintą keptuvę su aliejumi dedame po šaukštą tešlos formuojant blynelius. Apkepame iš abiejų pusių 
 3. Patiekiame pabarstytus cukraus pudra, su mėgstama uogiene ar šviežiomis uogomis.
+ 
+**Pastaba!** Blyneliai labai minkšti, todėl reikia nepaskubėti apverčiant. Aš verčiu blynelius, kai dar nekeptoje blyno pusėje pradeda formuotis skylutės, o blynelio šonai švelniai paruduoja.
+{: .notice}
+
 
 Skanaus!
