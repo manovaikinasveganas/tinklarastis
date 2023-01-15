@@ -4,8 +4,8 @@ title: >-
 excerpt:
 category: užkandžiai
 header:
-  teaser: /pav/pievagrybiu_sriuba-teaser.jpg
-  image: /pav/pievagrybiu_sriuba.jpg
+  teaser: /pav/moliugu-humusas-teaser.jpg
+  image: /pav/moliugu-humusas.jpg
 tags:
  - Humusas
  - Užtepėlė
@@ -19,7 +19,7 @@ toc_icon: "list"
 #   thumbnail: /pav/surio-tortas-1.jpg
 ---
 
-Rudeniškas, jaukus ir tikrai originalus humuso variantas su moliūgais, pasaldintas klevų sirupu. Itin švelnios ir lengvos, kreminės tekstūros, ir subtilaus, neįkyraus skonio.
+Rudeniškas, jaukus ir tikrai originalus humuso variantas su moliūgais, pasaldintas klevų sirupu. Itin švelnios ir lengvos, kreminės tekstūros, ir subtilaus skonio.
 
 ## Jums reikės
 
@@ -38,12 +38,11 @@ Rudeniškas, jaukus ir tikrai originalus humuso variantas su moliūgais, pasaldi
 
 ## Paruošimo eiga
 
-1. Puode su nelimpančiu paviršiumi, kuriame virsime sriubą, apkepame supjaustytą svogūną aliejuje.
-2. Nuskutame ir supjaustome cukiniją griežinėliais, šiek tiek apkepame kartu su svogūnais.
-3. Suberiame į puodą griežinėliais supjaustytus pievagrybius.
-4. Įpilame vandens. Įdedame kubelį sultinio ir suberiame konservuotas pupeles. Paverdame keletą minučių.
-5. Sudedame prieskonius. Viską sutriname virtuviniu maišytuvu. Sriubai užvirus, verdame apie 15 min. ant nedidelės kaitros. 
-6. Išvirus sriubai įdedame šaukštą alyvuogių aliejaus, išmaišome.
+1. Moliūgų gabalėlius apšlakstome sezamų aliejumi, pabarstome žiupsneliu druskos ir dedame kepti į iki 200°C įkaitintą orkaitę. Kepame apie 25-30 minučių, kol suminkštėja moliūgas.
+2. Į indą sudedame avinžirnius, prieskonius, tahini, įpilame vandens, klevų sirupo. Sudedame moliūgų gabalėlius kartu su aliejumi, kuriame jie kepė.
+3. Viską sutriname iki vientiso, kreminio humuso.
+4. Patiekiame apšlakstę klevų sirupu, pabarstome moliūgų sėklų ir jei norisi puošiame šviežių bazilikų lapeliais.
+5. Tepame ant duonos arba merkiame į rudeninį humusą šviežias daržovių lazdeles.
 
 Skanaus!
 
