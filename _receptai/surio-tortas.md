@@ -1,15 +1,17 @@
 ---
 title: >-
   Veganiškas "sūrio" tortas su avietėmis
+post_id: 123123123123
 excerpt:
+category: desertai
 categories:
- - Desertas
+ - desertai
  - Tortas
 header:
   teaser: /pav/surio-tortas-teaser.jpg
   image: /pav/surio-tortas-1.jpg
 tags:
- - Desertas
+ - desertai
  - Tortas
 toc: true
 toc_label: "Turinys"

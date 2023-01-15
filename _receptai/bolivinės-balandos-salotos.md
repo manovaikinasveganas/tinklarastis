@@ -2,9 +2,7 @@
 title: >-
   Bolivinės balandos salotos su veganiška "feta"
 excerpt:
-categories:
- - Salotos
-
+category: salotos
 header:
   teaser: /pav/bolivines-balandos-teaser.jpg
   image: /pav/bolivine-salotos-2.jpg
@@ -14,9 +12,6 @@ tags:
 toc: true
 toc_label: "Turinys"
 toc_icon: "list"
-# image: 
-#   path: /pav/bolivine-salotos.jpg
-#   thumbnail: /pav/bolivine-salotos.jpg
 ---
 
 Gaivios ir lengvos, bet tuo pačiu sočios ir maistingos, bolivinės balandos salotos su veganiška "feta".

@@ -7,3 +7,20 @@ main:
     url: /receptai/
   - title: "Restoranai"
     url: /restoranai/
+recipe-groups:
+  - title: Receptų kategorijos
+    children:
+      - title: Desertai
+        url: /receptai/desertai/
+      - title: Salotos
+        url: /receptai/salotos/
+      - title: Pagrindiniai patiekalai
+        url: /receptai/pagrindiniai-patiekalai/
+      - title: Sriubos
+        url: /receptai/sriubos/
+      - title: Užkandžiai
+        url: /receptai/užkandžiai
+      - title: Kokteiliai ir gėrimai
+        url: /receptai/gėrimai
+      - title: Blynai
+        url: /receptai/blynai

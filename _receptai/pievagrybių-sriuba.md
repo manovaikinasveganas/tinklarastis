@@ -2,9 +2,7 @@
 title: >-
   Tiršta pievagrybių ir baltųjų pupelių sriuba
 excerpt:
-categories:
- - Sriuba
-  
+category: sriubos
 header:
   teaser: /pav/pievagrybiu_sriuba-teaser.jpg
   image: /pav/pievagrybiu_sriuba.jpg

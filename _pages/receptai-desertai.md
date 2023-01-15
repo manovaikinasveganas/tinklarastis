@@ -1,9 +1,9 @@
 ---
-layout: collection
-title: "Receptai"
+title: Desertai
+layout: category-pages
+permalink: /receptai/desertai
 collection: receptai
-permalink: /receptai/
-author_profile: false
+category: desertai
 entries_layout: grid
 classes: wide
 author_profile: false
@@ -11,4 +11,4 @@ sidebar:
   nav: recipe-groups
 ---
 
-Augalinių patiekalų idėjos
+Augalinių desertų idėjos

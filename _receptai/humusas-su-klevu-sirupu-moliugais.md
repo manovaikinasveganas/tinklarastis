@@ -1,11 +1,8 @@
 ---
 title: >-
-Moliūginis humusas su klevų sirupu 
+  Moliūginis humusas su klevų sirupu 
 excerpt:
-categories:
- - Užtepėlė
- - Humusas
-
+category: užkandžiai
 header:
   teaser: /pav/pievagrybiu_sriuba-teaser.jpg
   image: /pav/pievagrybiu_sriuba.jpg

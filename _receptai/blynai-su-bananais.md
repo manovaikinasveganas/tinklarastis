@@ -2,9 +2,7 @@
 title: >-
   Pusryčių blyneliai su bananais
 excerpt:
-categories:
- - Blynai
-
+category: blynai
 header:
   teaser: /pav/blyneliai-teaser.jpg
   image: /pav/blyneliai.jpg

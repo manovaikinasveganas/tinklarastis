@@ -1,9 +1,9 @@
 ---
-layout: collection
-title: "Receptai"
+title: Blynai
+layout: category-pages
+permalink: /receptai/blynai
 collection: receptai
-permalink: /receptai/
-author_profile: false
+category: blynai
 entries_layout: grid
 classes: wide
 author_profile: false
@@ -11,4 +11,4 @@ sidebar:
   nav: recipe-groups
 ---
 
-Augalinių patiekalų idėjos
+Blynų idėjos
