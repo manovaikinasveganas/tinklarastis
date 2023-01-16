@@ -11,9 +11,9 @@ lt-LT:
   menu_label                 : "Kategorija"
   search_label               : "Toggle search"
   toc_label                  : "On this page"
-  ext_link_label             : "Direct link"
-  less_than                  : "less than"
-  minute_read                : "minute read"
+  ext_link_label             : "Nuoroda"
+  less_than                  : "mažiau nei"
+  minute_read                : "min. skaitymo"
   share_on_label             : "Dalinkis"
   meta_label                 :
   tags_label                 : "Tags:"
@@ -45,4 +45,4 @@ lt-LT:
   search_placeholder_text    : "Paieška"
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
-  back_to_top                : "Back to top"
+  back_to_top                : "Į pradžią"
