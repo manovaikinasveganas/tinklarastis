@@ -4,7 +4,7 @@ title: >-
 excerpt:
 category: salotos
 header:
-  teaser: /pav/makaronu_misraine.jpg
+  teaser: /pav/makaronu_misraine-teaser.jpg
   image: /pav/makaronu_misraine.jpg
 tags:
  - Salotos
@@ -14,7 +14,7 @@ toc_label: "Turinys"
 toc_icon: "list"
 ---
 
-Spalvinga makaronų mišrainė. Ypatingai soti, todėl puikiai galinti pakeisti ir pagrindinį dienos patiekalą ar lydėti jus į darbą pietų dėžutėje. 😉 Ne mažiau svarbu - lengvas ir greitas paruošimas.
+Spalvinga makaronų mišrainė. Ypatingai soti, todėl puikiai galinti pakeisti ir pagrindinį dienos patiekalą ar lydėti jus į darbą pietų dėžutėje. 😉 Ne mažesnis privalumas - lengvas ir greitas paruošimas.
 
 ## Jums reikės
 
