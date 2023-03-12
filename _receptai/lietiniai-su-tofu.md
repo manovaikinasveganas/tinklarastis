@@ -14,7 +14,9 @@ toc_label: "Turinys"
 toc_icon: "list"
 ---
 
-Dalinuosi patikrintu ir mūsų itin mėgstamu lietinių su saldžiu tofu įdaru receptu. Lietiniai paruošiami iš ties nesunkiai, naudojant labai paprastus ingredientus. Ilgai neužtruksite, o skonis primins vaikystės lietinius su saldžia varške! :)
+Dalinuosi patikrintu ir mūsų itin mėgstamu lietinių su saldžiu tofu įdaru receptu. 
+
+Lietiniai paruošiami iš ties nesunkiai, naudojant labai paprastus ingredientus. Ilgai neužtruksite, o skonis primins vaikystės lietinius su saldžia varške! :)
 
 ## Lietiniams reikės
 
