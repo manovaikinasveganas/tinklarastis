@@ -5,7 +5,7 @@ excerpt:
 category: desertai
 header:
   teaser: /pav/kukuruzu-dribsniu-sausainiai-teaser.jpg
-  image: /pav/kukuruzu-dribsniu-sausainiai.jpg
+  image: /pav/sausainiai.jpg
 tags:
  - Desertai
  
@@ -14,7 +14,9 @@ toc_label: "Turinys"
 toc_icon: "list"
 ---
 
-Traškūs, karamelizuoti kukurūzų dribsnių ir žemės riešutų sausainukai. Receptas toks geras, kad sužavėta liko visa mano šeima, o kitą dieną sausainių gamyba buvo kartojama! Didžiulis privalumas, kad paruošimas reikalauja visai nedaug laiko, o kepimas orkaitėje užtrunka vos keletą minučių! 
+Traškūs, karamelizuoti kukurūzų dribsnių ir žemės riešutų sausainukai. Receptas toks geras, kad sužavėta liko visa šeima, o kitą dieną sausainių gamyba buvo kartojama! 
+
+Didžiulis privalumas, kad paruošimas reikalauja visai nedaug laiko, o kepimas orkaitėje užtrunka vos keletą minučių! 
 
 Taip paprasta ir taip skanu!
 
