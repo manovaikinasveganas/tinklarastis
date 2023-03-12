@@ -12,9 +12,6 @@ tags:
 toc: true
 toc_label: "Turinys"
 toc_icon: "list"
-# image: 
-#   path: /pav/bolivine-salotos.jpg
-#   thumbnail: /pav/bolivine-salotos.jpg
 ---
 
 Minkšti, purūs ir saldūs avižiniai blyneliai, kvepiantys vanile ir cinamonu. O jų sudėtyje nėra jokių miltų!
