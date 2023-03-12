@@ -4,8 +4,8 @@ title: >-
 excerpt:
 category: desertai
 header:
-  teaser: /pav/kukuruzu-drisbniu-sausainiai.jpg
-  image: /pav/kukuruzu-drisbniu-sausainiai-2.jpg
+  teaser: /pav/kukuruzu-drisbniu-sausainiai-2.jpg
+  image: /pav/kukuruzu-drisbniu-sausainiai.jpg
 tags:
  - Desertai
  
