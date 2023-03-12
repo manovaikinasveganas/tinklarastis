@@ -13,8 +13,8 @@ toc: true
 toc_label: "Turinys"
 toc_icon: "list"
 # image: 
-#   path: /pav/kukuruzu-drisbniu-sausainiai.jpg
-#   thumbnail: /pav/kukuruzu-drisbniu-sausainiai-2.jpg
+#   path: /pav/bolivine-salotos.jpg
+#   thumbnail: /pav/bolivine-salotos.jpg
 ---
 
 Traškūs, karamelizuoti kukurūzų dribsnių ir žemės riešutų sausainukai. Receptas toks geras, kad sužavėta liko visa mano šeima, o kitą dieną sausainių gamyba buvo kartojama! Didžiulis privalumas, kad paruošimas reikalauja visai nedaug laiko, o kepimas orkaitėje užtrunka vos keletą minučių! 
