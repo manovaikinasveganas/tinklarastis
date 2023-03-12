@@ -5,7 +5,7 @@ excerpt:
 category: blynai
 header:
   teaser: /pav/lietiniai-su-tofu-teaser.jpg
-  image: /pav/lietiniai-su-tofu-2.jpg
+  image: /pav/blynai-su-tofu.jpg
 tags:
  - Blynai
  - Pusryčiai
