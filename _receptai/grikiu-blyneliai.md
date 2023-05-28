@@ -1,6 +1,6 @@
 ---
 title: >-
-  Blyneliai su grikiai
+  Blyneliai su grikiais
 excerpt:
 category: blynai
 header:
