@@ -1,6 +1,6 @@
 ---
 title: >-
-  Veganiškas Medutis be medaus
+  Veganiškas "Medutis" be medaus
 post_id: 123123123123
 excerpt:
 category: desertai
