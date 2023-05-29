@@ -4,7 +4,7 @@ title: >-
 excerpt:
 category: užkandžiai
 header:
-  teaser: /pav/burokeliu-humusas.jpg
+  teaser: /pav/burokeliu-humusas-teaser.jpg
   image: /pav/burokeliu-humusas-2.jpg
 tags:
  - Humusas
