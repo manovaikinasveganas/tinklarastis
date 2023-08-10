@@ -5,7 +5,7 @@ excerpt:
 category: salotos
 header:
   teaser: /pav/arbuzo-salotos-teaser.jpg
-  image: /pav/arbuzo-salotos.jpg
+  image: /pav/arbuzo-salotos-teaser.jpg
 tags:
  - Salotos
  - Mišrainė
