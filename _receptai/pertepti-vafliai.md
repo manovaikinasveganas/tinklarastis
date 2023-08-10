@@ -9,7 +9,7 @@ categories:
  - Keksiukai
 header:
   teaser: /pav/vafliai-teaser.jpg
-  image: /pav/vafliai-teaser.jpg
+  image: /pav/pertepti-vafliai.jpg
 tags:
  - desertai
  - vafliai
