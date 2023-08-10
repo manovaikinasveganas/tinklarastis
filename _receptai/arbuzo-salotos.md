@@ -16,7 +16,7 @@ toc_icon: "list"
 
 Ar esat girdėję apie fetos ir arbūzo draugystę? 
 Šie, tokie skirtingi ingredientai iš tiesų puikiai dera kartu ir kuria išskirtinį, vasarišką skonį.
-Įprastai arbūzo ir fetos salotos gardinamos mėtų lapeliais, tačiau jas drąsiai galima keisti į šviežius, ant palangės užaugintus, bazilikų lapelius. Salotas papildomai pagardinau ir sezamų sėklomis, kurios mano nuomone, čia puikiai tiko. 😊
+Įprastai arbūzo ir fetos salotos gardinamos mėtų lapeliais, tačiau jas drąsiai galima keisti į šviežius, ant palangės užaugintus, bazilikus. Salotas papildomai pagardinau ir sezamų sėklomis, kurios mano nuomone, čia puikiai tiko. 😊
 
 ## Vienai porcijai reikės:
 
