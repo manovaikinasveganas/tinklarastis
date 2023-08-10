@@ -31,12 +31,13 @@ Ryžių popieriaus suktinukai su daržovėmis ir rūkytu, keptu tofu - puikus u�
 * Špinatų
 * Konservuotų kukurūzų
 * No Fish Vegan padažo (nebūtina)
+* Kanapių ar sezamų sėklos (nebūtina)
 
 ## Paruošimo eiga
 
 1. Suktinukams paruošti naudojame įvairias šviežias daržoves (tai tik vienas iš galimų variantų, drąsiai galite įtraukti kitas, jūsų mėgstamas daržoves). Šiuo atveju naudojame tarkuotas morkas, šiaudeliais pjaustytus agurkus ir paprikas, špinatus, kukurūzus. 
 2. Rūkytą tofu apkepame keptuvėje su No Fish padažu. 
-3. Ryžių popierių mirkome po tekančiu, šiltu vandeniu, kol popierius tampo minkštas ir lipnus. 
+3. Ryžių popierių mirkome po tekančiu, šiltu vandeniu, kol popierius tampa minkštas ir lipnus. 
 4. Ryžių popieriaus viduryje dedame paruoštas daržoves ir keptą tofu. Jei norisi pabarstome kanapių sėklomis ar sezamais, ir susukame gerai suspaudžiant suktinuko ingredientus. 
 
 Labai skanus, sveikas ir sotus maistas!
