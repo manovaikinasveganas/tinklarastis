@@ -8,7 +8,7 @@ categories:
  - desertai
  - Keksiukai
 header:
-  teaser: /pav/citrininiai-keksiukai.jpg
+  teaser: /pav/citrininiai-keksiukai-teaser.jpg
   image: /pav/citrininiai-keksiukai.jpg
 tags:
  - desertai
