@@ -4,7 +4,7 @@ title: >-
 excerpt:
 category: pagrindiniai-patiekalai
 header:
-  teaser: /pav/avinzirniu-apkepas-teaser.jpg
+  teaser: /pav/avinzirniu-apkepas-teaser2.jpg
   image: /pav/avinzirniu-apkepas.jpg
 tags:
  - 
