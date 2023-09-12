@@ -35,9 +35,9 @@ Veganiški Žemaičių blynai įdaryti sojos faršu ir aplieti tirštu, kreminiu
 * 2 šaukštų pomidorų padažo
 
 ### Pupelių padažui
-3 v.š. kokosų pieno
-1 skardinė sviestinių pupelių
-1-2 a.š. maistinių mielių
+* 3 v.š. kokosų pieno
+* 1 skardinės sviestinių pupelių
+* 1-2 a.š. maistinių mielių
 
 ## Paruošimo eiga
 
