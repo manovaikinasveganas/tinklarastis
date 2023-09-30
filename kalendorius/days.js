@@ -1,11 +1,11 @@
 var days = []
 
 days[1] = {
-        movie: "Vienas namuose",
+        movie: "BA",
 }
 
 days[2] = {
-        movie: "Grinčas"
+        movie: "Vienas namuose. Pirma dalis."
 }
 
 days[3] = {
