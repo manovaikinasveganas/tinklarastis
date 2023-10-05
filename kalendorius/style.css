@@ -1,6 +1,8 @@
 html,
 body {
 	height: 100%;
+	background-color: #243150;
+	background: center/cover no-repeat url("background.jpg");
 }
 
 .container {
