@@ -12,6 +12,10 @@ days[3] = {
         movie: "AAAAA"
 }
 
+days[7] = {
+        movie: "AAAAA"
+}
+
 days[15] = {
         movie: "AAAAA"
 }
