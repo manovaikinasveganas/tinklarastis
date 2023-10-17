@@ -4,9 +4,27 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="kalendorius/style.css">
-	<link rel="stylesheet" href="kalendorius/snow.css">
 	<script src="kalendorius/days.js"></script>
 	<script src="kalendorius/main.js"></script>
+	<script src="kalendorius/snow.js"></script>
+	<script>
+		// Amount of Snowflakes
+		var snowMax = 35;
+		// Snowflake Colours
+		var snowColor = ["#DDD", "#EEE"];
+		// Snow Entity
+		var snowEntity = "&#x2022;";
+		// Falling Velocity
+		var snowSpeed = 0.8;
+		// Minimum Flake Size
+		var snowMinSize = 18;
+		// Maximum Flake Size
+		var snowMaxSize = 54;
+		// Refresh Rate (in milliseconds)
+		var snowRefresh = 23;
+		// Additional Styles
+		var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
+	</script>
 	<script src="https://code.jquery.com/jquery-3.7.1.js"
 		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
@@ -42,47 +60,34 @@
 </head>
 
 <body>
-	<div class="snow"></div>
 	<div class="container">
-		<p>Advento kalendorius</p>
+		<!-- <p>Advento kalendorius</p> -->
 		<div class="center">
-			<table>
-				<tr>
-					<td><button id="day1-button" class="day-button">1</button></td>
-					<td><button id="day2-button" class="day-button">2</button></td>
-					<td><button id="day3-button" class="day-button">3</button></td>
-					<td><button id="day4-button" class="day-button">4</button></td>
-					<td><button id="day5-button" class="day-button">5</button></td>
-				</tr>
-				<tr>
-					<td><button id="day6-button" class="day-button">6</button></td>
-					<td><button id="day7-button" class="day-button">7</button></td>
-					<td><button id="day8-button" class="day-button">8</button></td>
-					<td><button id="day9-button" class="day-button">9</button></td>
-					<td><button id="day10-button" class="day-button">10</button></td>
-				</tr>
-				<tr>
-					<td><button id="day11-button" class="day-button">11</button></td>
-					<td><button id="day12-button" class="day-button">12</button></td>
-					<td><button id="day13-button" class="day-button">13</button></td>
-					<td><button id="day14-button" class="day-button">14</button></td>
-					<td><button id="day15-button" class="day-button">15</button></td>
-				</tr>
-				<tr>
-					<td><button id="day16-button" class="day-button">16</button></td>
-					<td><button id="day17-button" class="day-button">17</button></td>
-					<td><button id="day18-button" class="day-button">18</button></td>
-					<td><button id="day19-button" class="day-button">19</button></td>
-					<td><button id="day20-button" class="day-button">20</button></td>
-				</tr>
-				<tr>
-					<td><button id="day21-button" class="day-button">21</button></td>
-					<td><button id="day22-button" class="day-button">22</button></td>
-					<td><button id="day23-button" class="day-button">23</button></td>
-					<td><button id="day24-button" class="day-button">24</button></td>
-					<td><button id="day25-button" class="day-button">25</button></td>
-				</tr>
-			</table>
+			<div id="day1-button" class="day-button">1</div>
+			<div id="day2-button" class="day-button">2</div>
+			<div id="day3-button" class="day-button">3</div>
+			<div id="day4-button" class="day-button">4</div>
+			<div id="day5-button" class="day-button">5</div>
+			<div id="day6-button" class="day-button">6</div>
+			<div id="day7-button" class="day-button">7</div>
+			<div id="day8-button" class="day-button">8</div>
+			<div id="day9-button" class="day-button">9</div>
+			<div id="day10-button" class="day-button">10</div>
+			<div id="day11-button" class="day-button">11</div>
+			<div id="day12-button" class="day-button">12</div>
+			<div id="day13-button" class="day-button">13</div>
+			<div id="day14-button" class="day-button">14</div>
+			<div id="day15-button" class="day-button">15</div>
+			<div id="day16-button" class="day-button">16</div>
+			<div id="day17-button" class="day-button">17</div>
+			<div id="day18-button" class="day-button">18</div>
+			<div id="day19-button" class="day-button">19</div>
+			<div id="day20-button" class="day-button">20</div>
+			<div id="day21-button" class="day-button">21</div>
+			<div id="day22-button" class="day-button">22</div>
+			<div id="day23-button" class="day-button">23</div>
+			<div id="day24-button" class="day-button">24</div>
+			<div id="day25-button" class="day-button">25</div>
 
 			<div id="day-modal" class="modal">
 				<div id="modal-content" class="modal-content">
