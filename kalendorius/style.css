@@ -1,22 +1,55 @@
-html,
+html {
+	height: 100%;
+	background: rgb(36,49,80);
+	/* background: linear-gradient(180deg, rgba(36,49,80,1) 0%, rgba(238,238,238,1) 100%); */
+	padding: 0px;
+	margin: 0px;
+}
+
 body {
 	height: 100%;
-	background-color: #243150;
+	/* background-color: #243150; */
 	background: center/cover no-repeat url("background.jpg");
+	padding: 0px;
+	margin: 0px;
 }
 
 .vignette {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+	z-index: 2000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
-@font-face {
-  font-family: christmas-font;
-  src: url(mountains-of-christmas.ttf);
+.recipe-image {
+	flex: 1;
+	/* flex-grow: 1; */
+	max-width: 45%;
+	margin-x: 15px;
+	object-fit: contain;
+	/* max-height: 100%; */
+	/* flex-shrink: 1; */
+}
+
+.markdown-body img {
+	object-fit: contain;
+}
+
+.recipe-content {
+	flex: 2;
+	margin-top: -35px;
+	/* flex-grow: 2; */
+	/* flex-shrink: 2; */
+}
+
+#day-content {
+	display: flex;
+	/* flex-direction: row; */
+	flex-flow: row wrap;
+	align-items: flex-start;
 }
 
 #time-left-text {
@@ -60,9 +93,43 @@ body {
 	/* width: 50px; */
 	/* max-height: 50px; */
 	max-width: 100px;
-	background-color: #EFF3;
-	padding: 20px 0;
+	margin: 20px 0;
 	margin: 1% 0px;
+	text-align: center;
+	font-family: Mountains of Christmas;
+	font-size: 50px;
+	color: white;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none; 
+	user-select: none;
+	/* filter: blur(4px); */
+}
+
+.day-button:hover > .day-button-cover {
+	background-color: #FFFF	;
+	transform: rotateY(40deg) rotateX(3deg);
+}
+
+.day-button:hover {
+	background-color: #222;
+}
+
+.day-button-cover {
+	transform-origin: left;
+	transition: transform 0.5s;
+	width: 100%;
+	padding: 0 0;
+	padding: 10px 0;
+	/* height: 100%; */
+	border: 1px solid;
+	border-color: #000F;
+	/* border-radius: 20px; */
+	/* width: 50px; */
+	/* max-height: 50px; */
+	max-width: 100px;
+	background-color: #EFF4;
 	text-align: center;
 	font-family: Mountains of Christmas;
 	font-size: 50px;
@@ -70,52 +137,52 @@ body {
 	backdrop-filter: blur(3px);
 	/* filter: blur(4px); */
   	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-
-.day-button:hover {
-	background-color: #EFFA	;
+	cursor: pointer;
 }
 
 /* The Modal (background) */
 .modal {
-  /* display: block; /* Hidden by default */
+	/* display: block; /* Hidden by default */
 	display:none;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	position: fixed; /* Stay in place */
+	z-index: 2000; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+	align-items:flex-end;
+	display: flex;
+	flex-direction: column;
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
 	min-height: 60%;
 	height: auto;
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+	color: #aaa;
+	/* float: right; */
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: -15px;
+	margin-bottom: 8px;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .invisible {

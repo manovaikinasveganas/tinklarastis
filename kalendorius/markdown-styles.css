@@ -1,0 +1,28 @@
+h1 {
+	font-family: Great Vibes;
+	font-size: 45px;
+	margin: 10px;
+}
+
+h2 {
+	font-family: Great Vibes;
+	font-size: 35px;
+	margin: 10px;
+}
+
+p {
+	font-family: Mulish;
+}
+
+ol {
+	font-family: Mulish;
+}
+
+ul {
+	font-family: Mulish;
+}
+
+img {
+	max-width: 100%;
+	object-fit: contain;
+}
