@@ -5,7 +5,7 @@ days[1] = {
 }
 
 days[2] = {
-        movie: "Vienas namuose. Pirma dalis (Home alone)"
+        movie: "Vienas namuose. (Home alone)"
 }
 
 days[3] = {
@@ -25,7 +25,7 @@ days[6] = {
 }
 
 days[7] = {
-        movie: "Stebuklas 34-ojoje gatvėje (Miracle on 34th Street)"
+        movie: "Kalėdų karštinė (Jingle all the Way)"
 }
 
 days[8] = {
@@ -33,11 +33,11 @@ days[8] = {
 }
 
 days[9] = {
-        movie: "Stebuklas 34-ojoje gatvėje (Miracle on 34th Street)"
+        movie: "Vienas namuose 2. Pasiklydęs Niujorke (Home Alone 2: Lost in New York)."
 }
 
 days[10] = {
-        movie: "Stebuklas 34-ojoje gatvėje (Miracle on 34th Street)"
+        movie: "Paskutinės atostogos (Last Holiday)"
 }
 
 days[15] = {
