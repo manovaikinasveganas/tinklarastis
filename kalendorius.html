@@ -3,6 +3,8 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
 	<link rel="stylesheet" href="kalendorius/style.css">
 	<script src="kalendorius/days.js"></script>
 	<script src="kalendorius/main.js"></script>
@@ -34,9 +36,9 @@
 
 	<!-- Load the element definition -->
 	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-
 	<script>
 		$(document).ready(function () {
+			setRemainingDays()
 			for (i = 1; i <= 25; i++) {
 				const dayIndex = i
 				$(`#day${dayIndex}-button`).click(function () {
@@ -56,11 +58,26 @@
 				})
 			}
 		});
+
+		function setRemainingDays() {
+			today = new Date();
+			var christmas = new Date(today.getFullYear(), 11, 25);
+			if (today.getMonth() == 11 && today.getDate() == 25) {
+				christmas.setFullYear(christmas.getFullYear() + 1);
+				$("#time-left-text").text("Sveikiname su Kalėdomis!")
+			} else {
+				var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
+				var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
+				$("#time-left-text").text(`Iki Kalėdų liko ${daysLeft} d.!`)
+			}
+		}
 	</script>
 </head>
 
 <body>
+	<div class="vignette" />
 	<div class="container">
+		<p id="time-left-text">Iki kaledų liko XX d.!</p>
 		<!-- <p>Advento kalendorius</p> -->
 		<div class="center">
 			<div id="day1-button" class="day-button">1</div>
