@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
 	<link rel="stylesheet" href="kalendorius/style.css">
 	<script src="kalendorius/days.js"></script>
@@ -11,19 +12,19 @@
 	<script src="kalendorius/snow.js"></script>
 	<script>
 		// Amount of Snowflakes
-		var snowMax = 35;
+		var snowMax = 30;
 		// Snowflake Colours
 		var snowColor = ["#DDD", "#EEE"];
 		// Snow Entity
 		var snowEntity = "&#x2022;";
 		// Falling Velocity
-		var snowSpeed = 0.8;
+		var snowSpeed = 0.9;
 		// Minimum Flake Size
 		var snowMinSize = 18;
 		// Maximum Flake Size
 		var snowMaxSize = 54;
 		// Refresh Rate (in milliseconds)
-		var snowRefresh = 23;
+		var snowRefresh = 50;
 		// Additional Styles
 		var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
 	</script>
@@ -35,14 +36,14 @@
 		src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
 	<!-- Load the element definition -->
-	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+	<!-- <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script> -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 	<script>
 		$(document).ready(function () {
 			setRemainingDays()
 			for (i = 1; i <= 25; i++) {
 				const dayIndex = i
 				$(`#day${dayIndex}-button`).click(function () {
-
 					var day = days[dayIndex]
 					if (day) {
 						$("#modal-content").append(renderDay(dayIndex, day))
@@ -56,6 +57,13 @@
 					$("#day-modal").css("display", "none")
 					$("#day-content").remove()
 				})
+				$("#day-modal.modal").click(function () {
+					$("#day-modal").css("display", "none")
+					$("#day-content").remove()
+				})
+				$('#modal-content.modal-content').click(function (e) {
+					e.stopPropagation();
+				});
 			}
 		});
 
@@ -80,35 +88,95 @@
 		<p id="time-left-text">Iki kaledų liko XX d.!</p>
 		<!-- <p>Advento kalendorius</p> -->
 		<div class="center">
-			<div id="day1-button" class="day-button">1</div>
-			<div id="day2-button" class="day-button">2</div>
-			<div id="day3-button" class="day-button">3</div>
-			<div id="day4-button" class="day-button">4</div>
-			<div id="day5-button" class="day-button">5</div>
-			<div id="day6-button" class="day-button">6</div>
-			<div id="day7-button" class="day-button">7</div>
-			<div id="day8-button" class="day-button">8</div>
-			<div id="day9-button" class="day-button">9</div>
-			<div id="day10-button" class="day-button">10</div>
-			<div id="day11-button" class="day-button">11</div>
-			<div id="day12-button" class="day-button">12</div>
-			<div id="day13-button" class="day-button">13</div>
-			<div id="day14-button" class="day-button">14</div>
-			<div id="day15-button" class="day-button">15</div>
-			<div id="day16-button" class="day-button">16</div>
-			<div id="day17-button" class="day-button">17</div>
-			<div id="day18-button" class="day-button">18</div>
-			<div id="day19-button" class="day-button">19</div>
-			<div id="day20-button" class="day-button">20</div>
-			<div id="day21-button" class="day-button">21</div>
-			<div id="day22-button" class="day-button">22</div>
-			<div id="day23-button" class="day-button">23</div>
-			<div id="day24-button" class="day-button">24</div>
-			<div id="day25-button" class="day-button">25</div>
+			<div id="day1-button" class="day-button">
+				<div class="day-button-cover">1</div>
+			</div>
+			<div id="day2-button" class="day-button">
+				<div class="day-button-cover">2</div>
+			</div>
+			<div id="day3-button" class="day-button">
+				<div class="day-button-cover">3</div>
+			</div>
+			<div id="day4-button" class="day-button">
+				<div class="day-button-cover">4</div>
+			</div>
+			<div id="day5-button" class="day-button">
+				<div class="day-button-cover">5</div>
+			</div>
+			<div id="day6-button" class="day-button">
+				<div class="day-button-cover">6</div>
+			</div>
+			<div id="day7-button" class="day-button">
+				<div class="day-button-cover">7</div>
+			</div>
+			<div id="day8-button" class="day-button">
+				<div class="day-button-cover">8</div>
+			</div>
+			<div id="day9-button" class="day-button">
+				<div class="day-button-cover">9</div>
+			</div>
+			<div id="day10-button" class="day-button">
+				<div class="day-button-cover">10</div>
+			</div>
+			<div id="day11-button" class="day-button">
+				<div class="day-button-cover">11</div>
+			</div>
+			<div id="day12-button" class="day-button">
+				<div class="day-button-cover">12</div>
+			</div>
+			<div id="day13-button" class="day-button">
+				<div class="day-button-cover">13</div>
+			</div>
+			<div id="day14-button" class="day-button">
+				<div class="day-button-cover">14</div>
+			</div>
+			<div id="day15-button" class="day-button">
+				<div class="day-button-cover">15</div>
+			</div>
+			<div id="day16-button" class="day-button">
+				<div class="day-button-cover">16</div>
+			</div>
+			<div id="day17-button" class="day-button">
+				<div class="day-button-cover">17</div>
+			</div>
+			<div id="day18-button" class="day-button">
+				<div class="day-button-cover">18</div>
+			</div>
+			<div id="day19-button" class="day-button">
+				<div class="day-button-cover">19</div>
+			</div>
+			<div id="day20-button" class="day-button">
+				<div class="day-button-cover">20</div>
+			</div>
+			<div id="day21-button" class="day-button">
+				<div class="day-button-cover">21</div>
+			</div>
+			<div id="day22-button" class="day-button">
+				<div class="day-button-cover">22</div>
+			</div>
+			<div id="day23-button" class="day-button">
+				<div class="day-button-cover">23</div>
+			</div>
+			<div id="day24-button" class="day-button">
+				<div class="day-button-cover">24</div>
+			</div>
+			<div id="day25-button" class="day-button">
+				<div class="day-button-cover">25</div>
+			</div>
 
 			<div id="day-modal" class="modal">
 				<div id="modal-content" class="modal-content">
 					<span class="close">&times;</span>
+					<div id="day-content">
+						<!-- TODO: This will need a better layout. -->
+						<!-- <zero-md class="recipe-content" src="kalendorius/days/9.md"> -->
+						<!-- 	<template> -->
+						<!-- 		<link rel="stylesheet" -->
+						<!-- 			href="kalendorius/markdown-styles.css" /> -->
+						<!-- 	</template> -->
+						<!-- </zero-md> -->
+						<!-- <img class="recipe-image" src="pav/ledai.jpg" /> -->
+					</div>
 				</div>
 			</div>
 
