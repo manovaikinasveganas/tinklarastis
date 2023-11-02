@@ -45,13 +45,18 @@
 				const dayIndex = i
 				$(`#day${dayIndex}-button`).click(function () {
 					var day = days[dayIndex]
-					if (day) {
+					if (day && day.open) {
 						$("#modal-content").append(renderDay(dayIndex, day))
 						$("#day-modal").css("display", "block")
 					} else {
-						console.log("TODO error message")
+						console.log("no data")
 					}
 				})
+
+				if (!days[dayIndex] || !days[dayIndex].open) {
+					$(`#day${dayIndex}-button`).removeClass('day-button');
+					$(`#day${dayIndex}-button`).addClass('day-button-closed');
+				}
 
 				$("span.close").click(function () {
 					$("#day-modal").css("display", "none")

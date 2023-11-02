@@ -107,13 +107,45 @@ body {
 	/* filter: blur(4px); */
 }
 
+.day-button-closed {
+	flex: 1 0 17%;
+	border: 1px solid;
+	border-color: #000F;
+	/* border-radius: 20px; */
+	/* width: 50px; */
+	/* max-height: 50px; */
+	max-width: 100px;
+	margin: 20px 0;
+	margin: 1% 0px;
+	text-align: center;
+	font-family: Mountains of Christmas;
+	font-size: 50px;
+	color: #AAA;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none; 
+	user-select: none;
+	/* filter: blur(4px); */
+}
+
+.day-button-closed > .day-button-cover {
+	background-color: #243150AA;
+	color: #AAA;
+}
+
+.day-button-closed:hover > .day-button-cover {
+	background-color: #243150FF;
+}
+
 .day-button:hover > .day-button-cover {
-	background-color: #FFFF	;
+	background-color: #FFFF;
 	transform: rotateY(40deg) rotateX(3deg);
 }
 
 .day-button:hover {
-	background-color: #222;
+	/* background-color: #222; */
+	background-color: #243150;
 }
 
 .day-button-cover {
@@ -129,12 +161,12 @@ body {
 	/* width: 50px; */
 	/* max-height: 50px; */
 	max-width: 100px;
-	background-color: #EFF4;
+	background-color: #EFF6;
 	text-align: center;
 	font-family: Mountains of Christmas;
 	font-size: 50px;
 	color: white;
-	backdrop-filter: blur(3px);
+	/* backdrop-filter: blur(3px); */
 	/* filter: blur(4px); */
   	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	cursor: pointer;
@@ -188,6 +220,4 @@ body {
 .invisible {
 	display: none;
 }
-
-
 
