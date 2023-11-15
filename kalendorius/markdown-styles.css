@@ -1,7 +1,9 @@
 h1 {
 	font-family: Great Vibes;
-	font-size: 45px;
+	text-align: center;
 	margin: 10px;
+	font-size: 75px;
+	margin-top: -5px;
 }
 
 h2 {
@@ -27,12 +29,9 @@ img {
 	object-fit: contain;
 }
 
-/* Small screens */
-@media (min-width:641px)  {
+@media (min-aspect-ratio: 3/4) or (max-height: 835px)  { 
 	h1 {
-		font-size: 85px;
-		margin: 10px;
-		text-align: center;
-		margin-top: -10px;
+		font-size: 55px;
+		margin-top: 0px;
 	}
 }
