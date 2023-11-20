@@ -22,7 +22,7 @@ days[4] = {
 
 days[5] = {
         movie: "Paskutinės Kalėdos (Last Christmas)",
-        open: false,
+        open: true,
 }
 
 days[6] = {
