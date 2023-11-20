@@ -17,7 +17,7 @@ days[3] = {
 
 days[4] = {
         movie: "Ketverios Kalėdos (Four Christmases)",
-        open: false,
+        open: true,
 }
 
 days[5] = {
@@ -27,7 +27,7 @@ days[5] = {
 
 days[6] = {
         movie: "AAAAA",
-        open: false,
+        open: true,
 }
 
 days[7] = {
@@ -52,7 +52,12 @@ days[10] = {
 
 days[15] = {
         movie: "AAAAA",
-        open: false,
+        open: true,
+}
+
+days[20] = {
+        movie: "AAA",
+        open: true,
 }
 
 days[25] = {
