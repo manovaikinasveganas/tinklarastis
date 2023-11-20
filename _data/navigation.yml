@@ -1,12 +1,12 @@
 main:
   - title: "Pagrindinis"
     url: /
-  - title: "Tinklaraštis"
-    url: /blog/
+  # - title: "Tinklaraštis"
+  #   url: /blog/
   - title: "Receptai"
     url: /receptai/
-  - title: "Restoranai"
-    url: /restoranai/
+  # - title: "Restoranai"
+  #   url: /restoranai/
 recipe-groups:
   - title: Receptų kategorijos
     children:
