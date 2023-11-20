@@ -16,6 +16,7 @@ tags:
 toc: true
 toc_label: "Turinys"
 toc_icon: "list"
+published: false
 # image: 
 #   path: /pav/surio-tortas-1.jpg
 #   thumbnail: /pav/surio-tortas-1.jpg

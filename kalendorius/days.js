@@ -27,7 +27,7 @@ days[5] = {
 
 days[6] = {
         movie: "AAAAA",
-        open: false,
+        open: true,
 }
 
 days[7] = {
@@ -52,6 +52,11 @@ days[10] = {
 
 days[15] = {
         movie: "AAAAA",
+        open: true,
+}
+
+days[20] = {
+        movie: "AAA",
         open: true,
 }
 
