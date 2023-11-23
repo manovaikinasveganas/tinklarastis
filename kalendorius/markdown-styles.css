@@ -38,7 +38,9 @@ li {
 
 img {
 	max-width: 100%;
-	object-fit: contain;
+	display: block;
+	margin: 0 auto;
+	max-height: 90vh;
 }
 
 hr {
@@ -79,6 +81,13 @@ hr {
 
 	li {
 		margin-bottom: 12px;
+	}
+
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+		max-height: 85vh;
 	}
 }
 
@@ -121,7 +130,7 @@ hr {
 	img {
 		display: block;
 		margin: 0 auto;
-		max-height: 500px;
+		max-height: 90vh;
 	}
 
 	hr {
