@@ -82,3 +82,49 @@ hr {
 	}
 }
 
+@media (min-aspect-ratio: 3/4) and (max-height: 605px)  { 
+	h1 {
+		font-size: 55px;
+		margin-top: 0px;
+	}
+
+	h2 {
+		font-size: 35px;
+		margin: 10px;
+	}
+
+	h3 {
+		font-family: Mulish;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	p {
+		font-family: Mulish;
+		font-size: 20px;
+	}
+
+	ol {
+		font-family: Mulish;
+		font-size: 22px;
+	}
+
+	ul {
+		font-family: Mulish;
+		font-size: 22px;
+	}
+
+	li {
+		margin-bottom: 12px;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		max-height: 500px;
+	}
+
+	hr {
+	}
+}
+

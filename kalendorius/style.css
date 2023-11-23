@@ -66,7 +66,6 @@ body {
 	font-family: Great Vibes;
 	font-size: 100px;
 	color: white;
-	backdrop-filter: blur(3px);
 	margin: 10px;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -107,6 +106,16 @@ body {
 	}
 	.center {
 		max-width: 500px;
+		gap: 1%;
+	}
+}
+
+@media (min-aspect-ratio: 3/4) and (max-height: 605px)  { 
+	.container {
+		padding: 10px;
+	}
+	.center {
+		max-width: 400px;
 		gap: 1%;
 	}
 }
@@ -218,9 +227,25 @@ body {
 	}
 }
 
+@media (min-aspect-ratio: 3/4) and (max-height: 605px)  { 
+	.day-button {
+		max-width: 70px;
+		font-size: 40px;
+		/* background-color: red; */
+	}
+	.day-button-closed {
+		max-width: 70px;
+		font-size: 40px;
+	}
+	.day-button-cover {
+		max-width: 70px;
+		font-size: 40px;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}
+}
+
 /* The Modal (background) */
 .modal {
-/* display: block; /* Hidden by default */
 display:none;
 position: fixed; /* Stay in place */
 z-index: 2000; /* Sit on top */
@@ -239,6 +264,7 @@ display: flex;
 flex-direction: column;
 background-color: #fefefe;
 margin: 15% auto; /* 15% from the top and centered */
+margin-top: 25px;
 padding: 20px;
 border: 1px solid #888;
 width: 80%; /* Could be more or less, depending on screen size */
