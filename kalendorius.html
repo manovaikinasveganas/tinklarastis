@@ -73,7 +73,9 @@
 		});
 
 		$(document).keyup(function (e) {
-			$("span.close").click()
+			if (event.key == "Escape") {
+				$("span.close").click()
+			}
 		});
 
 		function setRemainingDays() {
