@@ -33,6 +33,26 @@ body {
 	box-shadow: 0 0 200px rgba(120,120,150,0.9) inset;
 }
 
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color:#DDD; 
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: Mulish;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color:#DDD; 
+	text-decoration: none;
+}
+
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px)  { 
 	.vignette {
