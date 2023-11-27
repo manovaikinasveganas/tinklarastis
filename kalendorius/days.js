@@ -52,22 +52,22 @@ days[10] = {
 
 days[11] = {
         movie: "Kalėdų senelis (The Santa Clause)",
-        open: flase,
+        open: false,
 }
 
 days[12] = {
         movie: "Atostogos (The Holiday)",
-        open: flase,
+        open: false,
 }
 
 days[13] = {
         movie: "Gremlinai (Gremlins)",
-        open: flase,
+        open: false,
 }
 
 days[14] = {
         movie: "Elfas (Elf)",
-        open: flase,
+        open: false,
 }
 
 days[15] = {
