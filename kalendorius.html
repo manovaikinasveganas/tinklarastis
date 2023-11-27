@@ -72,6 +72,12 @@
 			}
 		});
 
+		$(document).keyup(function (e) {
+			if (event.key == "Escape") {
+				$("span.close").click()
+			}
+		});
+
 		function setRemainingDays() {
 			today = new Date();
 			var christmas = new Date(today.getFullYear(), 11, 25);
