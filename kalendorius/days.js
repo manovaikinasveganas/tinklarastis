@@ -26,7 +26,7 @@ days[5] = {
 }
 
 days[6] = {
-        movie: "AAAAA",
+        movie: "Seni bambekliai (Grumpy Old Men)",
         open: true,
 }
 
@@ -47,16 +47,36 @@ days[9] = {
 
 days[10] = {
         movie: "Paskutinės atostogos (Last Holiday)",
-        open: false,
+        open: true,
+}
+
+days[11] = {
+        movie: "Kalėdų senelis (The Santa Clause)",
+        open: flase,
+}
+
+days[12] = {
+        movie: "Atostogos (The Holiday)",
+        open: flase,
+}
+
+days[13] = {
+        movie: "Gremlinai (Gremlins)",
+        open: flase,
+}
+
+days[14] = {
+        movie: "Elfas (Elf)",
+        open: flase,
 }
 
 days[15] = {
-        movie: "AAAAA",
+        movie: "Milijonas šventinių lempučių (Deck the Halls)",
         open: true,
 }
 
 days[20] = {
-        movie: "AAA",
+        movie: "Kol tu miegojai (While You Were Sleeping)",
         open: true,
 }
 
