@@ -12,12 +12,12 @@ header:
 
 feature_row:
   - image_path: /pav/medutis-teaser.jpg
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/_receptai/vegan-medutis/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    alt: "beliašai"
+    title: "Beliašai arba Ukrainietiški keptuvėje kepti pyragėliai su bulvių ir tofu įdaru"
+    excerpt: "Keptuvėje kepti pyragėliai su bulvių ir tofu įdaru - puikūs ne tik pietums ar vakarienei, bet ir tinkantys pasiimti ir į išvyką ar darbą/mokyklą pietų dėžutėje."
+    url: "/_receptai/beliasai/"
+    # btn_class: "btn--primary"
+    # btn_label: ""
   - image_path: /pav/medutis-teaser.jpg
     alt: "fully responsive"
     title: "Responsive layouts"
