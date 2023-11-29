@@ -6,7 +6,7 @@ main:
   - title: "Receptai"
     url: /receptai/
   - title: "🎄 Kalėdinis kalendorius"
-    url: /kalendorius.html
+    url: /kalendorius
   # - title: "Restoranai"
   #   url: /restoranai/
 recipe-groups:
