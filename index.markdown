@@ -11,13 +11,30 @@ header:
   caption:
 
 feature_row:
+  - image_path: /kalendorius/background.jpg
+    alt: "advento kalendorius"
+    title: "Augalinis advento kalendorius"
+    excerpt: "Gruodžio 1 dieną pradedame jaukų šių metų švenčių laukimą. Kasdien atversime po vieną kalendoriaus langelį idėjų pilnam ir lengvam šventiniam pasiruošimui bei Kalėdinės nuotaikos kūrimui."
+    url: "/kalendorius/"
+    btn_class: "btn--primary"
+    btn_label: "Peržiūrėti"
+
   - image_path: /pav/beliasas-teaser.jpg
     alt: "beliašai"
     title: "Beliašai arba Ukrainietiški keptuvėje kepti pyragėliai su bulvių ir tofu įdaru"
     excerpt: "Keptuvėje kepti pyragėliai su bulvių ir tofu įdaru - puikūs ne tik pietums ar vakarienei, bet ir tinkantys pasiimti ir į išvyką ar darbą/mokyklą pietų dėžutėje."
-    url: "/_receptai/beliasai/"
+    url: "/receptai/beliasai/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
+
+  - image_path: /pav/beliasas-teaser.jpg
+    alt: "beliašai"
+    title: "Beliašai arba Ukrainietiški keptuvėje kepti pyragėliai su bulvių ir tofu įdaru"
+    excerpt: "Keptuvėje kepti pyragėliai su bulvių ir tofu įdaru - puikūs ne tik pietums ar vakarienei, bet ir tinkantys pasiimti ir į išvyką ar darbą/mokyklą pietų dėžutėje."
+    url: "/receptai/beliasai/"
+    btn_class: "btn--primary"
+    btn_label: "Peržiūrėti"
+
   # - image_path: /pav/medutis-teaser.jpg
   #   alt: "fully responsive"
   #   title: "Responsive layouts"
