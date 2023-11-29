@@ -3,6 +3,7 @@ h1 {
 	text-align: center;
 	margin: 10px;
 	font-size: 95px;
+	font-weight: normal;
 }
 
 h2 {
@@ -51,6 +52,7 @@ hr {
 	h1 {
 		font-size: 65px;
 		margin-top: 0px;
+		font-weight: normal;
 	}
 
 	h2 {
@@ -95,6 +97,7 @@ hr {
 	h1 {
 		font-size: 55px;
 		margin-top: 0px;
+		font-weight: normal;
 	}
 
 	h2 {
