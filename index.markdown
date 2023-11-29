@@ -22,8 +22,7 @@ feature_row:
   - image_path: /pav/blyneliai-teaser.jpg
     alt: "blynai"
     title: "Pusryčių blyneliai su bananais"
-    excerpt: "Įspūdingai purūs, saldūs blyneliai gardiems augaliniams pusryčiams.
-    Ypatingai lengvas receptas, greitas paruošimas ir visada puikus rezultatas."
+    excerpt: "Įspūdingai purūs, saldūs blyneliai gardiems augaliniams pusryčiams."
     url: "/receptai/blynai-su-bananais/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
