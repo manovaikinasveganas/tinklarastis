@@ -10,6 +10,7 @@ h2 {
 	font-family: Great Vibes;
 	font-size: 75px;
 	margin: 10px;
+	font-weight: normal;
 }
 
 h3 {
@@ -58,6 +59,7 @@ hr {
 	h2 {
 		font-size: 45px;
 		margin: 10px;
+		font-weight: normal;
 	}
 
 	h3 {
@@ -103,6 +105,7 @@ hr {
 	h2 {
 		font-size: 35px;
 		margin: 10px;
+		font-weight: normal;
 	}
 
 	h3 {
