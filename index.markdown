@@ -15,7 +15,7 @@ feature_row:
     alt: "advento kalendorius"
     title: "Augalinis advento kalendorius"
     excerpt: "Gruodžio 1 dieną pradedame jaukų šių metų švenčių laukimą. Kasdien atversime po vieną kalendoriaus langelį idėjų pilnam ir lengvam šventiniam pasiruošimui bei Kalėdinės nuotaikos kūrimui."
-    url: "/kalendorius/"
+    url: "/kalendorius"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
