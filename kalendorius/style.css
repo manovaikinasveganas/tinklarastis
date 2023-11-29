@@ -55,17 +55,14 @@ body {
 }
 
 .wreath {
-	position: absolute;
-	width: 250px;
-	height: 250px;
-	left: 0px;
-	top: 0px;
+	width: 350px;
+	height: 350px;
+	font-size: 1.2em;
 	background: center/cover no-repeat url("../pav/vainikas.png");
 	text-align: center;
 	justify-content: center;
 	margin: auto;
 	vertical-align: middle;
-	/* padding-top: 50px; */
 	display: flex;
 	flex-flow: column;
 	align-items: center; /* Vertical center alignment */
@@ -77,8 +74,21 @@ body {
 	z-index: 10;
 }
 
-.wreath:visited {
+.wreath a {
+	text-decoration: none;
+}
+
+.wreath-title {
+	text-decoration: none;
+}
+
+.wreath-link {
+	align-self: center;
+}
+
+.wreath a:visited {
 	color: white;
+	text-decoration: none;
 }
 
 .wreath:hover {
@@ -88,6 +98,22 @@ body {
 .wreath div {
 	font-size: 40px;
 
+}
+
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
 }
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px)  { 

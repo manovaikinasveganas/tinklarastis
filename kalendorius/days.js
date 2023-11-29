@@ -1,87 +1,104 @@
 var days = []
 
 days[1] = {
-        movie: "Šeimos galva (The Family Man)",
+        movie: "Šeimos Galva",
+        movieLink: "https://www.youtube.com/watch?v=Hzw-p2PfBeU",
         open: true,
 }
 
 days[2] = {
-        movie: "Vienas namuose. (Home alone)",
-        open: false,
+        movie: "Vienas Namuose",
+        movieLink: "https://youtu.be/Fmih-zWIjGY?feature=shared&t=2",
+        open: true,
 }
 
 days[3] = {
-        movie: "Nuostabios Kalėdos (Falling for Christmas)",
-        open: false,
+        movie: "Nuostabios Kalėdos",
+        movieLink: "https://youtu.be/bsNIJd45jYM?feature=shared&t=10",
+        open: true,
 }
 
 days[4] = {
-        movie: "Ketverios Kalėdos (Four Christmases)",
-        open: false,
+        movie: "Ketverios Kalėdos",
+        movieLink: "https://youtu.be/6veo6Js7HUE?feature=shared&t=6",
+        open: true,
 }
 
 days[5] = {
-        movie: "Paskutinės Kalėdos (Last Christmas)",
-        open: false,
+        movie: "Paskutinės Kalėdos",
+        movieLink: "https://www.youtube.com/watch?v=z9CEIcmWmtA",
+        open: true,
 }
 
 days[6] = {
-        movie: "Seni bambekliai (Grumpy Old Men)",
-        open: false,
+        movie: "Seni Bambekliai",
+        movieLink: "https://www.youtube.com/watch?v=64MH2i5gr_I",
+        open: true,
 }
 
 days[7] = {
-        movie: "Kalėdų karštinė (Jingle all the Way)",
-        open: false,
+        movie: "Kalėdų Karštinė",
+        movieLink: "https://youtu.be/jhJYMEzQA-Q?feature=shared&t=7",
+        open: true,
 }
 
 days[8] = {
-        movie: "Stebuklas 34-ojoje gatvėje (Miracle on 34th Street)",
-        open: false,
+        movie: "Stebuklas 34-ojoje Gatvėje",
+        movieLink: "https://www.youtube.com/watch?v=leDD6Y-Nyqg",
+        open: true,
 }
 
 days[9] = {
-        movie: "Vienas namuose 2. Pasiklydęs Niujorke (Home Alone 2: Lost in New York).",
-        open: false,
+        movie: "Vienas Namuose 2\nPasiklydęs Niujorke",
+        movieLink: "https://youtu.be/5h9VDUNtoto?feature=shared&t=7",
+        open: true,
 }
 
 days[10] = {
-        movie: "Paskutinės atostogos (Last Holiday)",
-        open: false,
+        movie: "Paskutinės Atostogos",
+        movieLink: "https://www.youtube.com/watch?v=JO0NSRPcPFs",
+        open: true,
 }
 
 days[11] = {
-        movie: "Kalėdų senelis (The Santa Clause)",
-        open: false,
+        movie: "Kalėdų Senelis",
+        movieLink: "https://youtu.be/Bx8FX7etF_8?feature=shared&t=1",
+        open: true,
 }
 
 days[12] = {
-        movie: "Atostogos (The Holiday)",
-        open: false,
+        movie: "Atostogos",
+        movieLink: "https://www.youtube.com/watch?v=wk9caHO3pW0",
+        open: true,
 }
 
 days[13] = {
-        movie: "Gremlinai (Gremlins)",
-        open: false,
+        movie: "Gremlinai",
+        movieLink: "https://www.youtube.com/watch?v=GEu13j7hOvQ",
+        open: true,
 }
 
 days[14] = {
-        movie: "Elfas (Elf)",
-        open: false,
+        movie: "Elfas",
+        movieLink: "https://youtu.be/14o38xfHlXc?feature=shared&t=6",
+        open: true,
 }
 
 days[15] = {
-        movie: "Milijonas šventinių lempučių (Deck the Halls)",
-        open: false,
+        movie: "Milijonas Šventinių Lempučių",
+        movieLink: "https://youtu.be/g1A2uWWF1ZU?feature=shared&t=6",
+        open: true,
 }
 
 days[20] = {
-        movie: "Kol tu miegojai (While You Were Sleeping)",
-        open: false,
+        movie: "Kol Tu Miegojai",
+        movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
+        open: true,
 }
 
 days[25] = {
         movie: "",
-        open: false,
+        movieLink: "",
+        open: true,
 }
 
