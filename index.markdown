@@ -19,19 +19,19 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
-  - image_path: /pav/beliasas-teaser.jpg
-    alt: "beliašai"
-    title: "Beliašai arba Ukrainietiški keptuvėje kepti pyragėliai su bulvių ir tofu įdaru"
-    excerpt: "Keptuvėje kepti pyragėliai su bulvių ir tofu įdaru - puikūs ne tik pietums ar vakarienei, bet ir tinkantys pasiimti ir į išvyką ar darbą/mokyklą pietų dėžutėje."
-    url: "/receptai/beliasai/"
+  - image_path: /pav/blyneliai-teaser.jpg
+    alt: "blynai"
+    title: "Pusryčių blyneliai su bananais"
+    excerpt: "Įspūdingai purūs, saldūs blyneliai gardiems augaliniams pusryčiams."
+    url: "/receptai/blynai-su-bananais/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
-  - image_path: /pav/beliasas-teaser.jpg
-    alt: "beliašai"
-    title: "Beliašai arba Ukrainietiški keptuvėje kepti pyragėliai su bulvių ir tofu įdaru"
-    excerpt: "Keptuvėje kepti pyragėliai su bulvių ir tofu įdaru - puikūs ne tik pietums ar vakarienei, bet ir tinkantys pasiimti ir į išvyką ar darbą/mokyklą pietų dėžutėje."
-    url: "/receptai/beliasai/"
+  - image_path: /pav/avinzirniu-apkepas-teaser2.jpg
+    alt: "apkepas"
+    title: "Avinžirnių apkepas"
+    excerpt: "Skanus ir maistingas avinžirnių miltų apkepas su daržovėmis. Su šiuo receptu galite drąsiai eksperimentuoti ir kaskart derinti vis naujus, skirtingus priedus."
+    url: "receptai/avinzirniu-apkepas/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
