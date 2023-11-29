@@ -1,7 +1,7 @@
 ---
 title: "Augalinė virtuvė"
 excerpt: >-
-    
+    Naujiems eksperimentams ir maloniems, skaniems atradimams 
    
 layout: splash
 header:
