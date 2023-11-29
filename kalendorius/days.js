@@ -2,7 +2,7 @@ var days = []
 
 days[1] = {
         movie: "Šeimos galva (The Family Man)",
-        open: false,
+        open: true,
 }
 
 days[2] = {
