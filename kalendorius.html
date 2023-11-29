@@ -40,6 +40,7 @@
 	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 	<script>
 		$(document).ready(function () {
+			ping('kalendorius')
 			setRemainingDays()
 			for (i = 1; i <= 25; i++) {
 				const dayIndex = i
@@ -48,6 +49,7 @@
 					if (day && day.open) {
 						$("#modal-content").append(renderDay(dayIndex, day))
 						$("#day-modal").css("display", "block")
+						ping(`kalendorius-day-${dayIndex}`)
 					} else {
 						console.log("no data")
 					}

@@ -2,37 +2,37 @@ var days = []
 
 days[1] = {
         movie: "Šeimos galva (The Family Man)",
-        open: true,
+        open: false,
 }
 
 days[2] = {
         movie: "Vienas namuose. (Home alone)",
-        open: true,
+        open: false,
 }
 
 days[3] = {
         movie: "Nuostabios Kalėdos (Falling for Christmas)",
-        open: true,
+        open: false,
 }
 
 days[4] = {
         movie: "Ketverios Kalėdos (Four Christmases)",
-        open: true,
+        open: false,
 }
 
 days[5] = {
         movie: "Paskutinės Kalėdos (Last Christmas)",
-        open: true,
+        open: false,
 }
 
 days[6] = {
         movie: "Seni bambekliai (Grumpy Old Men)",
-        open: true,
+        open: false,
 }
 
 days[7] = {
         movie: "Kalėdų karštinė (Jingle all the Way)",
-        open: true,
+        open: false,
 }
 
 days[8] = {
@@ -42,12 +42,12 @@ days[8] = {
 
 days[9] = {
         movie: "Vienas namuose 2. Pasiklydęs Niujorke (Home Alone 2: Lost in New York).",
-        open: true,
+        open: false,
 }
 
 days[10] = {
         movie: "Paskutinės atostogos (Last Holiday)",
-        open: true,
+        open: false,
 }
 
 days[11] = {
@@ -72,12 +72,12 @@ days[14] = {
 
 days[15] = {
         movie: "Milijonas šventinių lempučių (Deck the Halls)",
-        open: true,
+        open: false,
 }
 
 days[20] = {
         movie: "Kol tu miegojai (While You Were Sleeping)",
-        open: true,
+        open: false,
 }
 
 days[25] = {
