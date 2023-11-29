@@ -29,7 +29,7 @@ feature_row:
 
   - image_path: /pav/avinzirniu-apkepas-teaser2.jpg
     alt: "apkepas"
-    title: "Avinžirnių apkepas"
+    title: "Avinžirnių apkepas su daržovėmis"
     excerpt: "Skanus ir maistingas avinžirnių miltų apkepas su daržovėmis. Su šiuo receptu galite drąsiai eksperimentuoti ir kaskart derinti vis naujus, skirtingus priedus."
     url: "receptai/avinzirniu-apkepas/"
     btn_class: "btn--primary"
