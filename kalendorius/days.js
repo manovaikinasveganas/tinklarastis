@@ -3,7 +3,7 @@ var days = []
 days[1] = {
         movie: "Šeimos Galva",
         movieLink: "https://www.youtube.com/watch?v=Hzw-p2PfBeU",
-        open: false,
+        open: true,
 }
 
 days[2] = {
