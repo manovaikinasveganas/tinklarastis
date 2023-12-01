@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
 	<link rel="stylesheet" href="kalendorius/style.css">
-	<script src="kalendorius/days.js"></script>
+	<script src="kalendorius/days.js?v=1"></script>
 	<script src="kalendorius/main.js"></script>
 	<script src="kalendorius/snow.js"></script>
 	<script>
@@ -49,6 +49,8 @@
 					if (day && day.open) {
 						$("#modal-content").append(renderDay(dayIndex, day))
 						$("#day-modal").css("display", "block")
+						$("#wreath-title").text(day.movie)
+						$("#wreath-link").attr("href", day.movieLink);
 						ping(`kalendorius-day-${dayIndex}`)
 					} else {
 						console.log("no data")
@@ -179,25 +181,15 @@
 
 			<div id="day-modal" class="modal">
 				<div id="modal-content" class="modal-content">
-					<a href="https://youtu.be/Fmih-zWIjGY?feature=shared&t=2" target="_blank">
+					<span class="close">&times;</span>
+					<a id="wreath-link" href="" target="_blank" style="align-self: center;">
 						<div class="wreath">
 							Šiandienos kalėdinis filmas<br>
-							<div>
+							<div id="wreath-title">
 								Vienas namuose<br>
 							</div>
 						</div>
 					</a>
-					<span class="close">&times;</span>
-					<div id="day-content">
-						<!-- TODO: This will need a better layout. -->
-						<!-- <zero-md class="recipe-content" src="kalendorius/days/9.md"> -->
-						<!-- 	<template> -->
-						<!-- 		<link rel="stylesheet" -->
-						<!-- 			href="kalendorius/markdown-styles.css" /> -->
-						<!-- 	</template> -->
-						<!-- </zero-md> -->
-						<!-- <img class="recipe-image" src="pav/ledai.jpg" /> -->
-					</div>
 				</div>
 			</div>
 
