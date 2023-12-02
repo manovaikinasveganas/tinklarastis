@@ -50,7 +50,16 @@
 				localStorage.setItem("previousRemainingDays", currentRemainingDays)
 				if (previousRemainingDays && previousRemainingDays != currentRemainingDays) {
 					console.log("Day changed - refreshing")
-					location.reload()
+					$.ajax({
+						url: 'kalendorius/days.js',
+						headers: {
+							"Pragma": "no-cache",
+							"Expires": -1,
+							"Cache-Control": "no-cache"
+						}
+					}).done(function () {
+						window.location.reload(true);
+					});
 				}
 			})
 
