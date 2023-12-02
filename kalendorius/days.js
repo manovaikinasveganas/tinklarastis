@@ -9,7 +9,7 @@ days[1] = {
 days[2] = {
         movie: "Vienas Namuose",
         movieLink: "https://youtu.be/Fmih-zWIjGY?feature=shared&t=2",
-        open: false,
+        open: true,
 }
 
 days[3] = {
