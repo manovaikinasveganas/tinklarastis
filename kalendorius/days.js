@@ -21,7 +21,7 @@ days[3] = {
 days[4] = {
         movie: "Ketverios Kalėdos",
         movieLink: "https://youtu.be/6veo6Js7HUE?feature=shared&t=6",
-        open: false,
+        open: true,
 }
 
 days[5] = {
