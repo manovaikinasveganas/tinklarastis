@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
 	<link rel="stylesheet" href="kalendorius/style.css">
-	<script src="kalendorius/days.js?v=2"></script>
+	<script src="kalendorius/days.js?v=3"></script>
 	<script src="kalendorius/main.js"></script>
 	<script src="kalendorius/snow.js"></script>
 	<script>
@@ -42,6 +42,27 @@
 		$(document).ready(function () {
 			ping('kalendorius')
 			setRemainingDays()
+
+			document.addEventListener("visibilitychange", function () {
+				console.log("Page in focus")
+				var previousRemainingDays = localStorage.getItem("previousRemainingDays");
+				var currentRemainingDays = getRemainingDays()
+				localStorage.setItem("previousRemainingDays", currentRemainingDays)
+				if (previousRemainingDays && previousRemainingDays != currentRemainingDays) {
+					console.log("Day changed - refreshing")
+					$.ajax({
+						url: 'kalendorius/days.js',
+						headers: {
+							"Pragma": "no-cache",
+							"Expires": -1,
+							"Cache-Control": "no-cache"
+						}
+					}).done(function () {
+						window.location.reload(true);
+					});
+				}
+			})
+
 			for (i = 1; i <= 25; i++) {
 				const dayIndex = i
 				$(`#day${dayIndex}-button`).click(function () {
@@ -81,6 +102,14 @@
 				$("span.close").click()
 			}
 		});
+
+		function getRemainingDays() {
+			today = new Date();
+			var christmas = new Date(today.getFullYear(), 11, 25);
+			var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
+			var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
+			return daysLeft;
+		}
 
 		function setRemainingDays() {
 			today = new Date();
