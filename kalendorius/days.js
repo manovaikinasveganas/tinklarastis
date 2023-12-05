@@ -27,7 +27,7 @@ days[4] = {
 days[5] = {
         movie: "Paskutinės Kalėdos",
         movieLink: "https://www.youtube.com/watch?v=z9CEIcmWmtA",
-        open: false,
+        open: true,
 }
 
 days[6] = {
