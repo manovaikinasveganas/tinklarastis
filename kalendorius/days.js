@@ -21,13 +21,13 @@ days[3] = {
 days[4] = {
         movie: "Ketverios Kalėdos",
         movieLink: "https://youtu.be/6veo6Js7HUE?feature=shared&t=6",
-        open: false,
+        open: true,
 }
 
 days[5] = {
         movie: "Paskutinės Kalėdos",
         movieLink: "https://www.youtube.com/watch?v=z9CEIcmWmtA",
-        open: false,
+        open: true,
 }
 
 days[6] = {
