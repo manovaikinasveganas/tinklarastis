@@ -90,9 +90,58 @@ days[15] = {
         open: false,
 }
 
+days[16] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+days[17] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+days[18] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+days[19] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
 days[20] = {
         movie: "Kol Tu Miegojai",
         movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
+        open: false,
+}
+
+days[21] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+days[22] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+
+days[23] = {
+        movie: "",
+        movieLink: "",
+        open: false,
+}
+
+days[24] = {
+        movie: "",
+        movieLink: "",
         open: false,
 }
 
