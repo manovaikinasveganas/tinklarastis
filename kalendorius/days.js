@@ -33,7 +33,7 @@ days[5] = {
 days[6] = {
         movie: "Seni Bambekliai",
         movieLink: "https://www.youtube.com/watch?v=64MH2i5gr_I",
-        open: false,
+        open: true,
 }
 
 days[7] = {
