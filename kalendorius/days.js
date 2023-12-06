@@ -39,7 +39,7 @@ days[6] = {
 days[7] = {
         movie: "Kalėdų Karštinė",
         movieLink: "https://youtu.be/jhJYMEzQA-Q?feature=shared&t=7",
-        open: false,
+        open: true,
 }
 
 days[8] = {
