@@ -45,7 +45,7 @@ days[7] = {
 days[8] = {
         movie: "Stebuklas 34-ojoje Gatvėje",
         movieLink: "https://www.youtube.com/watch?v=leDD6Y-Nyqg",
-        open: false,
+        open: true,
 }
 
 days[9] = {
