@@ -51,7 +51,7 @@ days[8] = {
 days[9] = {
         movie: "Vienas Namuose 2\nPasiklydęs Niujorke",
         movieLink: "https://youtu.be/5h9VDUNtoto?feature=shared&t=7",
-        open: false,
+        open: true,
 }
 
 days[10] = {
