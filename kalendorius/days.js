@@ -57,7 +57,7 @@ days[9] = {
 days[10] = {
         movie: "Paskutinės Atostogos",
         movieLink: "https://www.youtube.com/watch?v=JO0NSRPcPFs",
-        open: false,
+        open: true,
 }
 
 days[11] = {
