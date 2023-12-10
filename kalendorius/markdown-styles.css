@@ -52,7 +52,6 @@ hr {
 @media (min-aspect-ratio: 3/4) or (max-height: 835px)  { 
 	h1 {
 		font-size: 65px;
-		margin-top: 0px;
 		font-weight: normal;
 	}
 

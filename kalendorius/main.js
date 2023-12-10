@@ -3,7 +3,7 @@ function renderDay(dayIndex, day) {
         // TODO: Add movie section.
         return `<p id="day-content">${true ? '' : day.movie}` +
                 `<zero-md src="kalendorius/days/${dayIndex}.md">` +
-                `<template><link rel="stylesheet" href="kalendorius/markdown-styles.css" /></template>` +
+                `<template><link rel="stylesheet" href="kalendorius/markdown-styles.css?v=2" /></template>` +
                 `</zero-md>` +
                 `</p> `;
 }

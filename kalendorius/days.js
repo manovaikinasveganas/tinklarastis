@@ -45,19 +45,19 @@ days[7] = {
 days[8] = {
         movie: "Stebuklas 34-ojoje Gatvėje",
         movieLink: "https://www.youtube.com/watch?v=leDD6Y-Nyqg",
-        open: false,
+        open: true,
 }
 
 days[9] = {
         movie: "Vienas Namuose 2\nPasiklydęs Niujorke",
         movieLink: "https://youtu.be/5h9VDUNtoto?feature=shared&t=7",
-        open: false,
+        open: true,
 }
 
 days[10] = {
         movie: "Paskutinės Atostogos",
         movieLink: "https://www.youtube.com/watch?v=JO0NSRPcPFs",
-        open: false,
+        open: true,
 }
 
 days[11] = {
