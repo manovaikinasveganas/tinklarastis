@@ -63,7 +63,7 @@ days[10] = {
 days[11] = {
         movie: "Kalėdų Senelis",
         movieLink: "https://youtu.be/Bx8FX7etF_8?feature=shared&t=1",
-        open: false,
+        open: true,
 }
 
 days[12] = {
