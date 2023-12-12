@@ -69,7 +69,7 @@ days[11] = {
 days[12] = {
         movie: "Atostogos",
         movieLink: "https://www.youtube.com/watch?v=wk9caHO3pW0",
-        open: false,
+        open: true,
 }
 
 days[13] = {
