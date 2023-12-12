@@ -75,7 +75,7 @@ days[12] = {
 days[13] = {
         movie: "Gremlinai",
         movieLink: "https://www.youtube.com/watch?v=GEu13j7hOvQ",
-        open: false,
+        open: true,
 }
 
 days[14] = {
