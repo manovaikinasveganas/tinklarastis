@@ -93,7 +93,7 @@ days[15] = {
 days[16] = {
         movie: "Kol Tu Miegojai",
         movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
-        open: false,
+        open: true,
 }
 
 days[17] = {
