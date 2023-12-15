@@ -91,8 +91,8 @@ days[15] = {
 }
 
 days[16] = {
-        movie: "",
-        movieLink: "",
+        movie: "Kol Tu Miegojai",
+        movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
         open: false,
 }
 
@@ -115,8 +115,8 @@ days[19] = {
 }
 
 days[20] = {
-        movie: "Kol Tu Miegojai",
-        movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
+        movie: "",
+        movieLink: "",
         open: false,
 }
 
