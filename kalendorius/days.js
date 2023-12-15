@@ -87,7 +87,7 @@ days[14] = {
 days[15] = {
         movie: "Milijonas Šventinių Lempučių",
         movieLink: "https://youtu.be/g1A2uWWF1ZU?feature=shared&t=6",
-        open: false,
+        open: true,
 }
 
 days[16] = {
