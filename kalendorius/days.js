@@ -97,9 +97,9 @@ days[16] = {
 }
 
 days[17] = {
-        movie: "",
-        movieLink: "",
-        open: false,
+        movie: "Kaip Grinčas Kalėdas vogė",
+        movieLink: "https://www.youtube.com/watch?v=YQV5Pr7pWtM",
+        open: true,
 }
 
 days[18] = {
