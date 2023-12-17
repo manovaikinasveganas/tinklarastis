@@ -103,7 +103,7 @@ days[17] = {
 }
 
 days[18] = {
-        movie: "",
+        movie: "Lemtingas atsitiktinumas",
         movieLink: "",
         open: false,
 }
