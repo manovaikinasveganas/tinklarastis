@@ -104,8 +104,8 @@ days[17] = {
 
 days[18] = {
         movie: "Lemtingas atsitiktinumas",
-        movieLink: "",
-        open: false,
+        movieLink: "https://www.youtube.com/watch?v=ePU2Ux9JIMM",
+        open: true,
 }
 
 days[19] = {
