@@ -117,7 +117,7 @@ days[19] = {
 days[20] = {
         movie: "Tobulos Kalėdos",
         movieLink: "https://www.youtube.com/watch?v=-TSX_0rwPNc",
-        open: false,
+        open: true,
 }
 
 days[21] = {
