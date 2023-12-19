@@ -111,12 +111,12 @@ days[18] = {
 days[19] = {
         movie: "Kalėdos pagal Kranksus",
         movieLink: "https://www.youtube.com/watch?v=KTzyGuB9V6c",
-        open: false,
+        open: true,
 }
 
 days[20] = {
-        movie: "",
-        movieLink: "",
+        movie: "Tobulos Kalėdos",
+        movieLink: "https://www.youtube.com/watch?v=-TSX_0rwPNc",
         open: false,
 }
 
