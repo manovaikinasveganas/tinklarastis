@@ -134,20 +134,20 @@ days[22] = {
 
 
 days[23] = {
-        movie: "",
-        movieLink: "",
+        movie: "Kalėdų giesmė",
+        movieLink: "https://www.youtube.com/watch?v=VZ3lr3urgDU",
         open: false,
 }
 
 days[24] = {
-        movie: "",
-        movieLink: "",
+        movie: "Tegyvuoja meilė",
+        movieLink: "https://www.youtube.com/watch?v=H9Z3_ifFheQ",
         open: false,
 }
 
 days[25] = {
-        movie: "",
-        movieLink: "",
+        movie: "Tas nuostabus gyvenimas",
+        movieLink: "https://www.youtube.com/watch?v=iLR3gZrU2Xo",
         open: false,
 }
 
