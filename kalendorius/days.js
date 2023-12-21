@@ -127,9 +127,9 @@ days[21] = {
 }
 
 days[22] = {
-        movie: "",
-        movieLink: "",
-        open: false,
+        movie: "Košmaras prieš Kalėdas",
+        movieLink: "https://www.youtube.com/watch?v=wr6N_hZyBCk",
+        open: true,
 }
 
 
