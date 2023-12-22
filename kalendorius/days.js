@@ -136,7 +136,7 @@ days[22] = {
 days[23] = {
         movie: "Kalėdų giesmė",
         movieLink: "https://www.youtube.com/watch?v=VZ3lr3urgDU",
-        open: false,
+        open: true,
 }
 
 days[24] = {
