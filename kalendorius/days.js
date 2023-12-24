@@ -148,6 +148,6 @@ days[24] = {
 days[25] = {
     movie: "Tas nuostabus gyvenimas",
     movieLink: "https://www.youtube.com/watch?v=iLR3gZrU2Xo",
-    open: false,
+    open: true,
 }
 
