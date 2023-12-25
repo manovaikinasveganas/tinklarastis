@@ -113,7 +113,8 @@
 		function setRemainingDays() {
 			today = new Date();
 			var christmas = new Date(today.getFullYear(), 11, 25);
-			if (today.getMonth() == 11 && today.getDate() == 25) {
+			// if (today.getMonth() == 11 && today.getDate() == 25) {
+			if (true) {
 				christmas.setFullYear(christmas.getFullYear() + 1);
 				$("#time-left-text").text("Sveikiname su Kalėdomis!")
 			} else {
