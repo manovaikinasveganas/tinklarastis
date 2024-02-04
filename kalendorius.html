@@ -2,229 +2,121 @@
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
-	<link rel="stylesheet" href="kalendorius/style.css">
-	<script src="kalendorius/days.js?v=23"></script>
-	<script src="kalendorius/main.js"></script>
-	<script src="kalendorius/snow.js"></script>
-	<script>
-		// Amount of Snowflakes
-		var snowMax = 30;
-		// Snowflake Colours
-		var snowColor = ["#DDD", "#EEE"];
-		// Snow Entity
-		var snowEntity = "&#x2022;";
-		// Falling Velocity
-		var snowSpeed = 0.9;
-		// Minimum Flake Size
-		var snowMinSize = 18;
-		// Maximum Flake Size
-		var snowMaxSize = 54;
-		// Refresh Rate (in milliseconds)
-		var snowRefresh = 50;
-		// Additional Styles
-		var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
-	</script>
-	<script src="https://code.jquery.com/jquery-3.7.1.js"
-		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="kalendorius/main.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
+    <link rel="stylesheet" href="kalendorius/style.css?v=2">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-	<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
-	<script
-		src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
-	<!-- Load the element definition -->
-	<!-- <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script> -->
-	<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
-	<script>
-		$(document).ready(function () {
-			ping('kalendorius')
-			setRemainingDays()
+    <!-- Load the element definition -->
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script> -->
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            ping('kalendorius')
+            setRemainingDays()
 
-			document.addEventListener("visibilitychange", function () {
-				console.log("Page in focus")
-				var previousRemainingDays = localStorage.getItem("previousRemainingDays");
-				var currentRemainingDays = getRemainingDays()
-				localStorage.setItem("previousRemainingDays", currentRemainingDays)
-				if (previousRemainingDays && previousRemainingDays != currentRemainingDays) {
-					console.log("Day changed - refreshing")
-					$.ajax({
-						url: 'kalendorius/days.js',
-						headers: {
-							"Pragma": "no-cache",
-							"Expires": -1,
-							"Cache-Control": "no-cache"
-						}
-					}).done(function () {
-						window.location.reload(true);
-					});
-				}
-			})
+            document.addEventListener("visibilitychange", function () {
+                console.log("Page in focus")
+                var previousRemainingDays = localStorage.getItem("previousRemainingDays");
+                var currentRemainingDays = getRemainingDays()
+                localStorage.setItem("previousRemainingDays", currentRemainingDays)
+                if (previousRemainingDays && previousRemainingDays != currentRemainingDays) {
+                    console.log("Day changed - refreshing")
+                    $.ajax({
+                        url: 'kalendorius/days.js',
+                        headers: {
+                            "Pragma": "no-cache",
+                            "Expires": -1,
+                            "Cache-Control": "no-cache"
+                        }
+                    }).done(function () {
+                        window.location.reload(true);
+                    });
+                }
+            })
 
-			for (i = 1; i <= 25; i++) {
-				const dayIndex = i
-				$(`#day${dayIndex}-button`).click(function () {
-					var day = days[dayIndex]
-					if (day && day.open) {
-						$("#modal-content").append(renderDay(dayIndex, day))
-						$("#day-modal").css("display", "block")
-						$("#wreath-title").text(day.movie)
-						$("#wreath-link").attr("href", day.movieLink);
-						ping(`kalendorius-day-${dayIndex}`)
-					} else {
-						console.log("no data")
-					}
-				})
+            for (i = 1; i <= 25; i++) {
+                const dayIndex = i
+                $(`#day${dayIndex}-button`).click(function () {
+                    var day = days[dayIndex]
+                    if (day && day.open) {
+                        $("#modal-content").append(renderDay(dayIndex, day))
+                        $("#day-modal").css("display", "block")
+                        $("#wreath-title").text(day.movie)
+                        $("#wreath-link").attr("href", day.movieLink);
+                        ping(`kalendorius-day-${dayIndex}`)
+                    } else {
+                        console.log("no data")
+                    }
+                })
 
-				if (!days[dayIndex] || !days[dayIndex].open) {
-					$(`#day${dayIndex}-button`).removeClass('day-button');
-					$(`#day${dayIndex}-button`).addClass('day-button-closed');
-				}
+                if (!days[dayIndex] || !days[dayIndex].open) {
+                    $(`#day${dayIndex}-button`).removeClass('day-button');
+                    $(`#day${dayIndex}-button`).addClass('day-button-closed');
+                }
 
-				$("span.close").click(function () {
-					$("#day-modal").css("display", "none")
-					$("#day-content").remove()
-				})
-				$("#day-modal.modal").click(function () {
-					$("#day-modal").css("display", "none")
-					$("#day-content").remove()
-				})
-				$('#modal-content.modal-content').click(function (e) {
-					e.stopPropagation();
-				});
-			}
-		});
+                $("span.close").click(function () {
+                    $("#day-modal").css("display", "none")
+                    $("#day-content").remove()
+                })
+                $("#day-modal.modal").click(function () {
+                    $("#day-modal").css("display", "none")
+                    $("#day-content").remove()
+                })
+                $('#modal-content.modal-content').click(function (e) {
+                    e.stopPropagation();
+                });
+            }
+        });
 
-		$(document).keyup(function (e) {
-			if (event.key == "Escape") {
-				$("span.close").click()
-			}
-		});
+        $(document).keyup(function (e) {
+            if (event.key == "Escape") {
+                $("span.close").click()
+            }
+        });
 
-		function getRemainingDays() {
-			today = new Date();
-			var christmas = new Date(today.getFullYear(), 11, 25);
-			var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
-			var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
-			return daysLeft;
-		}
+        function getRemainingDays() {
+            today = new Date();
+            var christmas = new Date(today.getFullYear(), 11, 25);
+            var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
+            var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
+            return daysLeft;
+        }
 
-		function setRemainingDays() {
-			today = new Date();
-			var christmas = new Date(today.getFullYear(), 11, 25);
-			if (today.getMonth() == 11 && today.getDate() == 25) {
-				christmas.setFullYear(christmas.getFullYear() + 1);
-				$("#time-left-text").text("Sveikiname su Kalėdomis!")
-			} else {
-				var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
-				var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
-				$("#time-left-text").text(`Iki Kalėdų liko ${daysLeft} d.!`)
-			}
-		}
-	</script>
+        function setRemainingDays() {
+            today = new Date();
+            var christmas = new Date(today.getFullYear(), 11, 25);
+            // if (today.getMonth() == 11 && today.getDate() == 25) {
+            if (false) {
+                christmas.setFullYear(christmas.getFullYear() + 1);
+                $("#time-left-text").text("Sveikiname su Kalėdomis!")
+            } else {
+                var oneDayInMilliseconds = 1000 * 60 * 60 * 24;
+                var daysLeft = Math.ceil((christmas.getTime() - today.getTime()) / (oneDayInMilliseconds));
+                $("#time-left-text").text(`Iki Kalėdų liko ${daysLeft} d.!`)
+            }
+        }
+    </script>
 </head>
 
 <body>
-	<div class="vignette" />
-	<div class="container">
-		<p id="time-left-text">Iki kaledų liko XX d.!</p>
-		<!-- <p>Advento kalendorius</p> -->
-		<div class="center">
-			<div id="day1-button" class="day-button">
-				<div class="day-button-cover">1</div>
-			</div>
-			<div id="day2-button" class="day-button">
-				<div class="day-button-cover">2</div>
-			</div>
-			<div id="day3-button" class="day-button">
-				<div class="day-button-cover">3</div>
-			</div>
-			<div id="day4-button" class="day-button">
-				<div class="day-button-cover">4</div>
-			</div>
-			<div id="day5-button" class="day-button">
-				<div class="day-button-cover">5</div>
-			</div>
-			<div id="day6-button" class="day-button">
-				<div class="day-button-cover">6</div>
-			</div>
-			<div id="day7-button" class="day-button">
-				<div class="day-button-cover">7</div>
-			</div>
-			<div id="day8-button" class="day-button">
-				<div class="day-button-cover">8</div>
-			</div>
-			<div id="day9-button" class="day-button">
-				<div class="day-button-cover">9</div>
-			</div>
-			<div id="day10-button" class="day-button">
-				<div class="day-button-cover">10</div>
-			</div>
-			<div id="day11-button" class="day-button">
-				<div class="day-button-cover">11</div>
-			</div>
-			<div id="day12-button" class="day-button">
-				<div class="day-button-cover">12</div>
-			</div>
-			<div id="day13-button" class="day-button">
-				<div class="day-button-cover">13</div>
-			</div>
-			<div id="day14-button" class="day-button">
-				<div class="day-button-cover">14</div>
-			</div>
-			<div id="day15-button" class="day-button">
-				<div class="day-button-cover">15</div>
-			</div>
-			<div id="day16-button" class="day-button">
-				<div class="day-button-cover">16</div>
-			</div>
-			<div id="day17-button" class="day-button">
-				<div class="day-button-cover">17</div>
-			</div>
-			<div id="day18-button" class="day-button">
-				<div class="day-button-cover">18</div>
-			</div>
-			<div id="day19-button" class="day-button">
-				<div class="day-button-cover">19</div>
-			</div>
-			<div id="day20-button" class="day-button">
-				<div class="day-button-cover">20</div>
-			</div>
-			<div id="day21-button" class="day-button">
-				<div class="day-button-cover">21</div>
-			</div>
-			<div id="day22-button" class="day-button">
-				<div class="day-button-cover">22</div>
-			</div>
-			<div id="day23-button" class="day-button">
-				<div class="day-button-cover">23</div>
-			</div>
-			<div id="day24-button" class="day-button">
-				<div class="day-button-cover">24</div>
-			</div>
-			<div id="day25-button" class="day-button">
-				<div class="day-button-cover">25</div>
-			</div>
-
-			<div id="day-modal" class="modal">
-				<div id="modal-content" class="modal-content">
-					<span class="close">&times;</span>
-					<a id="wreath-link" href="" target="_blank" style="align-self: center;">
-						<div class="wreath">
-							Šiandienos Kalėdinis filmas<br>
-							<div id="wreath-title">
-								Vienas namuose<br>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-
-		</div>
-		<div class="footer">
-			<a href="https://augalinismaistas.lt/">www.augalinismaistas.lt</a>
-		</div>
-	</div>
+    <div class="vignette" />
+    <div class="container">
+        <p id="time-left-text">Iki kaledų liko XX d.!</p>
+        <!-- <p>Advento kalendorius</p> -->
+        <p class="text">Iki susitikimo sekantį gruodį!</p>
+        <p class="text">O kol kas, daugiau receptų galite rasti <u><a
+                    href="https://augalinismaistas.lt/receptai/">čia.</a></u>
+        </p>
+        <div class="footer">
+            <a href="https://augalinismaistas.lt/">www.augalinismaistas.lt</a>
+        </div>
+    </div>
 </body>
