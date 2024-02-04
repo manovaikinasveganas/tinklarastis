@@ -13,7 +13,7 @@ header:
 feature_row:
   - image_path: /pav/veganlt-teaser.jpg
     alt: "VeganLT programėlė"
-    title: "VeganLT programėlė – lengvai maisto produktų sudėties patikrai"
+    title: "VeganLT programėlė"
     excerpt: "Puiki naujiena! Google Play pasirodė nauja, lietuviška programėlė skirta greitai ir lengvai patikrinti maisto produktų sudėtyje esančius ingredientus ir priedus, jų tinkamumą vegetariškai/ veganiškai mitybai. Kviečiame išbandyti ir palengvinti savo kasdienius apsipirkimus bei greičiau atrasti augalinę sudėtį turinčius produktus parduotuvių lentynose."
     url: "https://laz.dev/vegan"
     btn_class: "btn--primary"
