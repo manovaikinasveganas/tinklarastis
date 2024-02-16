@@ -53,6 +53,9 @@
       </div>
     </div>
   {% endfor %}
-  <p><a href="receptai/" class="btn {{ f.btn_class }} btn--primary">Daugiau receptų <i class="fa-solid fa-angle-right" style="margin-left: 8px"></i></a></p>
 
+</div>
+
+<div style="width: 100%">
+    <p style="display:flex;justify-content:center;"><a href="receptai/" class="btn {{ f.btn_class }} btn--primary">Daugiau receptų <i class="fa-solid fa-angle-right" style="margin-left: 8px"></i></a></p>
 </div>
