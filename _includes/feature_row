@@ -10,6 +10,9 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
+          {% if f.url %}
+            <a href="{{ f.url | relative_url }}">
+          {% endif %}
           <div class="archive__item-teaser">
             <img src="{{ f.image_path | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
@@ -17,6 +20,9 @@
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
           </div>
+          {% if f.url %}
+            </a>
+          {% endif %}
         {% endif %}
 
         <div class="archive__item-body">
@@ -48,4 +54,8 @@
     </div>
   {% endfor %}
 
+</div>
+
+<div style="width: 100%">
+    <p style="display:flex;justify-content:center;"><a href="receptai/" class="btn {{ f.btn_class }} btn--primary">Daugiau receptų <i class="fa-solid fa-angle-right" style="margin-left: 8px"></i></a></p>
 </div>

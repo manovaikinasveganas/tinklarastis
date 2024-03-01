@@ -29,7 +29,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 200px rgba(120, 120, 150, 0.9) inset;
+    /* box-shadow: 0 0 200px rgba(120, 120, 150, 0.9) inset; */
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
 .footer {
@@ -47,6 +48,7 @@ body {
     font-family: Mulish;
     color: #DDD;
     margin: 1px;
+    font-size: 1.9em;
 }
 
 .text a {
@@ -63,6 +65,7 @@ body {
 .footer a {
     text-decoration: none;
     color: #DDD;
+    font-size: 1.5em;
 }
 
 .footer a:visited {
@@ -137,6 +140,13 @@ a:active {
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     .vignette {
         box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    }
+
+    .text {
+        font-family: Mulish;
+        color: #DDD;
+        margin: 1px;
+        font-size: 1em;
     }
 }
 
