@@ -117,7 +117,7 @@ footer:
       url: "https://www.facebook.com/ManoVaikinasVeganas"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/mano_vaikinas_veganas/"
+      url: "https://www.instagram.com/mano_vyras_veganas/"
     - label: "Atrask tvarius produktus"
       icon: "fas fa-fw fa-link"
       url: "https://popakuotės.lt"
@@ -134,7 +134,7 @@ social:
   name:  # If the user or organization name differs from the site's name
   links:
     - "https://www.facebook.com/ManoVaikinasVeganas"
-    - "https://www.instagram.com/mano_vaikinas_veganas/"
+    - "https://www.instagram.com/mano_vyras_veganas/"
 
 collections:
   receptai:
