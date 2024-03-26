@@ -1,6 +1,6 @@
 ---
 title: >-
-  Lietiniai su augaliniu sojos "faršu" ir "sūriu"
+  Lietiniai su sojos "faršu" ir augaliniu "sūriu"
 excerpt:
 category: blynai
 header:
