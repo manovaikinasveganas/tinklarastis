@@ -35,7 +35,7 @@ toc_icon: "list"
 ## Paruošimo eiga
 
 1. Susmulkiname svogūną ir apkepame keptuvėje su aliejumi.
-2. Tofu supjaustome norimo dydžio kubeliais ir apkepame keptuvėje su aliejumi. Dėl skonio tikrai verta pasistengti ir kantriai vartyti, kad apkeptų visos tofu kubelio pusės. :)
+2. Tofu supjaustome norimo dydžio kubeliais ir apkepame keptuvėje su aliejumi. Dėl skonio tikrai verta pasistengti ir kantriai vartyti, kad apkeptų visos tofu kubelio pusės.
 3. Į puodą sudedame apkeptą tofu ir svogūnus, bei suberiame plautus ir šiek tiek susmulkintus špinatus. Užpilame kokosų pienu ir uždengus dangčiu patroškiname keletą minučių, kol šiek tiek susileis špinatai.
 4. Sudedame prieskonius ir gerai išmaišome. Vis pamaišant patroškiname dar keletą minučių.
 5. Pateikiame su virtais basmati ryžiais.
