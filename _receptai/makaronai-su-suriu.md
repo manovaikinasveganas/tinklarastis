@@ -1,11 +1,27 @@
-# "Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen." PERKELTA
+---
+title: >-
+  Makaronai su augaliniu sūriu
+excerpt:
+category: pagrindiniai-patiekalai
+published: false
+header:
+  teaser: /pav/makaronai_su_suriu-teaser.jpg
+  image: /pav/makaronai_su_suriu.jpg
+tags:
+ - 
+
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+---
+
+"Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen."
 
 Legendinė frazė iš legendinio filmo "Vienas Namuose".
 
-Pirmasis Gruodžio šeštadienis, tad pasiruoškime smagiam vakarui su klasikine komedija. Gaminam karštus makaronus su augaliniu sūriu ir orkaitėje apkeptų, traškių džiūvėsėlių plutele. Jaukiai įsitaisome prie televizoriaus su šeima ir pasineriam į nostalgišką, Kalėdinę atmosferą kartu su Kevinu Makalesteriu.
+Pasiruoškime smagiam vakarui su klasikine komedija. Pasigaminkime karštus makaronus su augaliniu sūriu ir orkaitėje apkeptų, traškių džiūvėsėlių plutele. Jaukiai įsitaisykime prie televizoriaus su šeima ir pasinerkim į nostalgišką, Kalėdinę atmosferą kartu su Kevinu Makalesteriu.
 
 ## Jums reikės (4 porcijoms)
-<hr/>
 
 * 500 g makaronų
 * 1 didelio svogūno
@@ -15,15 +31,14 @@ Pirmasis Gruodžio šeštadienis, tad pasiruoškime smagiam vakarui su klasikine
 * 300 g augalinio sūrio
 * Aliejaus kepimui
 * Žiupsnio juodųjų pipirų ir druskos
-  
+
 ### Džiūvėsėliams
 
 * 4-5 forminės duonos gabalėlių
 * 1 v.š. maistinių mielių
 * Žiupsnio kepintų česnakų miltelių ir juodųjų pipirų 
 
-## Paruošimas
-<hr/>
+## Paruošimo eiga
 
 1. Išverdame makaronus pasūdytame vandenyje.
 2. Orkaitę įkaitiname iki 200C temperatūros.
@@ -35,10 +50,5 @@ Pirmasis Gruodžio šeštadienis, tad pasiruoškime smagiam vakarui su klasikine
 8. Duonos riekeles suplėšome mažais gabalėliais ir dedame į virtuvinį mikserį, įdedame maistinių mielių ir sutriname mikseriu iki smulkių, birių trupinių. 
 9. Makaronus su augaliniu sūriu dedame į kepimui orkaitėje pritaikytą formą. Makaronų paviršių gausiai pabarstome duonos trupinukais. 
 10. Dedame makaronus kepti į orkaitę. Kepame apie 10-15 min 200C temperatūroje, kol paviršiuje esantys duonos trupinukai švelniai paruduoja. 
-
-Skanaus šventinio laukimo ir jaukios Kalėdinio filmo peržiūros :)
-
-P.S. Paspaudus ant vainiko su filmo rekomendacija galite pasižiūrėti rekomenduojamo filmo trailer'į. :)
-
-![name](../../pav/makaronai_su_suriu.jpg)
-
+   
+Skanaus!

@@ -1,9 +1,32 @@
-# Laikas kepti meduolius! PERKELTA
+---
+title: >-
+  Imbieriniai meduoliai
+post_id: 123123123123
+excerpt:
+category: desertai
+published: false
+categories:
+ - desertai
+ - meduoliai
+ - imbieriniai meduoliai
+header:
+  teaser: /pav/meduoliai-teaser.jpg
+  image: /pav/meduoliai.jpg
+tags:
+ - desertai
+ - meduoliai 
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+published: false
+# image: 
+#   path: /pav/surio-tortas-1.jpg
+#   thumbnail: /pav/surio-tortas-1.jpg
+---
 
 Kokios gi Kalėdos be imbierinių meduolių kepimo? Jie ne tik papuošia Kalėdinį stalą, bet ir gali tapti miela, rankų darbo dovana. Mūsų namuose tai jau tradicija - kepti, dekoruoti naminius meduolius ir vežtis į svečius kaip dovaną. O ką jau kalbėti apie smagiai praleistą laiką kartu su šeima, kai visi kartu kočioja tešlą, spaudžia formeles ir kantriai, kruopščiai puošia kvepiančius sausainukus... Oi tas Kalėdinio laikotarpio jaukumas... :)
 
 ## Jums reikės:
-<hr/>
 
 * 400 g miltų
 * 170 g sviesto
@@ -24,7 +47,6 @@ Glajui:
 * Matcha miltelių (ruošiant žalią glajų)
 
 ## Paruošimas
-<hr/>
 
 1. Nedideliame puode ištirpiname sviestą. Suberiame cukrų ir ištirpiname maišydami. Supilame melasą, kaitindami maišome, kad viskas išsimaišytų į vientisą masę.
 2. Pasiruošiame atskirame indelyje prieskonių mišinį: dedame 0,5 a.š. trinto muskato, 0,5 a.š. kardamono, ir 1/4 šaukštelio kvapiųjų pipirų. Išmaišome.
@@ -35,6 +57,4 @@ Glajui:
 7. Meduolius kepame orkaitėje, įkaitintoje iki 180°C, apie 11-15 min. Laikas priklausys nuo jūsų formelių dydžio ir iškočiotos tešlos storio.
 8. Meduoliams atvėsus puošiame juos cukraus glajumi, kurį paruošit tiesiog sumaišę cukraus pudrą su trupučiu vandens. Jei norisi dekoruoti su daugiau spalvų, paruoštą glajų papildykite burokėlių ar matcha arbatos milteliais.
 
-Skanaus ir jaukaus šventinio laukimo :)
-
-![name](../../pav/meduoliai.jpg)
+Skanaus!

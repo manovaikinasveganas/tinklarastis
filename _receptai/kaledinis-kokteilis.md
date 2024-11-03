@@ -1,9 +1,23 @@
-# Labai Kalėdinis kokteilis PERKELTA
+---
+title: >-
+  Kalėdinis kokteilis
+excerpt:
+category: gėrimai
+published: false
+header:
+  teaser: /pav/kokteilis-teaser.jpg
+  image: /pav/kokteilis.jpg
+tags:
+ - Gėrimai
+ - Kokteilis
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+---
 
- Gurkšnodami šį kokteilį tikrai pajusite artėjančių Kalėdų dvasią. Tai itin švelnios ir kreminės tekstūros kokteilis, maloniai kvepiantis cinamonu ir subtiliu muskato riešutų bei gvazdikėlių aromatu. Tačiau jo privalumai tikrai neapsiriboja tik geru skoniu, malonia tekstūra ir Kalėdų tradiciniais prieskoniais. Dėl sudėtyje esančių sezamų ir kanapių sėklų, šis kokteilis dar ir labai maistingas. 😊
+Gurkšnodami šį kokteilį tikrai pajusite artėjančių Kalėdų dvasią. Tai itin švelnios ir kreminės tekstūros kokteilis, maloniai kvepiantis cinamonu ir subtiliu muskato riešutų bei gvazdikėlių aromatu. Tačiau jo privalumai tikrai neapsiriboja tik geru skoniu, malonia tekstūra ir Kalėdų tradiciniais prieskoniais. Dėl sudėtyje esančių sezamų ir kanapių sėklų, šis kokteilis dar ir labai maistingas. 😊
 
 ## Jums reikės (2-3 porcijos)
-<hr/>
 
 * 3 virtuvinių šaukštų sezamo sėklų
 * 4 džiovintų figų
@@ -18,12 +32,9 @@
 * 400 ml avižų pieno
 
 ## Paruošimas
-<hr/>
 
 1. Jei jūsų virtuvinis blenderis nėra itin galingas, rekomenduojame iš anksto užmerkti sezamo sėklas ir datules. Maždaug 4-8 valandoms. 
 2. Visus ingredientus sudėkite į indą, užpilkite augaliniu pienu ir įspauskite citrinos sulčių.
 3. Trinkite virtuviniu blenderiu dideliu greičiu, kol viskas susiplaks iki vientisos, kreminės konsistencijos.
 
-Skanaus šventinio laukimo :)
-
-![name](../../pav/kokteilis.jpg)
+Skanaus!

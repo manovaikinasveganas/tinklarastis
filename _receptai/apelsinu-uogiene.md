@@ -1,16 +1,29 @@
-# Apelsinų uogienė PERKELTA
+---
+title: >-
+  Apelsinų uogienė
+excerpt:
+category: desertai
+published: false
+header:
+  teaser: /pav/apelsinu-uogiene-teaser.jpg
+  image: /pav/apelsinu-uogiene.jpg
+tags:
+ - Uogienė
+ - Desertas
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+---
 
 Aromatinga ir išskirtinio skonio uogienė, kuri paruošiama visai nesudėtingai. Puiki idėja ir rankų darbo dovanai. 😊
 
 ## Jums reikės
-<hr/>
 
-* 2700 g apelsinų su žievelėmis, arba 1900&nbsp;g be žievelių. 
+* 2700 g apelsinų su žievelėmis, arba 1900 g be žievelių. 
 * ~250 g vandens 
 * 400 g cukraus 
 
 ## Paruošimas
-<hr/>
 
 1. Nulupame apelsinus, padaliname skiltelėmis ir išimame kauliukus. Kauliukai skiltelėse gerai matosi laikant skiltelę priešais šviesą.
 2. Dedame apelsinus į puodą, beriame cukrų ir įpilame vandens.
@@ -18,7 +31,3 @@ Aromatinga ir išskirtinio skonio uogienė, kuri paruošiama visai nesudėtingai
 4. Su virtuviniu trintuvu sutriname apelsinus iki vientisos masės. Verdame toliau, kol sutirštės.
 5. Išpilstome karštą apelsinų uogienę į švarius stiklainius, sandariai užsukame ir pastatome apverstus ant dangtelių. 
 6. Uogienei atvėsus dedame uogienę į šaldytuvą.
-
-Skanaus šventinio laukimo!
-
-![name](../../pav/apelsinu-uogiene.jpg)

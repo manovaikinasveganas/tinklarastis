@@ -1,10 +1,26 @@
-# Karštas šokoladas PERKELTA
+---
+title: >-
+  Karštas šokoladas
+post_id: 123123123123
+excerpt:
+category: desertai
+categories:
+ - desertai
+published: false
+header:
+  teaser: /pav/karstas-sokoladas-teaser.jpg
+  image: /pav/tofu_desertas.jpg
+tags:
+ - desertai
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
 
-Sveikiname visus su šv. Kalėdomis! Linkime jums jaukių, įsimintinų švenčių, malonių ir šiltų akimirkų su šeima ir artimaisiais. 😊
-Tikime, kad jūsų šventiniai stalai pripildyti įvairiausiais augaliniais patiekalais, tačiau jei iki pilnos laimės truktų tik kažko saldaus, dalinamės nesudėtingai paruošiamu karštu šokoladu, kuris tikime, jūsų šventėms suteiks dar daugiau jaukumo. 😊
+---
+
+Jei iki pilnos laimės truktų tik kažko saldaus, dalinamės nesudėtingai paruošiamu karštu šokoladu. Puodelis šio karšto deserto tikrai suteiks dar daugiau jaukumo vėsiems vakarams.
 
 ## Jums reikės (2 porcijos)
-<hr/>
 
 * 100 g juodojo šokolado
 * 240 ml riebaus kokosų pieno (24% riebumo)
@@ -12,11 +28,8 @@ Tikime, kad jūsų šventiniai stalai pripildyti įvairiausiais augaliniais pati
 * Riešutų arba cukruotų apelsinų žievelių gabalėliai (nebūtina, naudojama papuošimui)
 
 ## Paruošimas
-<hr/>
 
 1. Ištirpiname nedideliame inde juodąjį šokoladą ir supilame kokosų pieną. Įberiame cukraus pudros ir išmaišome. Viską kartu keletą minučių pakaitiname maišant.
 2. Patiekiame nedideliuose puodeliuose, paviršių pabarstant riešutų arba cukruotų apelsinų žievelių gabalėliais.
 
-Skanių ir linksmų švenčių!
-
-![name](../../pav/sokoladas.jpg)
+Skanaus!

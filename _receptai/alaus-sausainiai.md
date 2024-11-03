@@ -1,11 +1,25 @@
-# Alaus sausainiai PERKELTA
+---
+title: >-
+  Alaus sausainiai
+excerpt:
+category: desertai
+published: false
+header:
+  teaser: /pav/alaus_sausainiai-teaser.jpg
+  image: /pav/alaus_sausainiai.jpg
+tags:
+ - Desertai
+ - Sausainiai
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+---
 
-Ar esate ragavę alaus sausainių? Jei dar ne, rekomenduoju juos įsitraukti į šių metų šventinio stalo meniu. Alaus tešla yra itin lengvai ir greitai paruošiama ir nustebina jai būdingu purumu, o iškepti sausainiai pasižymi traškumu ir lengvumu. 
+Alaus tešla yra itin lengvai ir greitai paruošiama ir nustebina jai būdingu purumu, o iškepti sausainiai pasižymi traškumu ir lengvumu. 
 
 Naudojant tą patį tešlos receptą galite pasiruošti net dviejų skonių sausainukus: saldžius, pabarstytus cukrumi ir aguonomis, ir sūrius su kmynais, sezamais ir druska. Sūrūs sausainukai idealiai tiks mirkyti į namuose ruoštą humusą ar kitą užtepėlę, o saldus sausainių variantas puikiai tiks pasimėgauti prie kavos. 
 
 ## Jums reikės
-<hr/>
 
 * 330 ml nealkoholinio alaus
 * 200 g augalinio sviesto
@@ -16,8 +30,7 @@ Naudojant tą patį tešlos receptą galite pasiruošti net dviejų skonių saus
 * Saldiems sausainiams: cukraus ir aguonų
 * Sūriems sausainiams: kmynų, sezamo, druskos
 
-## Paruošimas
-<hr/>
+## Paruošimo eiga
 
 1. Išlydome augalinį sviestą. 
 2. Inde sumaišome augalinį, ištirpintą sviestą su nealkoholiniu alumi. 
@@ -30,6 +43,4 @@ Naudojant tą patį tešlos receptą galite pasiruošti net dviejų skonių saus
 9. Tešlą pjaustome banguotu peiliuku į juosteles ir dedame ant kepimo skardos (skardą plonai, tolygiai pastepame aliejumi arba uždengiame kepimo popieriumi).
 10. Sausainius kepame apie 5-8 min iki 180C įkaitintoje orkaitėje, kol sausainiai gražiai paruduos.
 
-   Skanaus ir lengvo pasiruošimo šventėms! :)
-
-![name](../../pav/alaus_sausainiai.JPG)
+Skanaus!

@@ -1,11 +1,30 @@
-# Keptų paprikų ir&nbsp;saulėgrąžų&nbsp;užtepėlė PERKELTA
+---
+title: >-
+  Keptų paprikų ir saulėgrąžų užtepėlė
+excerpt:
+category: užkandžiai
+published: false
+header:
+  teaser: /pav/papriku_uztepele-teaser.jpg
+  image: /pav/papriku_uztepele.jpg
+tags:
+ - Humusas
+ - Užtepėlė
+ - Užkandžiai
 
-Vos tik atėjus gruodžiui mintyse pradeda kirbėti mintys, o ką šiemet ruošime Kūčių ir Kalėdų šventiniam stalui. Juk kasmet norisi išbandyti kažką naujo, papildyti tradicinį stalą naujais skoniais ir originaliais akcentais. Kad idėjų nepritruktų, dalinuosi gardžios ir maistingos, orkaitėje keptų paprikų ir saulėgrąžų užtepėlės receptu. 
+toc: true
+toc_label: "Turinys"
+toc_icon: "list"
+# image: 
+#   path: /pav/surio-tortas-1.jpg
+#   thumbnail: /pav/surio-tortas-1.jpg
+---
 
-Užtepėlė skaniausia paruošta šviežiai ir valgoma tą pačią dieną, tačiau pažadu, paruošti ją neužtruks ilgai ir net šventinį Kūčių ar Kalėdų rytą greitai pasiruošite skanią užtepėlę, kuri taip puikiai tiks su duona ar trapučiu.
+Dalinamės gardžios ir maistingos, orkaitėje keptų paprikų ir saulėgrąžų užtepėlės receptu. 
+
+Užtepėlė skaniausia paruošta šviežiai ir valgoma tą pačią dieną, tačiau pažadam, kad paruošti ją neužtruks ilgai, o ji taip puikiai tiks su duona ar trapučiu.
 
 ## Jums reikės
-<hr/>
 
 * 200 g saulėgrąžų lukštentų sėklų
 * Dviejų saldžiųjų paprikų
@@ -19,13 +38,13 @@ Užtepėlė skaniausia paruošta šviežiai ir valgoma tą pačią dieną, tači
 * Žiupsnelio čili dribsnių
 * Papuošimui: truputis keptos, marinuotos ar šviežios paprikos gabalėlių, sezamų sėklų ir laiškinių česnakų.
 
-## Paruošimas
-<hr/>
+## Paruošimo eiga
 
 1. Saulėgrąžų sėklas mirkome vandenyje bent apie valandą. 
 2. Supjaustome paprikas į keturias dalis ir pomidoriukus perpjauname per pusę. Apšlakstę aliejumi kepame orkaitėje (įkaitintoje iki 200°C, ~30 min).
 3. Dedame į trintuvą saulėgrąžų sėklas, keptas paprikas ir pomidorus. Įpilame alyvuogių aliejaus ir beriame prieskonius. Viską sutriname. Nebūtina sutrinti iki visiškai lygios, kreminės tekstūros, skaniai jaučiasi ir traškumo turinti užtepėlė su smulkiais saulėgrąžų gabaliukais.
 7. Tepame paruoštą užtepėlę ant duonos riekelių, trapučių. Papuošimui sumuštinukus pabarstome sezamais, laiškiniais česnakais ir smulkiais orkaitėje keptų, marinuotų ar šviežių paprikų gabalėliais.
 
-![name](../../pav/papriku_uztepele.jpg)
+Skanaus!
+
 
