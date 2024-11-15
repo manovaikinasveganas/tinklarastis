@@ -1,14 +1,19 @@
 html {
     height: 100%;
-    background: rgb(36, 49, 80);
+    /* background: rgb(36, 49, 80); */
     /* background: linear-gradient(180deg, rgba(36,49,80,1) 0%, rgba(238,238,238,1) 100%); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(254, 233, 232, 1) 50%);
     padding: 0px;
     margin: 0px;
 }
 
 body {
     height: 100%;
-    background-color: #000;
+    background-color: #FEE9E8;
+    background: url("background.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 1500px;
     padding: 0px;
     margin: 0px;
 }
@@ -16,7 +21,9 @@ body {
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     body {
-        /* background-color: red; */
+        /* background: rgb(255, 255, 255); */
+        /* background-color: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(254, 233, 232, 1) 100%); */
+        /* background-color: #FEE9E8; */
         /* background-size: 100%; */
         /* background-position: 0% 0%; */
     }
@@ -30,7 +37,7 @@ body {
     width: 100%;
     height: 100%;
     /* box-shadow: 0 0 200px rgba(120, 120, 150, 0.9) inset; */
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset;
 }
 
 .footer {
@@ -38,10 +45,26 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #DDD;
+    color: #757575;
     text-align: center;
     padding-bottom: 15px;
     font-family: Mulish;
+}
+
+.footer a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #121212;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.footer a:visited {
+    color: #757575;
+    text-decoration: none;
 }
 
 .text {
@@ -60,17 +83,6 @@ body {
 .text a:visited {
     color: #ADF;
     text-decoration: underline;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #DDD;
-    font-size: 1.5em;
-}
-
-.footer a:visited {
-    color: #DDD;
-    text-decoration: none;
 }
 
 .wreath {
@@ -92,7 +104,8 @@ body {
     color: white;
     text-shadow: #000 0px 0 15px, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     transition: transform 0.5s;
-    z-index: 10;
+    z-index: 100;
+    position: relative;
 }
 
 .wreath a {
@@ -139,7 +152,7 @@ a:active {
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     .vignette {
-        box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+        box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset;
     }
 
     .text {
@@ -171,7 +184,7 @@ a:active {
     /* flex-shrink: 2; */
 }
 
-#day-content {
+#day-text-content {
     display: flex;
     /* flex-direction: row; */
     flex-flow: row wrap;
@@ -182,15 +195,16 @@ a:active {
     text-align: center;
     font-family: Great Vibes;
     font-size: 100px;
-    color: white;
+    color: #fff;
+    /* color: #3D2F2A; */
     margin: 10px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #2B303C, 1px -1px 0 #2B303C, -1px 1px 0 #2B303C, 1px 1px 0 #2B303C;
 }
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     #time-left-text {
         font-size: 55px;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; */
     }
 }
 
@@ -242,7 +256,7 @@ a:active {
 .day-button {
     flex: 1 0 17%;
     border: 1px solid;
-    border-color: #000F;
+    /* border-color: #000F; */
     /* border-radius: 20px; */
     /* width: 50px; */
     /* max-height: 50px; */
@@ -265,7 +279,7 @@ a:active {
 
 .day-button-closed {
     flex: 1 0 17%;
-    border: 1px solid;
+    border: 0px solid;
     border-color: #000F;
     /* border-radius: 20px; */
     /* width: 50px; */
@@ -274,7 +288,7 @@ a:active {
     margin: 1% 0px;
     text-align: center;
     font-family: Mountains of Christmas;
-    color: #AAA;
+    color: #fff;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -283,16 +297,17 @@ a:active {
 
     max-width: 200px;
     font-size: 100px;
-    text-shadow: #000 0px 0 15px, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* text-shadow: #000 0px 0 15px, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .day-button-closed>.day-button-cover {
-    background-color: #24315088;
-    color: #AAA;
+    background-color: #fff7;
+    color: #FFF;
 }
 
 .day-button-closed:hover>.day-button-cover {
-    background-color: #243150FF;
+    background-color: #fff8;
+    cursor: not-allowed;
 }
 
 .day-button:hover>.day-button-cover {
@@ -302,7 +317,7 @@ a:active {
 
 .day-button:hover {
     /* background-color: #222; */
-    background-color: #243150;
+    background-color: #363B49;
 }
 
 .day-button-cover {
@@ -317,7 +332,7 @@ a:active {
     /* border-radius: 20px; */
     /* width: 50px; */
     /* max-height: 50px; */
-    background-color: #EFF6;
+    background-color: #fffd;
     text-align: center;
     font-family: Mountains of Christmas;
     color: white;
@@ -380,7 +395,7 @@ a:active {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: auto;
+    overflow: hidden;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
@@ -429,4 +444,61 @@ a:active {
 
 .invisible {
     display: none;
+}
+
+.column-image {
+    float: left;
+    width: 38vw;
+}
+
+.column-text {
+    float: left;
+    width: 40vw;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.down-arrow {
+    position: relative;
+    top: 70vh;
+    left: 74%;
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 3px;
+    animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
 }

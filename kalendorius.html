@@ -2,12 +2,32 @@
 <html>
 
 <head>
-    <script src="kalendorius/main.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
-    <link rel="stylesheet" href="kalendorius/style.css?v=2">
+    <link rel="stylesheet" href="kalendorius/style.css">
+    <script src="kalendorius/days.js?v=25"></script>
+    <script src="kalendorius/main.js"></script>
+    <script src="kalendorius/snow.js?v=2"></script>
+    <script>
+        // Amount of Snowflakes
+        var snowMax = 30;
+        // Snowflake Colours
+        var snowColor = ["#DDD", "#EEE"];
+        // Snow Entity
+        var snowEntity = "&#x2022;";
+        // Falling Velocity
+        var snowSpeed = 0.9;
+        // Minimum Flake Size
+        var snowMinSize = 18;
+        // Maximum Flake Size
+        var snowMaxSize = 54;
+        // Refresh Rate (in milliseconds)
+        var snowRefresh = 50;
+        // Additional Styles
+        var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
+    </script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
@@ -65,6 +85,7 @@
                 $("span.close").click(function () {
                     $("#day-modal").css("display", "none")
                     $("#day-content").remove()
+                    $("#day-image").remove()
                 })
                 $("#day-modal.modal").click(function () {
                     $("#day-modal").css("display", "none")
@@ -93,8 +114,7 @@
         function setRemainingDays() {
             today = new Date();
             var christmas = new Date(today.getFullYear(), 11, 25);
-            // if (today.getMonth() == 11 && today.getDate() == 25) {
-            if (false) {
+            if (today.getMonth() == 11 && today.getDate() == 25) {
                 christmas.setFullYear(christmas.getFullYear() + 1);
                 $("#time-left-text").text("Sveikiname su Kalėdomis!")
             } else {
@@ -111,12 +131,92 @@
     <div class="container">
         <p id="time-left-text">Iki kaledų liko XX d.!</p>
         <!-- <p>Advento kalendorius</p> -->
-        <p class="text">Iki susitikimo sekantį gruodį!</p>
-        <p class="text">O kol kas, daugiau receptų galite rasti <u><a
-                    href="https://augalinismaistas.lt/receptai/">čia.</a></u>
-        </p>
+        <div class="center">
+            <div id="day1-button" class="day-button">
+                <div class="day-button-cover">1</div>
+            </div>
+            <div id="day2-button" class="day-button">
+                <div class="day-button-cover">2</div>
+            </div>
+            <div id="day3-button" class="day-button">
+                <div class="day-button-cover">3</div>
+            </div>
+            <div id="day4-button" class="day-button">
+                <div class="day-button-cover">4</div>
+            </div>
+            <div id="day5-button" class="day-button">
+                <div class="day-button-cover">5</div>
+            </div>
+            <div id="day6-button" class="day-button">
+                <div class="day-button-cover">6</div>
+            </div>
+            <div id="day7-button" class="day-button">
+                <div class="day-button-cover">7</div>
+            </div>
+            <div id="day8-button" class="day-button">
+                <div class="day-button-cover">8</div>
+            </div>
+            <div id="day9-button" class="day-button">
+                <div class="day-button-cover">9</div>
+            </div>
+            <div id="day10-button" class="day-button">
+                <div class="day-button-cover">10</div>
+            </div>
+            <div id="day11-button" class="day-button">
+                <div class="day-button-cover">11</div>
+            </div>
+            <div id="day12-button" class="day-button">
+                <div class="day-button-cover">12</div>
+            </div>
+            <div id="day13-button" class="day-button">
+                <div class="day-button-cover">13</div>
+            </div>
+            <div id="day14-button" class="day-button">
+                <div class="day-button-cover">14</div>
+            </div>
+            <div id="day15-button" class="day-button">
+                <div class="day-button-cover">15</div>
+            </div>
+            <div id="day16-button" class="day-button">
+                <div class="day-button-cover">16</div>
+            </div>
+            <div id="day17-button" class="day-button">
+                <div class="day-button-cover">17</div>
+            </div>
+            <div id="day18-button" class="day-button">
+                <div class="day-button-cover">18</div>
+            </div>
+            <div id="day19-button" class="day-button">
+                <div class="day-button-cover">19</div>
+            </div>
+            <div id="day20-button" class="day-button">
+                <div class="day-button-cover">20</div>
+            </div>
+            <div id="day21-button" class="day-button">
+                <div class="day-button-cover">21</div>
+            </div>
+            <div id="day22-button" class="day-button">
+                <div class="day-button-cover">22</div>
+            </div>
+            <div id="day23-button" class="day-button">
+                <div class="day-button-cover">23</div>
+            </div>
+            <div id="day24-button" class="day-button">
+                <div class="day-button-cover">24</div>
+            </div>
+            <div id="day25-button" class="day-button">
+                <div class="day-button-cover">25</div>
+            </div>
+
+            <div id="day-modal" class="modal">
+                <div id="modal-content" class="modal-content">
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+
+        </div>
         <div class="footer">
-            <a href="https://augalinismaistas.lt/">www.augalinismaistas.lt</a>
+            <a href="https://augalinismaistas.lt/" target="_blank">🌱 augalinismaistas.lt</a>
         </div>
     </div>
 </body>
