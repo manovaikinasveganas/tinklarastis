@@ -1,75 +1,75 @@
 var days = []
 
 days[1] = {
-    movie: "Šeimos Galva",
-    movieLink: "https://www.youtube.com/watch?v=Hzw-p2PfBeU",
-    open: true,
+    movie: "Edvardas Žirkliarankis",
+    movieLink: "https://www.youtube.com/watch?v=TBHIO60whNw",
+    open: false,
 }
 
 days[2] = {
-    movie: "Vienas Namuose",
-    movieLink: "https://youtu.be/Fmih-zWIjGY?feature=shared&t=2",
-    open: true,
+    movie: "Bridžitos Džones dienoraštis",
+    movieLink: "https://www.youtube.com/watch?v=xjlKnDWZYzc",
+    open: false,
 }
 
 days[3] = {
-    movie: "Nuostabios Kalėdos",
-    movieLink: "https://youtu.be/bsNIJd45jYM?feature=shared&t=10",
-    open: true,
+    movie: "Neklaužados ir geručiai",
+    movieLink: "https://www.youtube.com/watch?v=W9VgnoenO4g",
+    open: false,
 }
 
 days[4] = {
-    movie: "Ketverios Kalėdos",
-    movieLink: "https://youtu.be/6veo6Js7HUE?feature=shared&t=6",
-    open: true,
+    movie: "Kietas riešutėlis",
+    movieLink: "https://www.youtube.com/watch?v=jaJuwKCmJbY",
+    open: false,
 }
 
 days[5] = {
-    movie: "Paskutinės Kalėdos",
-    movieLink: "https://www.youtube.com/watch?v=z9CEIcmWmtA",
-    open: true,
+    movie: "Krampus",
+    movieLink: "https://www.youtube.com/watch?v=h6cVyoMH4QE",
+    open: false,
 }
 
 days[6] = {
-    movie: "Seni Bambekliai",
-    movieLink: "https://www.youtube.com/watch?v=64MH2i5gr_I",
-    open: true,
+    movie: "Something from Tiffany's",
+    movieLink: "https://www.youtube.com/watch?v=G5u8oySXNTk",
+    open: false,
 }
 
 days[7] = {
-    movie: "Kalėdų Karštinė",
-    movieLink: "https://youtu.be/jhJYMEzQA-Q?feature=shared&t=7",
-    open: true,
+    movie: "Kvaišų šeimynėlė švenčia Kalėdas. 1989 m.",
+    movieLink: "https://www.youtube.com/watch?v=NBTTipJX-h4",
+    open: false,
 }
 
 days[8] = {
-    movie: "Stebuklas 34-ojoje Gatvėje",
-    movieLink: "https://www.youtube.com/watch?v=leDD6Y-Nyqg",
-    open: true,
+    movie: "Apsikeitimas vietomis. 1983 m.",
+    movieLink: "https://www.youtube.com/watch?v=Fupg2r1EJ9w",
+    open: false,
 }
 
 days[9] = {
-    movie: "Vienas Namuose 2\nPasiklydęs Niujorke",
-    movieLink: "https://youtu.be/5h9VDUNtoto?feature=shared&t=7",
-    open: true,
+    movie: "Denis. Grėsmė visuomenei. Kalėdos",
+    movieLink: "https://www.youtube.com/watch?v=5pq2KIL6Vy4",
+    open: false,
 }
 
 days[10] = {
-    movie: "Paskutinės Atostogos",
-    movieLink: "https://www.youtube.com/watch?v=JO0NSRPcPFs",
-    open: true,
+    movie: "Berniukas vardu Kalėdos",
+    movieLink: "https://www.youtube.com/watch?v=aFI_aiidke0",
+    open: false,
 }
 
 days[11] = {
-    movie: "Kalėdų Senelis",
-    movieLink: "https://youtu.be/Bx8FX7etF_8?feature=shared&t=1",
-    open: true,
+    movie: "Kalėdos (Noel)",
+    movieLink: "https://www.youtube.com/watch?v=8Dcq9P8l3B8",
+    open: false,
 }
 
 days[12] = {
-    movie: "Atostogos",
-    movieLink: "https://www.youtube.com/watch?v=wk9caHO3pW0",
-    open: true,
+    movie: "Tyli naktis",
+    movieLink: "https://www.youtube.com/watch?v=MukZcsN1ySU",
+    open: false,
 }
 
 days[13] = {
