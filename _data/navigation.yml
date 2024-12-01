@@ -5,8 +5,8 @@ main:
   #   url: /blog/
   - title: "Receptai"
     url: /receptai/
-  # - title: "🎄 Kalėdinis kalendorius"
-  #   url: /kalendorius
+  - title: "🎄 Kalėdinis kalendorius"
+    url: /kalendorius
   # - title: "Restoranai"
   #   url: /restoranai/
 recipe-groups:
