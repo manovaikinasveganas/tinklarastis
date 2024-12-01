@@ -15,11 +15,9 @@ toc_label: "Turinys"
 toc_icon: "list"
 ---
 
-"Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen."
+"Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen." - legendinė frazė iš legendinio filmo "Vienas Namuose".
 
-Legendinė frazė iš legendinio filmo "Vienas Namuose".
-
-Pasiruoškime smagiam vakarui su klasikine komedija. Pasigaminkime karštus makaronus su augaliniu sūriu ir orkaitėje apkeptų, traškių džiūvėsėlių plutele. Jaukiai įsitaisykime prie televizoriaus su šeima ir pasinerkim į nostalgišką, Kalėdinę atmosferą kartu su Kevinu Makalesteriu.
+Pasigaminkime karštus makaronus su augaliniu sūriu ir pasinerkim į nostalgišką, Kalėdinę atmosferą kartu su Kevinu Makalesteriu.
 
 ## Jums reikės (4 porcijoms)
 
