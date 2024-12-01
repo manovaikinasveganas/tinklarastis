@@ -3,7 +3,7 @@ var days = []
 days[1] = {
     movie: "Edvardas Žirkliarankis",
     movieLink: "https://www.youtube.com/watch?v=TBHIO60whNw",
-    open: false,
+    open: true,
     image: "../../pav/zagareliai.jpg",
 }
 
