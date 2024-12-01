@@ -121,6 +121,9 @@ footer:
     - label: "Atrask tvarius produktus"
       icon: "fas fa-fw fa-link"
       url: "https://popakuotės.lt"
+    - label: "Ko-fi"
+      icon: "fa-solid fa-mug-saucer"
+      url: "https://ko-fi.com/post/Dekojame-uz-palaikyma-ir-dovanojame-receptu-rinkin-X8X616TLBE"
 
 search: true
 lunr:
