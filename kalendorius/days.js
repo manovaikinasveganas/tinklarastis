@@ -10,7 +10,7 @@ days[1] = {
 days[2] = {
     movie: "Bridžitos Džones dienoraštis",
     movieLink: "https://www.youtube.com/watch?v=xjlKnDWZYzc",
-    open: false,
+    open: true,
     image: "../../pav/keptos_bulves_2.jpg",
 }
 
