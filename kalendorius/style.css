@@ -276,7 +276,7 @@ a:active {
 
     max-width: 200px;
     font-size: 100px;
-    text-shadow: #000 0px 0 15px, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: #333 0px 0 15px, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
 .day-button-closed {
@@ -305,6 +305,7 @@ a:active {
 .day-button-closed>.day-button-cover {
     background-color: #fff7;
     color: #FFF;
+    text-shadow: #AAA 0px 0 15px, -1px -1px 0 #AAA, 1px -1px 0 #AAA, -1px 1px 0 #AAA, 1px 1px 0 #AAA;
 }
 
 .day-button-closed:hover>.day-button-cover {
@@ -344,7 +345,7 @@ a:active {
 
     max-width: 200px;
     font-size: 100px;
-    text-shadow: #000 0px 0 15px, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: #333 0px 0 15px, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
@@ -563,7 +564,7 @@ a:active {
 }
 
 .socials-button img {
-    width: 12vw;
+    width: 10vw;
     padding-right: 1vw;
     padding-top: 1vw;
     opacity: 0.5;
@@ -594,5 +595,49 @@ a:active {
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     .mobile-image {
         visibility: hidden;
+    }
+}
+
+.pulsingheart-wrapper {
+    animation: pulse 2s infinite;
+}
+
+.pulsingheart:before,
+.pulsingheart:after {
+    content: "";
+    animation: pulsecolor 2s infinite;
+}
+
+.pulsingheart:after {
+    animation: pulsecolor 2s infinite;
+}
+
+@keyframes pulse {
+    10% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes pulsecolor {
+    10% {
+        opacity: 1.0;
+    }
+}
+
+.shimmer {
+    color: white;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background: linear-gradient(-45deg, #ffffffaa 40%, #ffffff 50%, #ffffffaa 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 1s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shimmer {
+    to {
+        background-position-x: 0%;
+        scale: 1.05;
     }
 }
