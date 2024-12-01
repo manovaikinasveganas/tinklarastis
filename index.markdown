@@ -11,6 +11,14 @@ header:
   caption:
 
 feature_row:
+  - image_path: /pav/kalendorius-teaser.jpg
+    alt: "advento kalendorius"
+    title: "Augalinis advento kalendorius"
+    excerpt: "Gruodžio 1 dieną pradedame jaukų šių metų švenčių laukimą. Kasdien atversime po vieną kalendoriaus langelį idėjų pilnam ir lengvam šventiniam pasiruošimui bei Kalėdinės nuotaikos kūrimui."
+    url: "/kalendorius/"
+    btn_class: "btn--primary"
+    btn_label: "Peržiūrėti"
+
   - image_path: /pav/veganlt-teaser.jpg
     alt: "VeganLT programėlė"
     title: "VeganLT programėlė"
@@ -28,13 +36,13 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
-  - image_path: /pav/avinzirniu-apkepas-teaser2.jpg
-    alt: "apkepas"
-    title: "Avinžirnių apkepas su daržovėmis"
-    excerpt: "Skanus ir maistingas avinžirnių miltų apkepas su daržovėmis. Su šiuo receptu galite drąsiai eksperimentuoti ir kaskart derinti vis naujus, skirtingus priedus."
-    url: "receptai/avinzirniu-apkepas/"
-    btn_class: "btn--primary"
-    btn_label: "Peržiūrėti"
+  # - image_path: /pav/avinzirniu-apkepas-teaser2.jpg
+  #   alt: "apkepas"
+  #   title: "Avinžirnių apkepas su daržovėmis"
+  #   excerpt: "Skanus ir maistingas avinžirnių miltų apkepas su daržovėmis. Su šiuo receptu galite drąsiai eksperimentuoti ir kaskart derinti vis naujus, skirtingus priedus."
+  #   url: "receptai/avinzirniu-apkepas/"
+  #   btn_class: "btn--primary"
+  #   btn_label: "Peržiūrėti"
 
   # - image_path: /pav/medutis-teaser.jpg
   #   alt: "fully responsive"
