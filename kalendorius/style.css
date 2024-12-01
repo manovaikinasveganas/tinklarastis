@@ -47,18 +47,18 @@ body {
     width: 100%;
     color: #757575;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 1vh;
     font-family: Mulish;
 }
 
 .footer a {
-    font-size: 1.5em;
+    font-size: 1.1em;
     text-decoration: none;
 }
 
 .footer a:hover {
     color: #121212;
-    font-size: 1.5em;
+    font-size: 1.1em;
     text-decoration: none;
 }
 
@@ -470,7 +470,7 @@ a:active {
 
 .down-arrow {
     position: relative;
-    top: 70vh;
+    top: 65vh;
     left: 50%;
     width: 0;
     height: 60px;
@@ -628,16 +628,12 @@ a:active {
     color: white;
     display: inline-block;
     background-repeat: no-repeat;
-    background: linear-gradient(-45deg, #ffffffaa 40%, #ffffff 50%, #ffffffaa 60%);
-    background-size: 300%;
-    background-position-x: 100%;
     animation: shimmer 1s infinite;
     animation-direction: alternate;
 }
 
 @keyframes shimmer {
     to {
-        background-position-x: 0%;
         scale: 1.05;
     }
 }
