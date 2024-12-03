@@ -10,14 +10,14 @@ days[1] = {
 days[2] = {
     movie: "Bridžitos Džones dienoraštis",
     movieLink: "https://www.youtube.com/watch?v=xjlKnDWZYzc",
-    open: false,
+    open: true,
     image: "../../pav/keptos_bulves_2.jpg",
 }
 
 days[3] = {
     movie: "Neklaužados ir geručiai",
     movieLink: "https://www.youtube.com/watch?v=W9VgnoenO4g",
-    open: false,
+    open: true,
     image: "../../pav/kiras_logo.jpg",
 }
 
@@ -39,7 +39,7 @@ days[6] = {
     movie: "Something from Tiffany's",
     movieLink: "https://www.youtube.com/watch?v=G5u8oySXNTk",
     open: false,
-    image: "../../pav/bolivine-salotos-2.jpg",
+    image: "../../pav/macaroons.jpg",
 }
 
 days[7] = {
@@ -92,8 +92,8 @@ days[13] = {
 }
 
 days[14] = {
-    movie: "Elfas",
-    movieLink: "https://youtu.be/14o38xfHlXc?feature=shared&t=6",
+    movie: "Ponas Stebukladaris",
+    movieLink: "https://www.youtube.com/watch?v=Hjesz32evHI",
     open: false,
     image: "../../pav/spinduliniu_pupuoliu_paploteliai.jpg",
 }
@@ -102,14 +102,14 @@ days[15] = {
     movie: "Milijonas Šventinių Lempučių",
     movieLink: "https://youtu.be/g1A2uWWF1ZU?feature=shared&t=6",
     open: false,
-    image: "../../pav/meduoliai.jpg",
+    image: "../../pav/gnocchi.jpg",
 }
 
 days[16] = {
     movie: "Kol Tu Miegojai",
     movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
     open: false,
-    image: "../../pav/ziedinis_kopustas.jpg",
+    image: "../../pav/tinginys.jpg",
 }
 
 days[17] = {
@@ -123,14 +123,14 @@ days[18] = {
     movie: "Lemtingas atsitiktinumas",
     movieLink: "https://www.youtube.com/watch?v=ePU2Ux9JIMM",
     open: false,
-    image: "../../pav/karis.jpg",
+    image: "../../pav/vieta.jpg",
 }
 
 days[19] = {
     movie: "Kalėdos pagal Kranksus",
     movieLink: "https://www.youtube.com/watch?v=KTzyGuB9V6c",
     open: false,
-    image: "../../pav/karis.jpg",
+    image: "../../pav/natchos.jpg",
 }
 
 days[20] = {
