@@ -45,7 +45,7 @@ days[6] = {
 days[7] = {
     movie: "Kvaišų šeimynėlė švenčia Kalėdas. 1989 m.",
     movieLink: "https://www.youtube.com/watch?v=NBTTipJX-h4",
-    open: false,
+    open: true,
     image: "../../pav/grybukai.jpg",
 }
 
