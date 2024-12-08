@@ -60,7 +60,7 @@ days[9] = {
     movie: "Denis. Grėsmė visuomenei. Kalėdos",
     movieLink: "https://www.youtube.com/watch?v=5pq2KIL6Vy4",
     open: false,
-    image: "../../pav/gnocchi.jpg",
+    image: "../../pav/radharane_logo.jpg",
 }
 
 days[10] = {
