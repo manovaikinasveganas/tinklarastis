@@ -52,7 +52,7 @@ days[7] = {
 days[8] = {
     movie: "Apsikeitimas vietomis. 1983 m.",
     movieLink: "https://www.youtube.com/watch?v=Fupg2r1EJ9w",
-    open: false,
+    open: true,
     image: "../../pav/tofu_anakardziu_padaze.jpg",
 }
 
