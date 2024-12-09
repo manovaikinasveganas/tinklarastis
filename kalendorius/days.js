@@ -99,15 +99,15 @@ days[14] = {
 }
 
 days[15] = {
-    movie: "Milijonas Šventinių Lempučių",
-    movieLink: "https://youtu.be/g1A2uWWF1ZU?feature=shared&t=6",
+    movie: "Antra Kalėdų diena",
+    movieLink: "https://www.youtube.com/watch?v=OZTJcQA9kFE",
     open: false,
     image: "../../pav/gnocchi.jpg",
 }
 
 days[16] = {
-    movie: "Kol Tu Miegojai",
-    movieLink: "https://www.youtube.com/watch?v=nsJxyUvkB_E",
+    movie: "Kalėdos Kaslberio pilyje",
+    movieLink: "https://www.youtube.com/watch?v=f7k7PfOsgZ0",
     open: false,
     image: "../../pav/tinginys.jpg",
 }
