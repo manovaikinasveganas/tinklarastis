@@ -80,7 +80,7 @@ days[11] = {
 days[12] = {
     movie: "Tyli naktis",
     movieLink: "https://www.youtube.com/watch?v=MukZcsN1ySU",
-    open: false,
+    open: true,
     image: "../../pav/ryziu_pudingas.jpg",
 }
 
