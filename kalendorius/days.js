@@ -113,8 +113,8 @@ days[16] = {
 }
 
 days[17] = {
-    movie: "Kaip Grinčas Kalėdas vogė",
-    movieLink: "https://www.youtube.com/watch?v=YQV5Pr7pWtM",
+    movie: "Projektas Kalėdos",
+    movieLink: "https://www.youtube.com/watch?v=ky8P_wavHHY",
     open: false,
     image: "../../pav/uztepele.jpg",
 }
