@@ -94,7 +94,7 @@ days[13] = {
 days[14] = {
     movie: "Ponas Stebukladaris",
     movieLink: "https://www.youtube.com/watch?v=Hjesz32evHI",
-    open: false,
+    open: true,
     image: "../../pav/spinduliniu_pupuoliu_paploteliai.jpg",
 }
 
