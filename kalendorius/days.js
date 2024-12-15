@@ -108,7 +108,7 @@ days[15] = {
 days[16] = {
     movie: "Kalėdos Kaslberio pilyje",
     movieLink: "https://www.youtube.com/watch?v=f7k7PfOsgZ0",
-    open: false,
+    open: true,
     image: "../../pav/tinginys.jpg",
 }
 
