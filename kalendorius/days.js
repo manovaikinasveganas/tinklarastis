@@ -115,62 +115,62 @@ days[16] = {
 days[17] = {
     movie: "Projektas Kalėdos",
     movieLink: "https://www.youtube.com/watch?v=ky8P_wavHHY",
-    open: false,
+    open: true,
     image: "../../pav/uztepele.jpg",
 }
 
 days[18] = {
-    movie: "Lemtingas atsitiktinumas",
-    movieLink: "https://www.youtube.com/watch?v=ePU2Ux9JIMM",
+    movie: "Laimingiausias laikas",
+    movieLink: "https://www.youtube.com/watch?v=h58HkQV1gHY",
     open: false,
     image: "../../pav/vieta.jpg",
 }
 
 days[19] = {
-    movie: "Kalėdos pagal Kranksus",
-    movieLink: "https://www.youtube.com/watch?v=KTzyGuB9V6c",
+    movie: "Atstumtieji",
+    movieLink: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
     open: false,
     image: "../../pav/natchos.jpg",
 }
 
 days[20] = {
-    movie: "Tobulos Kalėdos",
-    movieLink: "https://www.youtube.com/watch?v=-TSX_0rwPNc",
+    movie: "",
+    movieLink: "",
     open: false,
-    image: "../../pav/medutis.jpg",
+    image: "../../pav/spurgytes.jpg",
 }
 
 days[21] = {
-    movie: "Tokijo krikštatėviai",
-    movieLink: "https://www.youtube.com/watch?v=ZL_2E-HfIZY",
+    movie: "",
+    movieLink: "",
     open: false,
-    image: "../../pav/tofu.jpg",
+    image: "../../pav/falafeliai.jpg",
 }
 
 days[22] = {
-    movie: "Košmaras prieš Kalėdas",
-    movieLink: "https://www.youtube.com/watch?v=wr6N_hZyBCk",
+    movie: "",
+    movieLink: "",
     open: false,
-    image: "../../pav/tofu.jpg",
+    image: "../../pav/batatai.jpg",
 }
 
 days[23] = {
-    movie: "Kalėdų giesmė",
-    movieLink: "https://www.youtube.com/watch?v=VZ3lr3urgDU",
+    movie: "",
+    movieLink: "",
     open: false,
     image: "../../pav/misraine.jpg",
 }
 
 days[24] = {
-    movie: "Tegyvuoja meilė",
-    movieLink: "https://www.youtube.com/watch?v=H9Z3_ifFheQ",
+    movie: "",
+    movieLink: "",
     open: false,
     image: "../../pav/tofinukai.jpg",
 }
 
 days[25] = {
-    movie: "Tas nuostabus gyvenimas",
-    movieLink: "https://www.youtube.com/watch?v=iLR3gZrU2Xo",
+    movie: "",
+    movieLink: "",
     open: false,
     image: "../../pav/sokoladas.jpg",
 }
