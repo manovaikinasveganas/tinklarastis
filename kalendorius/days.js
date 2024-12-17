@@ -122,7 +122,7 @@ days[17] = {
 days[18] = {
     movie: "Laimingiausias laikas",
     movieLink: "https://www.youtube.com/watch?v=h58HkQV1gHY",
-    open: false,
+    open: true,
     image: "../../pav/vieta.jpg",
 }
 
