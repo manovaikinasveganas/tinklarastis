@@ -127,15 +127,15 @@ days[18] = {
 }
 
 days[19] = {
-    movie: "Atstumtieji",
-    movieLink: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
+    movie: "Kalėdų kronikos",
+    movieLink: "https://www.youtube.com/watch?v=YaeDa_Uempk",
     open: false,
     image: "../../pav/natchos.jpg",
 }
 
 days[20] = {
-    movie: "",
-    movieLink: "",
+    movie: "Fredo Kalėdos",
+    movieLink: "https://www.youtube.com/watch?v=VzXjtxZaGS8",
     open: false,
     image: "../../pav/spurgytes.jpg",
 }
@@ -158,20 +158,20 @@ days[23] = {
     movie: "",
     movieLink: "",
     open: false,
-    image: "../../pav/misraine.jpg",
+    image: "../../pav/ziediniu_kopustu_piure.jpg",
 }
 
 days[24] = {
     movie: "",
     movieLink: "",
     open: false,
-    image: "../../pav/tofinukai.jpg",
+    image: "../../pav/.jpg",
 }
 
 days[25] = {
-    movie: "",
-    movieLink: "",
+    movie: "Atstumtieji",
+    movieLink: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
     open: false,
-    image: "../../pav/sokoladas.jpg",
+    image: "../../pav/.jpg",
 }
 
