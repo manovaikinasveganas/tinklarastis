@@ -148,8 +148,8 @@ days[21] = {
 }
 
 days[22] = {
-    movie: "",
-    movieLink: "",
+    movie: "Santa Beany. Christmas special",
+    movieLink: "https://www.youtube.com/watch?v=hRi_Xrs73yw",
     open: false,
     image: "../../pav/batatai.jpg",
 }
