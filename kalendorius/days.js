@@ -162,16 +162,16 @@ days[23] = {
 }
 
 days[24] = {
-    movie: "",
-    movieLink: "",
+    movie: "Linksmų Kalėdų",
+    movieLink: "https://www.youtube.com/watch?v=etVNDk_l3YY",
     open: false,
-    image: "../../pav/.jpg",
+    image: "../../pav/fritata.jpg",
 }
 
 days[25] = {
     movie: "Atstumtieji",
     movieLink: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
     open: false,
-    image: "../../pav/.jpg",
+    image: "../../pav/kakava.jpg",
 }
 
