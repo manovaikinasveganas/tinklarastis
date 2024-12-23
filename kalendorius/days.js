@@ -164,7 +164,7 @@ days[23] = {
 days[24] = {
     movie: "Linksmų Kalėdų",
     movieLink: "https://www.youtube.com/watch?v=etVNDk_l3YY",
-    open: false,
+    open: true,
     image: "../../pav/fritata.jpg",
 }
 
