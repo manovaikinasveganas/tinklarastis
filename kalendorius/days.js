@@ -171,7 +171,7 @@ days[24] = {
 days[25] = {
     movie: "Atstumtieji",
     movieLink: "https://www.youtube.com/watch?v=AhKLpJmHhIg",
-    open: false,
+    open: true,
     image: "../../pav/kakava.jpg",
 }
 
