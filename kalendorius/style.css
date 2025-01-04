@@ -9,8 +9,10 @@ html {
 
 body {
     height: 100%;
-    background-color: #FEE9E8;
-    background: url("background.png");
+    /* off-season background */
+    background-color: #000;
+    /* background-color: #FEE9E8; */
+    /* background: url("background.png"); */
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 1500px;
@@ -36,8 +38,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* box-shadow: 0 0 200px rgba(120, 120, 150, 0.9) inset; */
-    box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset;
+    /* off-season background */
+    box-shadow: 0 0 200px rgba(25, 25, 25, 0.9) inset;
+    /* box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset; */
 }
 
 .footer {
@@ -154,7 +157,9 @@ a:active {
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     .vignette {
-        box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset;
+        /* box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset; */
+        /* off-season */
+        box-shadow: 0 0 200px rgba(25, 25, 25, 0.9) inset;
     }
 
     .text {
