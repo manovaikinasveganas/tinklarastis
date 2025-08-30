@@ -11,19 +11,19 @@ header:
   caption:
 
 feature_row:
-  - image_path: /pav/alaus_sausainiai-teaser.jpg 
-    alt: "alaus tešlos sumuštiniai"
-    title: "Alaus tešlos sausainiai"
-    excerpt: "Alaus tešla yra itin lengvai ir greitai paruošiama ir nustebina jai būdingu purumu, o iškepti sausainiai pasižymi traškumu ir lengvumu."
-    url: "/receptai/alaus-sausainiai/"
+  - image_path: /pav/miso-teaser.jpg 
+    alt: "Miso sriuba su tofu ir edamame pupelėmis"
+    title: "Miso sriuba su tofu ir edamame pupelėmis"
+    excerpt: "Greitai ir lengvai paruošiama, jauki ir aromatinga Miso sriuba su Udon makaronais, kurioje kartu puikiai dera keptas tofu, juržolės ir edamame pupelės."
+    url: "/receptai/miso-sriuba/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
-  - image_path: /pav/misraine-teaser.jpg 
-    alt: "Burokėlių mišrainė su bolivine balanda"
-    title: "Burokėlių mišrainė su bolivine balanda"
-    excerpt: 'Burokėlių mišrainė šį kartą kitaip - su bolivinėmis balandomis ir augaliniu "fetos" sūriu. Bolivinės balandos suteikia maistingumo, o mišrainės tekstūrai - gardaus traškumo.'
-    url: "/receptai/burokeliu-misraine-su-bolivine-balanda"
+  - image_path: /pav/tofiene-teaser.jpg 
+    alt: "Tofienė - augalinė kiaušinienės alternatyva"
+    title: "Tofienė - augalinė kiaušinienės alternatyva"
+    excerpt: 'Augalinė tofienė, puiki alternatyva pusryčių kiaušinienei. O ši versija dar nereikalauja daug ir įmantrių produktų, tikiu, kad daugelis reikalingų ingredientų jau yra jūsų spintelėse ir šaldytuve.'
+    url: "/receptai/tofiene"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
