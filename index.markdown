@@ -11,19 +11,19 @@ header:
   caption:
 
 feature_row:
-  - image_path: pav/kalendorius-teaser.jpg
-    alt: "advento kalendorius"
-    title: "Augalinis advento kalendorius"
-    excerpt: "Gruodžio 1 dieną pradedame jaukų šių metų švenčių laukimą. Kasdien atversime po vieną kalendoriaus langelį idėjų pilnam ir lengvam šventiniam pasiruošimui bei Kalėdinės nuotaikos kūrimui."
-    url: "/kalendorius"
+  - image_path: /pav/alaus_sausainiai-teaser.jpg 
+    alt: "alaus tešlos sumuštiniai"
+    title: "Alaus tešlos sausainiai"
+    excerpt: "Alaus tešla yra itin lengvai ir greitai paruošiama ir nustebina jai būdingu purumu, o iškepti sausainiai pasižymi traškumu ir lengvumu."
+    url: "/receptai/alaus-sausainiai/"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
-  - image_path: /pav/veganlt-teaser.jpg
-    alt: "VeganLT programėlė"
-    title: "VeganLT programėlė"
-    excerpt: "Puiki naujiena! Google Play pasirodė nauja, lietuviška programėlė skirta greitai ir lengvai patikrinti maisto produktų sudėtyje esančius ingredientus ir priedus, jų tinkamumą vegetariškai/ veganiškai mitybai. Kviečiame išbandyti ir palengvinti savo kasdienius apsipirkimus bei greičiau atrasti augalinę sudėtį turinčius produktus parduotuvių lentynose."
-    url: "https://laz.dev/vegan"
+  - image_path: /pav/misraine-teaser.jpg 
+    alt: "Burokėlių mišrainė su bolivine balanda"
+    title: "Burokėlių mišrainė su bolivine balanda"
+    excerpt: 'Burokėlių mišrainė šį kartą kitaip - su bolivinėmis balandomis ir augaliniu "fetos" sūriu. Bolivinės balandos suteikia maistingumo, o mišrainės tekstūrai - gardaus traškumo.'
+    url: "/receptai/burokeliu-misraine-su-bolivine-balanda"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
