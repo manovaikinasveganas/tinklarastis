@@ -94,6 +94,8 @@
 
   img {
     width: 100%;
+    aspect-ratio: 15 / 11;
+    object-fit: cover;
   }
 }
 
