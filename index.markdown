@@ -15,7 +15,7 @@ feature_row:
     alt: "žurnalas"
     title: "Naujas žurnalo „Valgyk Daugiau Daržovių“ numeris"
     excerpt: "Ruošiamės gražiausioms žiemos šventėms, lengvai, su gera nuotaika ir patikrintais receptais."
-    url: "/zurnalas/"
+    url: "/zurnalas"
     btn_class: "btn--primary"
     btn_label: "Peržiūrėti"
 
