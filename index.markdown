@@ -2,13 +2,15 @@
 title: "Augalinė virtuvė"
 excerpt: >-
     Naujiems eksperimentams ir maloniems, skaniems atradimams 
-   
+
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /pav/frontpage.jpg
   caption:
+
+no_promo: true
 
 feature_row:
   - image_path: /zurnalas/cover.jpg
