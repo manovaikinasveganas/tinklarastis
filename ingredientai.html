@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Fuse.js CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+        <style>
+        body {
+            font-family: sans-serif;
+            max-width: 700px;
+            margin: 30px auto;
+            line-height: 1.5;
+        }
+
+        input[type=search] {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            padding: 14px 16px;
+            background: #fafafa;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #eee;
+        }
+
+        .item-name {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .tags {
+            margin-bottom: 8px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 6px;
+            color: white;
+        }
+
+        /* Tag colors */
+        .tag-vegan       { background: #2ecc71; } /* Green */
+        .tag-nonvegan    { background: #e74c3c; } /* Red */
+
+        .tag-vegetarian  { background: #3498db; } /* Blue */
+        .tag-nonvegetarian { background: #e67e22; } /* Orange */
+
+        .description {
+            margin-top: 6px;
+            font-size: 14px;
+        }
+
+        mark {
+            background: yellow;
+            padding: 0 2px;
+        }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const input = document.querySelector("input[type='search']");
+                const results = document.getElementById("results");
+                let fuse = null;
+
+                function getValueFromPath (obj, path) {
+                    var pathTokens = path.split('.')
+                    for (var i = 0; i < pathTokens.length; i++) {
+                        if (!obj)
+                            return null
+
+                        obj = obj[pathTokens[i]];
+                    };
+                    return obj;
+                };
+
+                function latinize(text) {
+                    if (!text) return text;
+                    return text
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .replace(/[^a-zA-Z0-9 ]/g, "")
+                        .toLowerCase();
+                }
+
+                // --- Fetch database ---
+                fetch("https://gist.githubusercontent.com/lawrence-laz/925a0dff1b2776e60b462461ebf79b52/raw/e26d90140a385574446b60e9814c070ed8525f7f/veg-ingredients-db-v2.json")
+                    .then(r => r.json())
+                    .then(json => {
+                        fuse = new Fuse(json.data, {
+                            keys: [
+                                { name: 'name', weight: 6 },
+                                { name: 'description', weight: 1 },
+                                { name: 'aliases', weight: 3 }
+                            ],
+                            sortFn: (a,b) => console.log(a, a.item[0]),
+                            //getFn:, (obj, path) => {
+                            //    var paths = typeof path == 'string' ? [path] : path
+                            //    var value = getValueFromPath(obj, paths[0]);
+                            //    var latinizedValue = Array.isArray(value)
+                            //        ? value.map(v => latinize(v))
+                            //        : latinize(value)
+                            //    return latinizedValue
+                            //},
+                            includeScore: true,
+                            ignoreFieldNorm: false,
+                            fieldNormWeight: 1,
+                            threshold: 0.2,
+                            includeMatches: true,
+                            ignoreLocation: true
+                        });
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        results.textContent = "Couldn't load DB.";
+                    });
+
+
+                const superfluousPhrases = [
+                    "konservantai",
+                    "konservantas",
+                    "tirstiklis",
+                    "tirstikliai",
+                    "stabilizatorius",
+                    "stabilizatoriai",
+                    "biruma gerinanti medziaga",
+                    "antioksidantas",
+                    "kietiklis",
+                    "be glitimo",
+                    "rugstinguma reguliuojanti medziaga",
+                    "lipnuma reguliuojanti medziaga",
+                    "daziklis",
+                    "naturalus daziklis",
+                ];
+
+                function removeSuperfluous(str) {
+                    let cleaned = str;
+
+                    const escaped = superfluousPhrases
+                        .map(p => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+                        .join("|");
+
+                    const re = new RegExp(`\\b(?:${escaped})\\b`, "gi");
+
+                    cleaned = cleaned.replace(re, "");
+
+                    // Clean up extra spaces
+                    cleaned = cleaned.replace(/\s{2,}/g, " ").trim();
+
+                    return cleaned;
+                }
+
+                function cleanUpSearchPhrase(str) {
+                    str = latinize(str)
+                    str = str.replace(/-/g, ' ') // Replace dashes with spaces
+                    str = str.replace(/\s+/g, ' ').trim() // Remove duplicate spaces
+
+                    var strWithoutSuperfluous = removeSuperfluous(str)
+                    if (strWithoutSuperfluous.length > 0) {
+                        return strWithoutSuperfluous
+                    } else {
+                        return str
+                    }
+                }
+
+                // --- Highlight helper ---
+                function highlight(text, matches) {
+                    if (!matches) return text;
+
+                    let result = "";
+                    let idx = 0;
+
+                    let longestMatchIndex = -1;
+                    let longestMatchLength = -1;
+                    for (let i = 0; i < matches.length; i++) {
+                        let start = matches[i][0];
+                        let end = matches[i][1];
+                        let length = end - start;
+                        if (length > longestMatchLength) {
+                            longestMatchIndex = i;
+                            longestMatchLength = length
+                        }
+                    }
+                    let longestMatch = matches[longestMatchIndex];
+                    let start = longestMatch[0];
+                    let end = longestMatch[1];
+                    <!-- matches.forEach(([start, end]) => { -->
+                        result += text.slice(idx, start) +
+                            "<mark>" + text.slice(start, end + 1) + "</mark>";
+                        idx = end + 1;
+                    <!-- }); -->
+
+                    result += text.slice(idx);
+                    return result;
+                }
+
+                // --- Search handler ---
+                input.addEventListener("input", () => {
+                    const q = input.value.trim();
+                    results.innerHTML = "";
+
+                    if (!q || !fuse) return;
+
+                    const hits = fuse.search(cleanUpSearchPhrase(q));
+
+                    if (hits.length === 0) {
+                        results.textContent = "Nerasta";
+                        return;
+                    }
+
+                    hits.forEach(hit => {
+                        const item = hit.item;
+
+                        // Determine matches for highlighting
+                        const matchInfo = {};
+                        (hit.matches || []).forEach(m => {
+                            matchInfo[m.key] = m.indices;
+                        });
+
+                        // Create item container
+                        const div = document.createElement("div");
+                        div.className = "item";
+
+                        // Name (highlight when matched)
+                        const highlightedName =
+                            highlight(item.name, matchInfo["name"]);
+
+                        // Aliases (if exist & matched)
+                        let aliasStr = "";
+                        if (item.aliases && item.aliases.length) {
+                            const aliasMatches = matchInfo["aliases"];
+                            const firstAlias = item.aliases[0];
+                            aliasStr = aliasMatches
+                                ? " (" + highlight(firstAlias, aliasMatches) + ")"
+                                : " (" + firstAlias + ")";
+                        }
+
+                        div.innerHTML = `
+                            <div class="item-name">
+                            ${highlightedName}${aliasStr}
+                            </div>
+
+                            <div>
+                            ${item.description}
+                            </div>
+
+                            <div class="tags">
+                            ${item.vegan === true ? `<span class="tag tag-vegan">Vegan</span>` : ""}
+                            ${item.vegan === false ? `<span class="tag tag-nonvegan">Non-Vegan</span>` : ""}
+                            ${item.vegetarian === true  ? `<span class="tag tag-vegetarian">Vegetarian</span>` : ""}
+                            ${item.vegetarian === false ? `<span class="tag tag-nonvegetarian">Non-Vegetarian</span>` : ""}
+                            </div>
+
+                            ${item.desc ? `<div class="description">${item.desc}</div>` : ""}
+                        `;
+
+                        results.appendChild(div);
+                    });
+                });
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <h1>Ingredientai</h1>
+
+        <input type="search" placeholder="Ieškoti…">
+
+        <div id="results"></div>
+
+    </body>
+</html>
