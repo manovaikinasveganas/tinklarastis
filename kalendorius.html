@@ -7,27 +7,52 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas">
     <link rel="stylesheet" href="kalendorius/style.css?v=3">
-    <script src="kalendorius/days.js?v=127"></script>
-    <script src="kalendorius/main.js?v=3"></script>
-    <!-- <script src="kalendorius/snow.js?v=3"></script> -->
-    <script>
-        // Amount of Snowflakes
-        var snowMax = 30;
-        // Snowflake Colours
-        var snowColor = ["#DDD", "#EEE"];
-        // Snow Entity
-        var snowEntity = "&#x2022;";
-        // Falling Velocity
-        var snowSpeed = 0.9;
-        // Minimum Flake Size
-        var snowMinSize = 18;
-        // Maximum Flake Size
-        var snowMaxSize = 54;
-        // Refresh Rate (in milliseconds)
-        var snowRefresh = 50;
-        // Additional Styles
-        var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
-    </script>
+    <script src="kalendorius/days.js?v=201"></script>
+    <script src="kalendorius/main.js?v=4"></script>
+<style>
+html {
+  height: 100%;
+  background: linear-gradient(#000 30%, #000);
+  /* background-color: #000; */
+  overflow: hidden;
+}
+
+.snow, .snow:before, .snow:after {
+  position: absolute;
+  top: -600px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: radial-gradient(3px 3px at 137px 543px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 197px 394px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 380px 385px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 562px 583px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 441px 588px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 36px 447px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 25px 311px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 250px 470px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 60px 413px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 212px 501px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 539px 403px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 290px 294px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 312px 223px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 194px 592px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 552px 464px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 214px 69px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 27px 71px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 525px 171px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 286px 366px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 363px 106px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 8px 222px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 302px 27px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 250px 451px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 243px 591px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 337px 311px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 113px 306px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 355px 221px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 494px 168px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 232px 596px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 424px 469px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 80px 533px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 257px 431px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 37px 331px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 589px 293px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 331px 490px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 512px 47px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 203px 586px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 415px 520px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 350px 64px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 368px 200px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 339px 216px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 198px 151px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 153px 551px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 211px 80px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 563px 446px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 417px 367px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 595px 420px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 138px 224px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 360px 97px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 386px 309px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 428px 374px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 517px 42px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 86px 360px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 256px 33px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 314px 129px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 555px 581px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 119px 435px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 384px 242px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 219px 201px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 483px 294px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 265px 283px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 550px 469px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 437px 283px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 541px 553px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 348px 130px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 534px 306px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 17px 479px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 84px 578px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 488px 256px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 155px 174px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0));
+  background-size: 600px 600px;
+  animation: snow 6s linear infinite;
+  content: "";
+}
+
+.snow:after {
+  margin-left: -200px;
+  opacity: 0.4;
+  animation-duration: 12s;
+  animation-direction: reverse;
+  filter: blur(3px);
+}
+
+.snow:before {
+  animation-duration: 18s;
+  animation-direction: reverse;
+  margin-left: -300px;
+  opacity: 0.65;
+  filter: blur(1.5px);
+}
+
+@keyframes snow {
+  to {
+    transform: translateY(600px);
+  }
+}
+</style>
+
+    <script src="https://cdn.counter.dev/script.js" data-id="5eedd4f3-0a66-4903-a87b-89ce86727f73" data-utcoffset="3"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
@@ -40,7 +65,6 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
     <script>
         $(document).ready(function () {
-            ping('kalendorius')
             setRemainingDays()
 
             document.addEventListener("visibilitychange", function () {
@@ -72,7 +96,6 @@
                         $("#day-modal").css("display", "block")
                         $("#wreath-title").text(day.movie)
                         $("#wreath-link").attr("href", day.movieLink);
-                        ping(`kalendorius-day-${dayIndex}`)
                     } else {
                         console.log("no data")
                     }
@@ -128,16 +151,97 @@
 </head>
 
 <body>
+    <div class="snow"></div>
     <div class="vignette" />
     <div class="container">
         <p id="time-left-text">Iki kaledų liko XX d.!</p>
         <!-- <p>Advento kalendorius</p> -->
-        <p class="text">Iki susitikimo gruodį!</p>
-        <p class="text">O kol kas, daugiau receptų galite rasti <u><a
-                    href="https://augalinismaistas.lt/receptai/">čia.</a></u>
-        </p>
+        <div class="center">
+            <div id="day1-button" class="day-button shimmer">
+                <div class="day-button-cover shimmer">1</div>
+            </div>
+            <div id="day2-button" class="day-button">
+                <div class="day-button-cover">2</div>
+            </div>
+            <div id="day3-button" class="day-button">
+                <div class="day-button-cover">3</div>
+            </div>
+            <div id="day4-button" class="day-button">
+                <div class="day-button-cover">4</div>
+            </div>
+            <div id="day5-button" class="day-button">
+                <div class="day-button-cover">5</div>
+            </div>
+            <div id="day6-button" class="day-button">
+                <div class="day-button-cover">6</div>
+            </div>
+            <div id="day7-button" class="day-button">
+                <div class="day-button-cover">7</div>
+            </div>
+            <div id="day8-button" class="day-button">
+                <div class="day-button-cover">8</div>
+            </div>
+            <div id="day9-button" class="day-button">
+                <div class="day-button-cover">9</div>
+            </div>
+            <div id="day10-button" class="day-button">
+                <div class="day-button-cover">10</div>
+            </div>
+            <div id="day11-button" class="day-button">
+                <div class="day-button-cover">11</div>
+            </div>
+            <div id="day12-button" class="day-button">
+                <div class="day-button-cover">12</div>
+            </div>
+            <div id="day13-button" class="day-button">
+                <div class="day-button-cover">13</div>
+            </div>
+            <div id="day14-button" class="day-button">
+                <div class="day-button-cover">14</div>
+            </div>
+            <div id="day15-button" class="day-button">
+                <div class="day-button-cover">15</div>
+            </div>
+            <div id="day16-button" class="day-button">
+                <div class="day-button-cover">16</div>
+            </div>
+            <div id="day17-button" class="day-button">
+                <div class="day-button-cover">17</div>
+            </div>
+            <div id="day18-button" class="day-button">
+                <div class="day-button-cover">18</div>
+            </div>
+            <div id="day19-button" class="day-button">
+                <div class="day-button-cover">19</div>
+            </div>
+            <div id="day20-button" class="day-button">
+                <div class="day-button-cover">20</div>
+            </div>
+            <div id="day21-button" class="day-button">
+                <div class="day-button-cover">21</div>
+            </div>
+            <div id="day22-button" class="day-button">
+                <div class="day-button-cover">22</div>
+            </div>
+            <div id="day23-button" class="day-button">
+                <div class="day-button-cover">23</div>
+            </div>
+            <div id="day24-button" class="day-button">
+                <div class="day-button-cover">24</div>
+            </div>
+            <div id="day25-button" class="day-button">
+                <div class="day-button-cover">25</div>
+            </div>
+
+            <div id="day-modal" class="modal">
+                <div id="modal-content" class="modal-content">
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+
+        </div>
         <div class="footer">
-            <a href="https://augalinismaistas.lt/">www.augalinismaistas.lt</a>
+            <a style="color:white;" href="https://augalinismaistas.lt/" target="_blank">🌱 augalinismaistas.lt | 2025</a>
         </div>
     </div>
     <div id="socials">

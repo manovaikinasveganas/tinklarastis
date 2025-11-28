@@ -9,13 +9,12 @@ html {
 
 body {
     height: 100%;
-    /* off-season background */
-    background-color: #000;
     /* background-color: #FEE9E8; */
-    /* background: url("background.png"); */
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 1500px;
+    background-color: #000;
+    background: url("background-au.jpg");
+    background-position: center 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 0px;
     margin: 0px;
 }
@@ -38,9 +37,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* off-season background */
-    box-shadow: 0 0 200px rgba(25, 25, 25, 0.9) inset;
-    /* box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset; */
+    /* box-shadow: 0 0 200px rgba(120, 120, 150, 0.9) inset; */
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1) inset;
 }
 
 .footer {
@@ -86,6 +84,21 @@ body {
 .text a:visited {
     color: #ADF;
     text-decoration: underline;
+}
+
+.card-inner {
+    width:70%;
+}
+
+
+@media (min-aspect-ratio: 3/4) or (max-height: 835px) {
+    .card-inner {
+        width:40%;
+    }
+}
+
+.calendar-card {
+    width: 50%
 }
 
 .wreath {
@@ -157,9 +170,7 @@ a:active {
 
 @media (min-aspect-ratio: 3/4) or (max-height: 835px) {
     .vignette {
-        /* box-shadow: 0 0 200px rgba(255, 255, 255, 0.9) inset; */
-        /* off-season */
-        box-shadow: 0 0 200px rgba(25, 25, 25, 0.9) inset;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.1) inset;
     }
 
     .text {
@@ -264,7 +275,7 @@ a:active {
     flex: 1 0 17%;
     border: 1px solid;
     /* border-color: #000F; */
-    /* border-radius: 20px; */
+    border-radius: 8px;
     /* width: 50px; */
     /* max-height: 50px; */
     margin: 20px 0;
@@ -308,7 +319,7 @@ a:active {
 }
 
 .day-button-closed>.day-button-cover {
-    background-color: #fff7;
+    background-color: #fff1;
     color: #FFF;
     text-shadow: #AAA 0px 0 15px, -1px -1px 0 #AAA, 1px -1px 0 #AAA, -1px 1px 0 #AAA, 1px 1px 0 #AAA;
 }
@@ -331,13 +342,13 @@ a:active {
 .day-button-cover {
     transform-origin: left;
     transition: transform 0.5s;
-    width: 100%;
+    width: 98%;
     padding: 0 0;
     padding: 10px 0;
     /* height: 100%; */
     border: 1px solid;
     border-color: #243150;
-    /* border-radius: 20px; */
+    border-radius: 8px;
     /* width: 50px; */
     /* max-height: 50px; */
     background-color: #fffd;
@@ -425,6 +436,7 @@ a:active {
     /* Could be more or less, depending on screen size */
     min-height: 60%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* The Close Button */

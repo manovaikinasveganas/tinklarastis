@@ -24,14 +24,72 @@ function renderDay(dayIndex, day) {
                     </template>
                 </zero-md>
 
-                <a id="wreath-link" href="${day.movieLink}" target="_blank" style="align-self: center;">
-                    <div class="wreath">
-                        Šiandienos Kalėdinis filmas<br>
-                        <div id="wreath-title">
-                            ${day.movie}<br>
-                        </div>
-                    </div>
-                </a>
+<div class="card-wrapper" style="
+    display:inline-block;
+    perspective:1000px;
+    position:relative;
+    width:100%;
+    z-index:1000;
+">
+    <style>
+        .card-wrapper:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+    </style>
+
+    <div class="card-inner" style="
+        margin:auto;
+        position:relative;
+        aspect-ratio:658/507;
+        transform-style:preserve-3d;
+        transition:transform 0.6s;
+    ">
+
+        <!-- back side -->
+        <img src="../../kalendorius/card-back.png" style="
+            position:absolute;
+            inset:0;
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            backface-visibility:hidden;
+            border-radius:8px;
+        ">
+
+        <!-- front side -->
+        <img src="../../kalendorius/card-day${dayIndex}.png" style="
+            position:absolute;
+            inset:0;
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            transform:rotateY(180deg);
+            backface-visibility:hidden;
+            border-radius:8px;
+        ">
+    </div>
+    <a href="zurnalas.html" target="_blank" style="
+        display:block;
+        margin:40px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding:18px 22px;
+        border:1px solid #e0e0e0;
+        border-radius:8px;
+        text-decoration:underline;
+        font-size:18px;
+        line-height:1.4;
+        color:#000;
+        background:#fafafa;
+        transition:background 0.2s, border-color 0.2s;
+        font-family: Mulish;
+        font-size: 18px;
+        width: 80%;
+   ">
+        Patiko kalendorius?<br> Paremkite mus ir atraskite dar daugiau receptų naujame žurnalo „Valgyk&nbsp;Daugiau&nbsp;Daržovių“ numeryje! 👈
+    </a>
+</div>
+
             </p> 
         </div>
         <div class="down-arrow"></div>

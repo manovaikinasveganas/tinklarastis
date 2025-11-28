@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 *-stats.sh
+kalendorius/.DS_Store
+.DS_Store
