@@ -17,8 +17,8 @@ days[2] = {
 days[3] = {
     movie: "Neklaužados ir geručiai",
     movieLink: "https://www.youtube.com/watch?v=W9VgnoenO4g",
-    open: false,
-    image: "../../pav/kiras_logo.jpg",
+    open: true,
+    image: "../../pav/bulves.jpg",
 }
 
 days[4] = {

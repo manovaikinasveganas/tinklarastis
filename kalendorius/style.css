@@ -11,8 +11,9 @@ body {
     height: 100%;
     /* background-color: #FEE9E8; */
     background-color: #000;
-    background: url("background-au2.jpg");
-    background-position: center 70%;
+    background: url("background-dk2.jpg");
+    /* background-position: center 70%; */
+    background-position: 60% 70%; /* DK */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
