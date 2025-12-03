@@ -24,8 +24,8 @@ days[3] = {
 days[4] = {
     movie: "Kietas riešutėlis",
     movieLink: "https://www.youtube.com/watch?v=jaJuwKCmJbY",
-    open: false,
-    image: "../../pav/keptos_duonos_misraine.jpg",
+    open: true,
+    image: "../../pav/ryziu_pudingas_danija.jpg",
 }
 
 days[5] = {
