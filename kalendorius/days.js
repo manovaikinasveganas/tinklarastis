@@ -31,8 +31,8 @@ days[4] = {
 days[5] = {
     movie: "Krampus",
     movieLink: "https://www.youtube.com/watch?v=h6cVyoMH4QE",
-    open: false,
-    image: "../../pav/pusryciai.jpg",
+    open: true,
+    image: "../../pav/ispanija.jpg",
 }
 
 days[6] = {
