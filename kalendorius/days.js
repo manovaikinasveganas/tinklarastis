@@ -38,8 +38,8 @@ days[5] = {
 days[6] = {
     movie: "Something from Tiffany's",
     movieLink: "https://www.youtube.com/watch?v=G5u8oySXNTk",
-    open: false,
-    image: "../../pav/macaroons.jpg",
+    open: true,
+    image: "../../pav/fondiu.jpg",
 }
 
 days[7] = {
