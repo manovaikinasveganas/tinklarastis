@@ -11,7 +11,7 @@ body {
     height: 100%;
     /* background-color: #FEE9E8; */
     background-color: #000;
-    background: url("background-de.jpg");
+    background: url("background-de2.jpg");
     background-position: 50% center;
     /* background-position: 60% 70%; DK */
     background-size: cover;
@@ -352,7 +352,7 @@ a:active {
     border-radius: 8px;
     /* width: 50px; */
     /* max-height: 50px; */
-    background-color: #fffd;
+    background-color: #fff3;
     text-align: center;
     font-family: Mountains of Christmas;
     color: white;

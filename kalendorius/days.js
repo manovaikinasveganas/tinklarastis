@@ -66,8 +66,8 @@ days[9] = {
 days[10] = {
     movie: "Berniukas vardu Kalėdos",
     movieLink: "https://www.youtube.com/watch?v=aFI_aiidke0",
-    open: false,
-    image: "../../pav/karstos_salotos.jpg",
+    open: true,
+    image: "../../pav/raudonieji_kopustai.jpg",
 }
 
 days[11] = {
