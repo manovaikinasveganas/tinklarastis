@@ -73,8 +73,8 @@ days[10] = {
 days[11] = {
     movie: "Kalėdos (Noel)",
     movieLink: "https://www.youtube.com/watch?v=8Dcq9P8l3B8",
-    open: false,
-    image: "../../pav/trupininis_pyragas.jpg",
+    open: true,
+    image: "../../pav/puncas-vaikams.jpg",
 }
 
 days[12] = {
