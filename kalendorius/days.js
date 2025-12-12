@@ -87,8 +87,8 @@ days[12] = {
 days[13] = {
     movie: "Reimis ir Džiulijet",
     movieLink: "https://www.youtube.com/watch?v=O9jZMbL2aQc",
-    open: false,
-    image: "../../pav/baklazanu_juosteles.jpg",
+    open: true,
+    image: "../../pav/barsciai.jpg",
 }
 
 days[14] = {
