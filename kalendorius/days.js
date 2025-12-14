@@ -101,8 +101,8 @@ days[14] = {
 days[15] = {
     movie: "Antra Kalėdų diena",
     movieLink: "https://www.youtube.com/watch?v=OZTJcQA9kFE",
-    open: false,
-    image: "../../pav/gnocchi.jpg",
+    open: true,
+    image: "../../pav/burokeliai.jpg",
 }
 
 days[16] = {
