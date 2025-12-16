@@ -115,8 +115,8 @@ days[16] = {
 days[17] = {
     movie: "Projektas Kalėdos",
     movieLink: "https://www.youtube.com/watch?v=ky8P_wavHHY",
-    open: false,
-    image: "../../pav/uztepele.jpg",
+    open: true,
+    image: "../../pav/florentines.jpg",
 }
 
 days[18] = {
