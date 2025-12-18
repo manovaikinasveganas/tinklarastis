@@ -11,9 +11,9 @@ body {
     height: 100%;
     /* background-color: #FEE9E8; */
     background-color: #000;
-    background: url("background-no.jpg");
+    background: url("background-se.jpg");
     /* background-position: 50% center; */
-    background-position: 50% 100%;
+    background-position: 70% 100%;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
@@ -27,7 +27,7 @@ body {
         /* background-color: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(254, 233, 232, 1) 100%); */
         /* background-color: #FEE9E8; */
         /* background-size: 100%; */
-        /* background-position: 0% 0%; */
+        /* background-position: 90% 100%; */
     }
 }
 
