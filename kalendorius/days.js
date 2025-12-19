@@ -136,8 +136,8 @@ days[19] = {
 days[20] = {
     movie: "Fredo Kalėdos",
     movieLink: "https://www.youtube.com/watch?v=VzXjtxZaGS8",
-    open: false,
-    image: "../../pav/spurgytes.jpg",
+    open: true,
+    image: "../../pav/gratinas.jpg",
 }
 
 days[21] = {
