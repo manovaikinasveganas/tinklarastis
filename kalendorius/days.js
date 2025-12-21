@@ -143,8 +143,8 @@ days[20] = {
 days[21] = {
     movie: "Du purpleliai",
     movieLink: "https://www.youtube.com/watch?v=W3F-mcyEcnE",
-    open: false,
-    image: "../../pav/falafeliai.jpg",
+    open: true,
+    image: "../../pav/zalios_pupeles.jpg",
 }
 
 days[22] = {
