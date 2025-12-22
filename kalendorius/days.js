@@ -157,8 +157,8 @@ days[22] = {
 days[23] = {
     movie: "Kalėdos Cherry Lane gatvėje",
     movieLink: "https://www.youtube.com/watch?v=MVUnXVgnznI",
-    open: false,
-    image: "../../pav/ziediniu_kopustu_piure.jpg",
+    open: true,
+    image: "../../pav/sumustinis.jpg",
 }
 
 days[24] = {
