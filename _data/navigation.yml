@@ -7,8 +7,8 @@ main:
     url: /receptai/
   - title: "Žurnalas"
     url: /zurnalas
-  - title: "🎄 Kalėdinis kalendorius"
-    url: /kalendorius
+  # - title: "🎄 Kalėdinis kalendorius"
+  #   url: /kalendorius
   # - title: "Restoranai"
   #   url: /restoranai/
 recipe-groups:
