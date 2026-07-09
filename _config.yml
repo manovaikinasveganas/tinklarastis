@@ -47,6 +47,8 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
+github: [metadata: false]
+
 locale: "lt-LT"
 
 defaults:

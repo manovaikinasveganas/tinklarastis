@@ -6,3 +6,4 @@ vendor
 *-stats.sh
 kalendorius/.DS_Store
 .DS_Store
+.github/copilot-instructions.md
