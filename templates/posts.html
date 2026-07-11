@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block body_class %}layout--posts{% endblock body_class %}
+
+{% block main %}
+{% if config.extra.breadcrumbs %}
+  {% include "partials/breadcrumbs.html" %}
+{% endif %}
+
+<div id="main" role="main">
+  {% if section.extra.author_profile %}
+  <div class="sidebar sticky">
+  {% include "partials/author-profile.html" %}
+  </div>
+  {% endif %}
+
+  <div class="archive">
+
+      <h1 id="page-title" class="page__title">{{ section.title }}</h1>
+
+    {{ section.content | safe }}
+
+<ul class="taxonomy__index">
+  {%- for year, posts in section.pages | group_by(attribute="year") %}
+    <li>
+      <a href="#{{ year }}">
+        <strong>{{ year }}</strong> <span class="taxonomy__count">{{ posts | length }}</span>
+      </a>
+    </li>
+  {%- endfor %}
+</ul>
+
+{% set entries_type = section.extra.entries_layout | default(value='list') %}
+{% for year, posts in section.pages | group_by(attribute="year") %}
+  <section id="{{ year }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year }}</h2>
+    <div class="entries-{{ entries_type }}">
+      {% for item in posts %}
+        {{ m::archive_single(item=item, type=entries_type) }}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ config.extra.ui_text.back_to_top }} &uarr;</a>
+  </section>
+{% endfor %}
+  </div>
+</div>
+{% endblock main %}

@@ -1,9 +1,5 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-*-stats.sh
-kalendorius/.DS_Store
+public
+static/kalendorius/.DS_Store
 .DS_Store
+*-stats.sh
 .github/copilot-instructions.md

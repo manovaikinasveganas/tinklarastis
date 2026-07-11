@@ -1,0 +1,43 @@
+{%- set author = config.extra.author -%}
+
+<div itemscope itemtype="https://schema.org/Person">
+
+    <div class="author__avatar">
+
+        <img src="{{ author.avatar | safe }}" alt="{{ author.name }}" itemprop="image">
+
+    </div>
+
+  <div class="author__content">
+
+      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+
+      <div class="author__bio" itemprop="description">
+        <p>{{ author.bio }}</p>
+
+      </div>
+
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">{{ config.extra.ui_text.follow_label | replace(from=":", to="") }}</button>
+    <ul class="author__urls social-icons">
+
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+        </li>
+
+      {% for link in author.links %}
+            <li><a href="{{ link.url | safe }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+      {% endfor %}
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block body_class %}layout--single{% endblock body_class %}
+
+{% block main %}
+{%- set header = page.extra.header | default(value=false) -%}
+{%- set_global has_overlay = false -%}
+{%- set_global has_hero = false -%}
+{%- if header -%}
+  {%- if header.overlay_color or header.overlay_image -%}{% set_global has_overlay = true %}{%- endif -%}
+  {%- if header.overlay_color or header.overlay_image or header.image -%}{% set_global has_hero = true %}{%- endif -%}
+{%- endif -%}
+{% if has_hero %}
+  {% include "partials/page-hero.html" %}
+{% endif %}
+
+{% if config.extra.breadcrumbs %}
+  {% include "partials/breadcrumbs.html" %}
+{% endif %}
+
+<div id="main" role="main">
+  {% if page.extra.author_profile %}
+  <div class="sidebar sticky">
+  {% include "partials/author-profile.html" %}
+  </div>
+  {% endif %}
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ page.title }}">
+    {% if page.description %}<meta itemprop="description" content="{{ page.description | striptags }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% if not has_overlay %}
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}
+</h1>
+
+        </header>
+      {% endif %}
+
+      <section class="page__content" itemprop="text">
+        {% if page.extra.toc %}
+          <aside class="sidebar__right {% if page.extra.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.extra.toc_icon | default(value='file-alt') }}"></i> {{ page.extra.toc_label | default(value="On this page") }}</h4></header>
+              {{ m::toc_menu(toc=page.toc) }}
+            </nav>
+          </aside>
+        {% endif %}
+        {{ page.content | safe }}
+
+      </section>
+
+      <footer class="page__meta">
+
+      </footer>
+
+      {% if page.extra.share %}
+      <section class="page__share">
+
+    <h4 class="page__share-title">{{ config.extra.ui_text.share_on_label }}</h4>
+
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | urlencode_strict }}%20{{ page.permalink | urlencode_strict }}" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ config.extra.ui_text.share_on_label }} Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.permalink | urlencode_strict }}" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ config.extra.ui_text.share_on_label }} Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.permalink | urlencode_strict }}" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="{{ config.extra.ui_text.share_on_label }} LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+      {% endif %}
+
+      {% if page.lower or page.higher %}
+  <nav class="pagination">
+    {% if page.lower %}
+      <a href="{{ page.lower.path | safe }}" class="pagination--pager" title="{{ page.lower.title }}">{{ config.extra.ui_text.pagination_previous }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ config.extra.ui_text.pagination_previous }}</a>
+    {% endif %}
+    {% if page.higher %}
+      <a href="{{ page.higher.path | safe }}" class="pagination--pager" title="{{ page.higher.title }}">{{ config.extra.ui_text.pagination_next }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ config.extra.ui_text.pagination_next }}</a>
+    {% endif %}
+  </nav>
+      {% endif %}
+
+    </div>
+
+  </article>
+
+  {% if page.extra.related %}
+    <div class="page__related">
+      <h4 class="page__related-title">{{ config.extra.ui_text.related_label }}</h4>
+      <div class="grid__wrapper">
+
+      </div>
+    </div>
+  {% endif %}
+</div>
+{% endblock main %}

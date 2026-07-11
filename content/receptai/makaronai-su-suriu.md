@@ -1,0 +1,54 @@
++++
+title = "Makaronai su augaliniu sūriu"
+description = "“Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen.” - legendinė frazė iš legendinio filmo “Vienas Namuose”."
+draft = true
+template = "single.html"
+
+[extra]
+category = "pagrindiniai-patiekalai"
+toc = true
+toc_label = "Turinys"
+toc_icon = "list"
+author_profile = true
+share = true
+related = true
+
+[extra.header]
+teaser = "/pav/makaronai_su_suriu-teaser.jpg"
+image = "/pav/makaronai_su_suriu.jpg"
++++
+"Dieve, palaimink mikrobangę, makaronus su sūriu ir juos pardavinėjančius žmones. Amen." - legendinė frazė iš legendinio filmo "Vienas Namuose".
+
+Pasigaminkime karštus makaronus su augaliniu sūriu ir pasinerkim į nostalgišką, Kalėdinę atmosferą kartu su Kevinu Makalesteriu.
+
+## Jums reikės (4 porcijoms)
+
+* 500 g makaronų
+* 1 didelio svogūno
+* 1 a.š. garstyčių
+* 300 g avižų pieno
+* 1 v.š. miltų 
+* 300 g augalinio sūrio
+* Aliejaus kepimui
+* Žiupsnio juodųjų pipirų ir druskos
+
+### Džiūvėsėliams
+
+* 4-5 forminės duonos gabalėlių
+* 1 v.š. maistinių mielių
+* Žiupsnio kepintų česnakų miltelių ir juodųjų pipirų 
+
+## Paruošimo eiga
+
+1. Išverdame makaronus pasūdytame vandenyje.
+2. Orkaitę įkaitiname iki 200C temperatūros.
+3. Smulkiai supjaustome svogūną ir apkepame aliejuje, kol suminkštėja ir švelniai paruduoja. 
+4. Į keptus svogūnus įdedame šaukštelį garstyčių ir išmaišome. 
+5. Įpilame į keptuvę su svogūnais augalinio pieno ir įdedame šaukštą miltų, gerai išmaišome ir užverdame. Leidžiame pavirti porą minučių, kol padažas šiek tiek sutirštėja.
+6. Į karštą padažą dedame tarkuotą augalinį sūrį ir maišome, kol augalinis sūris išsilydo. Padažo šiame žingsnyje papildomai kaitinti nereikia.
+7. Paruoštą sūrio padažą pilame į virtus makaronus. Išmaišome, kad tolygiai pasiskirstytų. 
+8. Duonos riekeles suplėšome mažais gabalėliais ir dedame į virtuvinį mikserį, įdedame maistinių mielių ir sutriname mikseriu iki smulkių, birių trupinių. 
+9. Makaronus su augaliniu sūriu dedame į kepimui orkaitėje pritaikytą formą. Makaronų paviršių gausiai pabarstome duonos trupinukais. 
+10. Dedame makaronus kepti į orkaitę. Kepame apie 10-15 min 200C temperatūroje, kol paviršiuje esantys duonos trupinukai švelniai paruduoja. 
+   
+Skanaus!

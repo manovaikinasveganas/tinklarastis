@@ -1,0 +1,38 @@
+{% extends "collection.html" %}
+{% import "macros.html" as m %}
+
+{% block body_class %}layout--category-pages{% endblock body_class %}
+
+{% block main %}
+{% if config.extra.breadcrumbs %}
+  {% include "partials/breadcrumbs.html" %}
+{% endif %}
+
+<div id="main" role="main">
+  {% if section.extra.author_profile or section.extra.sidebar_nav %}
+  <div class="sidebar sticky">
+  {% if section.extra.author_profile %}{% include "partials/author-profile.html" %}{% endif %}
+  {% if section.extra.sidebar_nav %}
+      {{ m::nav_list(navigation=config.extra.nav_recipe_groups, current_path=section.path, menu_label=config.extra.ui_text.menu_label) }}
+  {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="archive">
+
+      <h1 id="page-title" class="page__title">{{ section.title }}</h1>
+
+    {{ section.content | safe }}
+
+<div class="entries-{{ section.extra.entries_layout | default(value='list') }}">
+  {%- set entries_type = section.extra.entries_layout | default(value='list') -%}
+  {%- set parent = get_section(path="receptai/_index.md") -%}
+  {%- for item in parent.pages -%}
+    {%- if item.extra.category and item.extra.category == section.extra.category and not item.extra.hidden -%}
+      {{ m::archive_single(item=item, type=entries_type) }}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+  </div>
+</div>
+{% endblock main %}

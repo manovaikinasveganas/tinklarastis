@@ -1,0 +1,33 @@
+<div class="masthead">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+
+                <span class="site-title">
+                    <a href="/">
+                    {{ config.title }}
+                    </a>
+                    <a class="site-subtitle" href="{{ config.extra.subtitle_url | safe }}" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-instagram" style="vertical-align: middle;font-size: 16px;"></i>
+                        <span style="vertical-align: middle;">{{ config.extra.subtitle }}</span>
+                    </a>
+
+                </span>
+                <ul class="visible-links">{%- for link in config.extra.nav_main -%}<li class="masthead__menu-item">
+                        <a href="{{ link.url | safe }}"{% if link.target %} target="{{ link.target }}" rel="noopener"{% endif %} >{{ link.title }}</a>
+                    </li>{%- endfor -%}</ul>
+                {% if config.extra.search %}
+                <button class="search__toggle" type="button">
+                    <span class="visually-hidden">{{ config.extra.ui_text.search_label }}</span>
+                    <i class="fas fa-search"></i>
+                </button>
+                {% endif %}
+                <button class="greedy-nav__toggle hidden" type="button">
+                    <span class="visually-hidden">{{ config.extra.ui_text.menu_label }}</span>
+                    <div class="navicon"></div>
+                </button>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+# Zola configuration (migrated from Jekyll _config.yml)
+
+base_url = "https://augalinismaistas.lt"
+title = "🌱 Augalinis maistas"
+description = "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+default_language = "lt"
+author = "Arina"
+
+compile_sass = true
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["feed.xml"]
+
+taxonomies = []
+
+[markdown]
+smart_punctuation = true
+
+[slugify]
+paths = "safe"
+anchors = "on"
+taxonomies = "safe"
+
+[extra]
+subtitle = "mano_vyras_veganas"
+subtitle_url = "https://www.instagram.com/mano_vyras_veganas"
+name = "Arina"
+locale = "lt_LT"
+og_locale = "lt_LT"
+breadcrumbs = true
+search = true
+date_format = "%Y-%m-%d"
+facebook_publisher = "https://www.facebook.com/ManoVaikinasVeganas"
+# used in seo json-ld "sameAs"
+social_links = [
+    "https://www.facebook.com/ManoVaikinasVeganas",
+    "https://www.instagram.com/mano_vyras_veganas/",
+]
+
+[extra.author]
+name = "Arina"
+avatar = "/pav/avatar.jpg"
+bio = "Tinklaraštininkė ir augalinių receptų kūrėja."
+location = "Vilnius, LT"
+
+[[extra.author.links]]
+label = "Facebook"
+icon = "fab fa-fw fa-facebook"
+url = "https://www.facebook.com/ManoVaikinasVeganas"
+
+[[extra.author.links]]
+label = "Instagram"
+icon = "fab fa-fw fa-instagram"
+url = "https://www.instagram.com/mano_vyras_veganas/"
+
+# Main masthead navigation (was _data/navigation.yml "main")
+[[extra.nav_main]]
+title = "Pagrindinis"
+url = "/"
+
+# - title: "Tinklaraštis"
+#   url: /blog/
+[[extra.nav_main]]
+title = "Receptai"
+url = "/receptai/"
+
+[[extra.nav_main]]
+title = "Žurnalas"
+url = "/zurnalas"
+target = "_blank"
+
+# - title: "🎄 Kalėdinis kalendorius"
+#   url: /kalendorius
+# - title: "Restoranai"
+#   url: /restoranai/
+
+# Sidebar navigation (was _data/navigation.yml "recipe-groups")
+[[extra.nav_recipe_groups]]
+title = "Receptų kategorijos"
+children = [
+    { title = "Desertai", url = "/receptai/desertai/" },
+    { title = "Salotos", url = "/receptai/salotos/" },
+    { title = "Pagrindiniai patiekalai", url = "/receptai/pagrindiniai-patiekalai/" },
+    { title = "Sriubos", url = "/receptai/sriubos/" },
+    { title = "Užkandžiai", url = "/receptai/užkandžiai/" },
+    { title = "Kokteiliai ir gėrimai", url = "/receptai/gėrimai/" },
+    { title = "Blynai", url = "/receptai/blynai/" },
+]
+
+[[extra.footer_links]]
+label = "Facebook"
+icon = "fab fa-fw fa-facebook"
+url = "https://www.facebook.com/ManoVaikinasVeganas"
+
+[[extra.footer_links]]
+label = "Instagram"
+icon = "fab fa-fw fa-instagram"
+url = "https://www.instagram.com/mano_vyras_veganas/"
+
+[[extra.footer_links]]
+label = "Ko-fi"
+icon = "fa-solid fa-mug-saucer"
+url = "https://ko-fi.com/manovyrasveganas"
+
+# UI strings (was _data/ui-text.yml, lt-LT)
+[extra.ui_text]
+page = "Puslapis"
+pagination_previous = "Ankstesnis"
+pagination_next = "Kitas"
+breadcrumb_home_label = "Pagrindinis"
+breadcrumb_separator = "/"
+menu_label = "Kategorija"
+search_label = "Toggle search"
+ext_link_label = "Nuoroda"
+less_than = "mažiau nei"
+minute_read = "min. skaitymo"
+share_on_label = "Dalinkis"
+related_label = "Tau gali patikti"
+follow_label = "Sek mus:"
+feed_label = "Feed"
+recent_posts = "Naujausi įrašai"
+loading_label = "Kraunama..."
+search_label_text = "Paieška"
+search_placeholder_text = "Paieška"
+results_found = "Result(s) found"
+back_to_top = "Į pradžią"

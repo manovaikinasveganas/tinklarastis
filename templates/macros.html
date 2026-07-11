@@ -1,0 +1,62 @@
+{# Ported from minimal-mistakes 4.24.0 Liquid includes #}
+
+{% macro archive_single(item, type="list") %}
+{%- set teaser = "" -%}
+{%- if item.extra.header -%}{%- set teaser = item.extra.header.teaser | default(value="") -%}{%- endif -%}
+<div class="{{ type }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | safe }}" alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+
+        <a href="{{ item.path | safe }}" rel="permalink">{{ item.title }}</a>
+
+    </h2>
+
+    {% if item.description %}<p class="archive__item-excerpt" itemprop="description">{{ item.description | striptags | truncate(length=157, end="...") }}</p>{% endif %}
+  </article>
+</div>
+{% endmacro archive_single %}
+
+{% macro toc_menu(toc) %}
+<ul class="toc__menu">
+  {%- for h in toc -%}
+    <li><a href="#{{ h.id }}">{{ h.title }}</a></li>
+    {%- if h.children -%}
+      {%- for h2 in h.children -%}
+        <li><a href="#{{ h2.id }}">{{ h2.title }}</a></li>
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
+{% endmacro toc_menu %}
+
+{% macro nav_list(navigation, current_path, menu_label) %}
+<nav class="nav__list">
+
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ menu_label }}</label>
+  <ul class="nav__items">
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+          <a href="{{ nav.url | safe }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <span class="nav__sub-title">{{ nav.title }}</span>
+        {% endif %}
+
+        {% if nav.children %}
+        <ul>
+          {% for child in nav.children %}
+            <li><a href="{{ child.url | safe }}"{% if child.url == current_path %} class="active"{% endif %}>{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+{% endmacro nav_list %}

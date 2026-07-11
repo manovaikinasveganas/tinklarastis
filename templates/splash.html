@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block body_class %}layout--splash{% endblock body_class %}
+
+{% block promo %}{% endblock promo %}
+
+{% block main %}
+{% include "partials/page-hero.html" %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ section.title }}">
+    {% if section.description %}<meta itemprop="description" content="{{ section.description | striptags }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ section.content | safe }}
+
+<div class="feature__wrapper">
+
+  {% for f in section.extra.feature_row %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if f.image_path %}
+          {% if f.url %}
+            <a href="{{ f.url | safe }}">
+          {% endif %}
+          <div class="archive__item-teaser">
+            <img src="{{ f.image_path | safe }}"
+                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+          </div>
+          {% if f.url %}
+            </a>
+          {% endif %}
+        {% endif %}
+
+        <div class="archive__item-body">
+
+          {% if f.url %}
+            <a href="{{ f.url | safe }}" style="text-decoration:none;">
+          {% endif %}
+
+          {% if f.title %}
+            <h2 class="frontpage__title">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.url %}
+	    </a>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              <p>{{ f.excerpt | safe }}</p>
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f.url | safe }}" class="btn {{ f.btn_class }}">{{ f.btn_label }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+
+<div style="width: 100%">
+    <p style="display:flex;justify-content:center;"><a href="receptai/" class="btn  btn--primary">Daugiau receptų <i class="fa-solid fa-angle-right" style="margin-left: 8px"></i></a></p>
+</div>
+
+    </section>
+  </article>
+</div>
+{% endblock main %}

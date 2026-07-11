@@ -1,3 +1,4 @@
-# chromium-browser --new-window "http://localhost:4000" && bundle exec jekyll serve --livereload
-open -na "Google Chrome" --args --new-window "http://localhost:4000" && bundle exec jekyll serve --livereload
-# xdg-open http://localhost:4000
+# chromium-browser --new-window "http://localhost:1111" && zola serve
+# add --drafts to also see unpublished (draft = true) recipes
+open -na "Google Chrome" --args --new-window "http://localhost:1111" && zola serve
+# xdg-open http://localhost:1111

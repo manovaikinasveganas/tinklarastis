@@ -1,0 +1,35 @@
+{%- set_global items = [] -%}
+{%- set top = get_section(path="_index.md") -%}
+{%- set_global items = items | concat(with=top) -%}
+{%- for sub in top.subsections -%}
+  {%- if sub == "lunr-store/_index.md" -%}{%- continue -%}{%- endif -%}
+  {%- set s = get_section(path=sub) -%}
+  {%- set_global items = items | concat(with=s) -%}
+  {%- set_global items = items | concat(with=s.pages) -%}
+  {%- for sub2 in s.subsections -%}
+    {%- set s2 = get_section(path=sub2) -%}
+    {%- set_global items = items | concat(with=s2) -%}
+    {%- set_global items = items | concat(with=s2.pages) -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- set_global items = items | concat(with=top.pages) -%}
+[
+{%- for item in items -%}
+  {%- if not item.title -%}{%- continue -%}{%- endif -%}
+  {%- if not loop.first -%},{%- endif -%}
+  {%- set excerpt = item.description | default(value="") | striptags -%}
+  {%- set words = excerpt | split(pat=" ") -%}
+  {%- if words | length > 50 -%}
+    {%- set excerpt_head = words | slice(end=50) | join(sep=" ") -%}
+    {%- set excerpt = excerpt_head ~ "..." -%}
+  {%- endif -%}
+  {
+        "title": {{ item.title | json_encode | safe }},
+        "excerpt": {{ excerpt | json_encode | safe }},
+        "categories": [{% if item.extra.category %}{{ item.extra.category | json_encode | safe }}{% endif %}],
+        "tags": {% if item.extra.tags %}{{ item.extra.tags | json_encode | safe }}{% else %}[]{% endif %},
+        "url": {{ item.path | json_encode | safe }},
+        "teaser": {% if item.extra.header and item.extra.header.teaser %}{{ item.extra.header.teaser | json_encode | safe }}{% else %}null{% endif %}
+  }
+{%- endfor -%}
+]

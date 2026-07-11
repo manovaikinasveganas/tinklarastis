@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@import "../../minimal-mistakes/skins/contrast"; // skin
+@import "../../minimal-mistakes"; // main partials
+
+
+.frontpage__title {
+	margin: 0.5em 0 0.5em !important;
+}
+
+/* The site title/subtitle used to be one <a class="site-title"> with a nested
+   subtitle <span>. It is now a <span class="site-title"> wrapping two sibling
+   links (nested <a> is invalid HTML). These rules reproduce the exact styles
+   the old markup received from `.greedy-nav a` / `a.site-title`. */
+.greedy-nav .site-title {
+	display: block;
+	margin: 0 1rem 0 0;
+}
+
+.greedy-nav .site-title a {
+	display: block;
+	margin: 0;
+}
+
+.greedy-nav a.site-subtitle,
+.greedy-nav a.site-subtitle:hover {
+	color: gray;
+}

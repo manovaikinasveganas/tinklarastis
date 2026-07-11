@@ -1,0 +1,25 @@
+{%- set crumbs = cur.path | trim_start_matches(pat="/") | trim_end_matches(pat="/") | split(pat="/") -%}
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    {%- set_global i = 1 %}
+    {% for crumb in crumbs %}
+      {% if loop.first %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ config.base_url | safe }}/" itemprop="item"><span itemprop="name">{{ config.extra.ui_text.breadcrumb_home_label }}</span></a>
+          <meta itemprop="position" content="{{ i }}" />
+        </li>
+        <span class="sep">{{ config.extra.ui_text.breadcrumb_separator | safe }}</span>
+      {% endif %}
+      {% if loop.last %}
+        <li class="current">{{ cur.title }}</li>
+      {% else %}
+        {%- set_global i = i + 1 %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/{{ crumb | lower }}" itemprop="item"><span itemprop="name">{{ crumb | replace(from="-", to=" ") | capitalize }}</span></a>
+          <meta itemprop="position" content="{{ i }}" />
+        </li>
+        <span class="sep">{{ config.extra.ui_text.breadcrumb_separator | safe }}</span>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</nav>

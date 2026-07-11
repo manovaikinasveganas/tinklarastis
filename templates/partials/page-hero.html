@@ -1,0 +1,39 @@
+{%- set header = cur.extra.header -%}
+{%- set overlay_img_path = header.overlay_image | default(value="") -%}
+{%- set overlay_filter = "" -%}
+{%- if header.overlay_filter -%}
+  {%- if header.overlay_filter is containing("gradient") -%}
+    {%- set overlay_filter = header.overlay_filter -%}
+  {%- elif header.overlay_filter is containing("rgba") -%}
+    {%- set overlay_filter = "linear-gradient(" ~ header.overlay_filter ~ ", " ~ header.overlay_filter ~ ")" -%}
+  {%- else -%}
+    {%- set rgba = "rgba(0, 0, 0, " ~ header.overlay_filter ~ ")" -%}
+    {%- set overlay_filter = "linear-gradient(" ~ rgba ~ ", " ~ rgba ~ ")" -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="page__hero{% if header.overlay_color or header.overlay_image %}--overlay{% endif %}"
+  style="{% if header.overlay_color %}background-color: {{ header.overlay_color }};{% endif %} background-image: {% if overlay_filter %}{{ overlay_filter | safe }}, {% endif %}url('{{ overlay_img_path | safe }}');"
+>
+  {% if header.overlay_color or header.overlay_image %}
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+
+          {{ cur.title }}
+
+      </h1>
+      {% if cur.description %}
+        <p class="page__lead">{{ cur.description }}</p>
+      {% endif %}
+
+      {% if header.cta_url %}
+        <p><a href="{{ header.cta_url | safe }}" class="btn btn--light-outline btn--large">{{ header.cta_label }}</a></p>
+      {% endif %}
+    </div>
+  {% else %}
+    <img src="{{ header.image | safe }}" alt="{{ cur.title }}" class="page__hero-image">
+  {% endif %}
+  {% if header.caption %}
+    <span class="page__hero-caption">{{ header.caption }}</span>
+  {% endif %}
+</div>
