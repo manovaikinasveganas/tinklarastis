@@ -27,3 +27,11 @@
 .greedy-nav a.site-subtitle:hover {
 	color: gray;
 }
+
+/* the non-wrapping title doesn't fit next to the search/menu icons on very
+   narrow screens (e.g. iPhone SE), so scale it down a notch there */
+@media (max-width: 360px) {
+	.greedy-nav .site-title {
+		font-size: 1.2rem;
+	}
+}
