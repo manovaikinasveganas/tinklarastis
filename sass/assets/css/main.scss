@@ -20,6 +20,7 @@
 .greedy-nav .site-title a {
 	display: block;
 	margin: 0;
+	white-space: nowrap; /* keep "🌱 Augalinis maistas" on one line on phones */
 }
 
 .greedy-nav a.site-subtitle,
