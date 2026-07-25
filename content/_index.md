@@ -13,6 +13,15 @@ overlay_filter = "0.5"
 overlay_image = "/pav/frontpage.jpg"
 
 [[extra.feature_row]]
+image_path = "/pav/ingredientai-teaser.jpg"
+alt = "Ingredientų paieška"
+title = "Naujiena: ingredientų paieška"
+excerpt = "Ar E471 veganiškas? Patikrinkite, ar maisto ingredientai yra veganiški, vegetariški, ar gyvūninės kilmės – paieška veikia su E numeriais ir dažniausiai sutinkamais pavadinimais."
+url = "/ingredientai/"
+btn_class = "btn--primary"
+btn_label = "Išbandyti"
+
+[[extra.feature_row]]
 image_path = "/zurnalas/cover.jpg"
 alt = "žurnalas"
 title = "Naujas žurnalo „Valgyk Daugiau Daržovių“ numeris"
@@ -27,15 +36,6 @@ alt = "Miso sriuba su tofu ir edamame pupelėmis"
 title = "Miso sriuba su tofu ir edamame pupelėmis"
 excerpt = "Greitai ir lengvai paruošiama, jauki ir aromatinga Miso sriuba su Udon makaronais, kurioje kartu puikiai dera keptas tofu, juržolės ir edamame pupelės."
 url = "/receptai/miso-sriuba/"
-btn_class = "btn--primary"
-btn_label = "Peržiūrėti"
-
-[[extra.feature_row]]
-image_path = "/pav/tofiene-teaser.jpg"
-alt = "Tofienė - augalinė kiaušinienės alternatyva"
-title = "Tofienė - augalinė kiaušinienės alternatyva"
-excerpt = "Augalinė tofienė, puiki alternatyva pusryčių kiaušinienei. O ši versija dar nereikalauja daug ir įmantrių produktų, tikiu, kad daugelis reikalingų ingredientų jau yra jūsų spintelėse ir šaldytuve."
-url = "/receptai/tofiene"
 btn_class = "btn--primary"
 btn_label = "Peržiūrėti"
 

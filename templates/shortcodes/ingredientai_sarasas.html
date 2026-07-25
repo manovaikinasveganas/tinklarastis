@@ -1,0 +1,9 @@
+{%- set db = load_data(path="content/ingredientai/db.json") -%}
+<details class="ingr-all">
+  <summary>Visas ingredientų sąrašas ({{ db.data | length }})</summary>
+  <ul>
+    {%- for i in db.data %}
+    <li><strong>{{ i.name }}</strong>{% if i.aliases %} ({{ i.aliases | join(sep=", ") }}){% endif %} – {{ i.tags | join(sep=", ") }}</li>
+    {%- endfor %}
+  </ul>
+</details>
