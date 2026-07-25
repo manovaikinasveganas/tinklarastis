@@ -11,7 +11,10 @@ classes = "wide"
 Įveskite ingrediento pavadinimą arba E numerį ir sužinokite, ar jis veganiškas, vegetariškas, ar gyvūninės kilmės.
 
 <div class="ingr-search">
-  <input id="ingr-input" type="text" placeholder="Pvz.: E471, želatina, pieno milteliai..." autocomplete="off" autofocus>
+  <div class="ingr-search__box">
+    <input id="ingr-input" type="text" placeholder="Pvz.: E471, želatina, pieno milteliai..." autocomplete="off" autofocus>
+    <button id="ingr-clear" type="button" aria-label="Išvalyti paiešką" hidden><i class="fas fa-times" aria-hidden="true"></i></button>
+  </div>
   <div id="ingr-results" aria-live="polite"></div>
 </div>
 
@@ -26,10 +29,29 @@ classes = "wide"
 </div>
 
 <style>
+.ingr-search__box {
+  position: relative;
+  margin-bottom: 1em;
+}
 .ingr-search input#ingr-input {
   font-size: 1.25em;
-  padding: 0.5em 0.75em;
-  margin-bottom: 1em;
+  padding: 0.5em 1.9em 0.5em 0.75em;
+  margin-bottom: 0;
+}
+.ingr-search button#ingr-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 0.85em;
+  border: none;
+  background: none;
+  color: #9ba1a6;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.ingr-search button#ingr-clear:hover {
+  color: #3d4144;
 }
 .ingr-list {
   list-style: none;

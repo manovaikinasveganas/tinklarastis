@@ -318,13 +318,26 @@
     setupDisclaimer();
 
     var input = document.getElementById('ingr-input');
-    input.addEventListener('input', function () {
+    var clear = document.getElementById('ingr-clear');
+
+    function refresh() {
+      clear.hidden = !input.value;
       search(input.value);
       syncUrl(input.value.trim());
+    }
+
+    input.addEventListener('input', refresh);
+    clear.addEventListener('click', function () {
+      input.value = '';
+      refresh();
+      input.focus();
     });
 
     var preset = new URLSearchParams(location.search).get('q');
-    if (preset) input.value = preset;
+    if (preset) {
+      input.value = preset;
+      clear.hidden = false;
+    }
 
     try {
       var cached = JSON.parse(localStorage.getItem(CACHE_KEY));
