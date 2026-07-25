@@ -1,5 +1,5 @@
 +++
-title = "Ingredientai: ar veganiška, ar vegetariška?"
+title = "Ingredientai. Veganiškas ar vegetariškas?"
 description = "Nemokama maisto ingredientų ir E numerių paieška lietuvių kalba. Patikrinkite, ar ingredientas veganiškas, vegetariškas, ar gyvūninės kilmės: E471, želatina, kazeinas, karminas ir dar 680 kitų."
 template = "single.html"
 
